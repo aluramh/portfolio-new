@@ -1,0 +1,57 @@
+// app/page.tsx
+import React from 'react';
+
+const Page = () => {
+  return (
+    <div>
+      {/* Main content wrapper */}
+      <div className="container mx-auto max-w-6xl px-4 md:px-6">
+        {/* Main content goes here */}
+      </div>
+
+      {/* Footer container */}
+      <div className="container mx-auto max-w-6xl px-4 md:px-6 py-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        {/* Footer content goes here */}
+      </div>
+    </div>
+  );
+};
+
+export default Page;
+
+// components/site-header.tsx
+import React from 'react';
+
+const SiteHeader = () => {
+  return (
+    <div>
+      {/* Desktop header row */}
+      <div className="container mx-auto max-w-6xl px-4 md:px-6 h-14 flex items-center justify-between">
+        {/* Desktop header content goes here */}
+      </div>
+
+      {/* Mobile menu */}
+      <div className="container mx-auto max-w-6xl px-4 py-3 flex flex-col gap-3">
+        {/* Mobile menu content goes here */}
+      </div>
+    </div>
+  );
+};
+
+export default SiteHeader;
+
+// components/sections/hero.tsx
+import React from 'react';
+
+const Hero = () => {
+  return (
+    <div>
+      {/* Hero container */}
+      <div className="container mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24 grid gap-10 md:grid-cols-[auto_1fr] items-center">
+        {/* Hero content goes here */}
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
