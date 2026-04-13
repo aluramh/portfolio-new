@@ -1,30 +1,21 @@
-import type { Metadata } from "next"
-import { profile } from "@/lib/profile"
-import { AppSidebar } from "@/components/app-sidebar"
-import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar"
-import MainContent from "@/components/main-content"
-
-export const metadata: Metadata = {
-  title: `${profile.name} — ${profile.title}`,
-  description: profile.summary,
-  alternates: { canonical: "/" },
-  openGraph: {
-    title: `${profile.name} — ${profile.title}`,
-    description: profile.summary,
-    url: "/",
-    type: "website",
-  },
-}
+import { Navbar } from "@/components/layout/navbar"
+import { HeroSection } from "@/components/sections/hero"
+import { ExperienceSection } from "@/components/sections/experience"
+import { ProjectsSection } from "@/components/sections/projects"
+import { SkillsSection } from "@/components/sections/skills"
+import { Footer } from "@/components/layout/footer"
 
 export default function Page() {
   return (
-    <SidebarProvider defaultOpen={true}>
-      <div className="flex min-h-screen w-full">
-        <AppSidebar />
-        <SidebarInset className="flex-1">
-          <MainContent />
-        </SidebarInset>
-      </div>
-    </SidebarProvider>
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <SkillsSection />
+      </main>
+      <Footer />
+    </>
   )
 }
