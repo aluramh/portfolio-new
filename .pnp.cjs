@@ -27,7 +27,6 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@emotion/is-prop-valid", "npm:1.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emotion%2Fis-prop-valid%2F-%2Fis-prop-valid-1.3.1.tgz"],\
           ["@hookform/resolvers", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:3.10.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40hookform%2Fresolvers%2F-%2Fresolvers-3.10.0.tgz"],\
           ["@radix-ui/react-accordion", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-accordion%2F-%2Freact-accordion-1.2.2.tgz"],\
           ["@radix-ui/react-alert-dialog", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-alert-dialog%2F-%2Freact-alert-dialog-1.1.4.tgz"],\
@@ -66,7 +65,6 @@ const RAW_RUNTIME_STATE =
           ["cmdk", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcmdk%2F-%2Fcmdk-1.0.4.tgz"],\
           ["date-fns", "npm:4.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdate-fns%2F-%2Fdate-fns-4.1.0.tgz"],\
           ["embla-carousel-react", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel-react%2F-%2Fembla-carousel-react-8.5.1.tgz"],\
-          ["framer-motion", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:12.23.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fframer-motion%2F-%2Fframer-motion-12.23.12.tgz"],\
           ["geist", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.4.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fgeist%2F-%2Fgeist-1.4.2.tgz"],\
           ["input-otp", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.4.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Finput-otp%2F-%2Finput-otp-1.4.1.tgz"],\
           ["lucide-react", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:0.454.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flucide-react%2F-%2Flucide-react-0.454.0.tgz"],\
@@ -87,6 +85,7 @@ const RAW_RUNTIME_STATE =
           ["tw-animate-css", "npm:1.3.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftw-animate-css%2F-%2Ftw-animate-css-1.3.3.tgz"],\
           ["typescript", "patch:typescript@npm%3A5.9.2%3A%3A__archiveUrl=https%253A%252F%252Fpackages.atlassian.com%252Fapi%252Fnpm%252Fnpm-remote%252Ftypescript%252F-%252Ftypescript-5.9.2.tgz#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
           ["vaul", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:0.9.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fvaul%2F-%2Fvaul-0.9.9.tgz"],\
+          ["yaml", "npm:2.8.3"],\
           ["zod", "npm:3.25.67::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fzod%2F-%2Fzod-3.25.67.tgz"]\
         ],\
         "linkType": "SOFT"\
@@ -94,7 +93,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@alloc/quick-lru", [\
       ["npm:5.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40alloc%2Fquick-lru%2F-%2Fquick-lru-5.2.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@alloc-quick-lru-npm-5.2.0-a4ea9bd326-10c0.zip/node_modules/@alloc/quick-lru/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@alloc-quick-lru-npm-5.2.0-a4ea9bd326-10c0.zip/node_modules/@alloc/quick-lru/",\
         "packageDependencies": [\
           ["@alloc/quick-lru", "npm:5.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40alloc%2Fquick-lru%2F-%2Fquick-lru-5.2.0.tgz"]\
         ],\
@@ -103,7 +102,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@ampproject/remapping", [\
       ["npm:2.3.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40ampproject%2Fremapping%2F-%2Fremapping-2.3.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@ampproject-remapping-npm-2.3.0-e13878dd29-10c0.zip/node_modules/@ampproject/remapping/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@ampproject-remapping-npm-2.3.0-e13878dd29-10c0.zip/node_modules/@ampproject/remapping/",\
         "packageDependencies": [\
           ["@ampproject/remapping", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40ampproject%2Fremapping%2F-%2Fremapping-2.3.0.tgz"],\
           ["@jridgewell/gen-mapping", "npm:0.3.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fgen-mapping%2F-%2Fgen-mapping-0.3.12.tgz"],\
@@ -114,7 +113,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@babel/runtime", [\
       ["npm:7.28.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40babel%2Fruntime%2F-%2Fruntime-7.28.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@babel-runtime-npm-7.28.2-21b645a651-10c0.zip/node_modules/@babel/runtime/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@babel-runtime-npm-7.28.2-21b645a651-10c0.zip/node_modules/@babel/runtime/",\
         "packageDependencies": [\
           ["@babel/runtime", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40babel%2Fruntime%2F-%2Fruntime-7.28.2.tgz"]\
         ],\
@@ -123,7 +122,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@date-fns/tz", [\
       ["npm:1.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40date-fns%2Ftz%2F-%2Ftz-1.2.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@date-fns-tz-npm-1.2.0-30167c01de-10c0.zip/node_modules/@date-fns/tz/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@date-fns-tz-npm-1.2.0-30167c01de-10c0.zip/node_modules/@date-fns/tz/",\
         "packageDependencies": [\
           ["@date-fns/tz", "npm:1.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40date-fns%2Ftz%2F-%2Ftz-1.2.0.tgz"]\
         ],\
@@ -132,7 +131,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emnapi/core", [\
       ["npm:1.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emnapi%2Fcore%2F-%2Fcore-1.4.5.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@emnapi-core-npm-1.4.5-d0c66065dc-10c0.zip/node_modules/@emnapi/core/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@emnapi-core-npm-1.4.5-d0c66065dc-10c0.zip/node_modules/@emnapi/core/",\
         "packageDependencies": [\
           ["@emnapi/core", "npm:1.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emnapi%2Fcore%2F-%2Fcore-1.4.5.tgz"],\
           ["@emnapi/wasi-threads", "npm:1.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emnapi%2Fwasi-threads%2F-%2Fwasi-threads-1.0.4.tgz"],\
@@ -143,7 +142,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emnapi/runtime", [\
       ["npm:1.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emnapi%2Fruntime%2F-%2Fruntime-1.4.5.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@emnapi-runtime-npm-1.4.5-f19358035f-10c0.zip/node_modules/@emnapi/runtime/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@emnapi-runtime-npm-1.4.5-f19358035f-10c0.zip/node_modules/@emnapi/runtime/",\
         "packageDependencies": [\
           ["@emnapi/runtime", "npm:1.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emnapi%2Fruntime%2F-%2Fruntime-1.4.5.tgz"],\
           ["tslib", "npm:2.8.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftslib%2F-%2Ftslib-2.8.1.tgz"]\
@@ -153,7 +152,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emnapi/wasi-threads", [\
       ["npm:1.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emnapi%2Fwasi-threads%2F-%2Fwasi-threads-1.0.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@emnapi-wasi-threads-npm-1.0.4-f6a363e14d-10c0.zip/node_modules/@emnapi/wasi-threads/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@emnapi-wasi-threads-npm-1.0.4-f6a363e14d-10c0.zip/node_modules/@emnapi/wasi-threads/",\
         "packageDependencies": [\
           ["@emnapi/wasi-threads", "npm:1.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emnapi%2Fwasi-threads%2F-%2Fwasi-threads-1.0.4.tgz"],\
           ["tslib", "npm:2.8.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftslib%2F-%2Ftslib-2.8.1.tgz"]\
@@ -161,28 +160,9 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@emotion/is-prop-valid", [\
-      ["npm:1.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emotion%2Fis-prop-valid%2F-%2Fis-prop-valid-1.3.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@emotion-is-prop-valid-npm-1.3.1-ce15eb8d25-10c0.zip/node_modules/@emotion/is-prop-valid/",\
-        "packageDependencies": [\
-          ["@emotion/is-prop-valid", "npm:1.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emotion%2Fis-prop-valid%2F-%2Fis-prop-valid-1.3.1.tgz"],\
-          ["@emotion/memoize", "npm:0.9.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.9.0.tgz"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@emotion/memoize", [\
-      ["npm:0.9.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.9.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@emotion-memoize-npm-0.9.0-5e194a4997-10c0.zip/node_modules/@emotion/memoize/",\
-        "packageDependencies": [\
-          ["@emotion/memoize", "npm:0.9.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.9.0.tgz"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["@floating-ui/core", [\
       ["npm:1.7.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Fcore%2F-%2Fcore-1.7.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@floating-ui-core-npm-1.7.3-478438035e-10c0.zip/node_modules/@floating-ui/core/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@floating-ui-core-npm-1.7.3-478438035e-10c0.zip/node_modules/@floating-ui/core/",\
         "packageDependencies": [\
           ["@floating-ui/core", "npm:1.7.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Fcore%2F-%2Fcore-1.7.3.tgz"],\
           ["@floating-ui/utils", "npm:0.2.10::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Futils%2F-%2Futils-0.2.10.tgz"]\
@@ -192,7 +172,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@floating-ui/dom", [\
       ["npm:1.7.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Fdom%2F-%2Fdom-1.7.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@floating-ui-dom-npm-1.7.3-26b2b0b14d-10c0.zip/node_modules/@floating-ui/dom/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@floating-ui-dom-npm-1.7.3-26b2b0b14d-10c0.zip/node_modules/@floating-ui/dom/",\
         "packageDependencies": [\
           ["@floating-ui/core", "npm:1.7.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Fcore%2F-%2Fcore-1.7.3.tgz"],\
           ["@floating-ui/dom", "npm:1.7.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Fdom%2F-%2Fdom-1.7.3.tgz"],\
@@ -203,14 +183,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@floating-ui/react-dom", [\
       ["npm:2.1.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@floating-ui-react-dom-npm-2.1.5-904289fd86-10c0.zip/node_modules/@floating-ui/react-dom/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@floating-ui-react-dom-npm-2.1.5-904289fd86-10c0.zip/node_modules/@floating-ui/react-dom/",\
         "packageDependencies": [\
           ["@floating-ui/react-dom", "npm:2.1.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:5bad1e68d0e42249d025bc5b78a3f352e8d958bde5c00d3dfc07ea197cfd08ae2a03ebd4c4ffc1c2a160276c6fcdb7d5381dfd40afb436b2aec70cb9eb5da1db#npm:2.1.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@floating-ui-react-dom-virtual-e25d7dae67/3/.yarn/berry/cache/@floating-ui-react-dom-npm-2.1.5-904289fd86-10c0.zip/node_modules/@floating-ui/react-dom/",\
+        "packageLocation": "./.yarn/__virtual__/@floating-ui-react-dom-virtual-e25d7dae67/7/home/alura/.yarn/berry/cache/@floating-ui-react-dom-npm-2.1.5-904289fd86-10c0.zip/node_modules/@floating-ui/react-dom/",\
         "packageDependencies": [\
           ["@floating-ui/dom", "npm:1.7.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Fdom%2F-%2Fdom-1.7.3.tgz"],\
           ["@floating-ui/react-dom", "virtual:5bad1e68d0e42249d025bc5b78a3f352e8d958bde5c00d3dfc07ea197cfd08ae2a03ebd4c4ffc1c2a160276c6fcdb7d5381dfd40afb436b2aec70cb9eb5da1db#npm:2.1.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz"],\
@@ -230,7 +210,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@floating-ui/utils", [\
       ["npm:0.2.10::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Futils%2F-%2Futils-0.2.10.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@floating-ui-utils-npm-0.2.10-6618294a81-10c0.zip/node_modules/@floating-ui/utils/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@floating-ui-utils-npm-0.2.10-6618294a81-10c0.zip/node_modules/@floating-ui/utils/",\
         "packageDependencies": [\
           ["@floating-ui/utils", "npm:0.2.10::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Futils%2F-%2Futils-0.2.10.tgz"]\
         ],\
@@ -239,14 +219,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@hookform/resolvers", [\
       ["npm:3.10.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40hookform%2Fresolvers%2F-%2Fresolvers-3.10.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@hookform-resolvers-npm-3.10.0-2a4ae36d46-10c0.zip/node_modules/@hookform/resolvers/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@hookform-resolvers-npm-3.10.0-2a4ae36d46-10c0.zip/node_modules/@hookform/resolvers/",\
         "packageDependencies": [\
           ["@hookform/resolvers", "npm:3.10.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40hookform%2Fresolvers%2F-%2Fresolvers-3.10.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:3.10.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40hookform%2Fresolvers%2F-%2Fresolvers-3.10.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@hookform-resolvers-virtual-9273fa2f10/3/.yarn/berry/cache/@hookform-resolvers-npm-3.10.0-2a4ae36d46-10c0.zip/node_modules/@hookform/resolvers/",\
+        "packageLocation": "./.yarn/__virtual__/@hookform-resolvers-virtual-9273fa2f10/7/home/alura/.yarn/berry/cache/@hookform-resolvers-npm-3.10.0-2a4ae36d46-10c0.zip/node_modules/@hookform/resolvers/",\
         "packageDependencies": [\
           ["@hookform/resolvers", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:3.10.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40hookform%2Fresolvers%2F-%2Fresolvers-3.10.0.tgz"],\
           ["@types/react-hook-form", null],\
@@ -261,7 +241,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@isaacs/fs-minipass", [\
       ["npm:4.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40isaacs%2Ffs-minipass%2F-%2Ffs-minipass-4.0.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@isaacs-fs-minipass-npm-4.0.1-b442305baa-10c0.zip/node_modules/@isaacs/fs-minipass/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@isaacs-fs-minipass-npm-4.0.1-b442305baa-10c0.zip/node_modules/@isaacs/fs-minipass/",\
         "packageDependencies": [\
           ["@isaacs/fs-minipass", "npm:4.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40isaacs%2Ffs-minipass%2F-%2Ffs-minipass-4.0.1.tgz"],\
           ["minipass", "npm:7.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fminipass%2F-%2Fminipass-7.1.2.tgz"]\
@@ -271,7 +251,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@jridgewell/gen-mapping", [\
       ["npm:0.3.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fgen-mapping%2F-%2Fgen-mapping-0.3.12.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@jridgewell-gen-mapping-npm-0.3.12-30d446120c-10c0.zip/node_modules/@jridgewell/gen-mapping/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@jridgewell-gen-mapping-npm-0.3.12-30d446120c-10c0.zip/node_modules/@jridgewell/gen-mapping/",\
         "packageDependencies": [\
           ["@jridgewell/gen-mapping", "npm:0.3.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fgen-mapping%2F-%2Fgen-mapping-0.3.12.tgz"],\
           ["@jridgewell/sourcemap-codec", "npm:1.5.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fsourcemap-codec%2F-%2Fsourcemap-codec-1.5.4.tgz"],\
@@ -282,7 +262,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@jridgewell/resolve-uri", [\
       ["npm:3.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fresolve-uri%2F-%2Fresolve-uri-3.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@jridgewell-resolve-uri-npm-3.1.2-a53f80e1e1-10c0.zip/node_modules/@jridgewell/resolve-uri/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@jridgewell-resolve-uri-npm-3.1.2-a53f80e1e1-10c0.zip/node_modules/@jridgewell/resolve-uri/",\
         "packageDependencies": [\
           ["@jridgewell/resolve-uri", "npm:3.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fresolve-uri%2F-%2Fresolve-uri-3.1.2.tgz"]\
         ],\
@@ -291,7 +271,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@jridgewell/sourcemap-codec", [\
       ["npm:1.5.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fsourcemap-codec%2F-%2Fsourcemap-codec-1.5.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@jridgewell-sourcemap-codec-npm-1.5.4-43788bc351-10c0.zip/node_modules/@jridgewell/sourcemap-codec/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@jridgewell-sourcemap-codec-npm-1.5.4-43788bc351-10c0.zip/node_modules/@jridgewell/sourcemap-codec/",\
         "packageDependencies": [\
           ["@jridgewell/sourcemap-codec", "npm:1.5.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fsourcemap-codec%2F-%2Fsourcemap-codec-1.5.4.tgz"]\
         ],\
@@ -300,7 +280,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@jridgewell/trace-mapping", [\
       ["npm:0.3.29::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Ftrace-mapping%2F-%2Ftrace-mapping-0.3.29.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@jridgewell-trace-mapping-npm-0.3.29-f8727e2d0a-10c0.zip/node_modules/@jridgewell/trace-mapping/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@jridgewell-trace-mapping-npm-0.3.29-f8727e2d0a-10c0.zip/node_modules/@jridgewell/trace-mapping/",\
         "packageDependencies": [\
           ["@jridgewell/resolve-uri", "npm:3.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fresolve-uri%2F-%2Fresolve-uri-3.1.2.tgz"],\
           ["@jridgewell/sourcemap-codec", "npm:1.5.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fsourcemap-codec%2F-%2Fsourcemap-codec-1.5.4.tgz"],\
@@ -311,7 +291,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@napi-rs/wasm-runtime", [\
       ["npm:0.2.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40napi-rs%2Fwasm-runtime%2F-%2Fwasm-runtime-0.2.12.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@napi-rs-wasm-runtime-npm-0.2.12-fa6f7496a5-10c0.zip/node_modules/@napi-rs/wasm-runtime/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@napi-rs-wasm-runtime-npm-0.2.12-fa6f7496a5-10c0.zip/node_modules/@napi-rs/wasm-runtime/",\
         "packageDependencies": [\
           ["@emnapi/core", "npm:1.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emnapi%2Fcore%2F-%2Fcore-1.4.5.tgz"],\
           ["@emnapi/runtime", "npm:1.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emnapi%2Fruntime%2F-%2Fruntime-1.4.5.tgz"],\
@@ -323,7 +303,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@next/env", [\
       ["npm:14.2.16::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40next%2Fenv%2F-%2Fenv-14.2.16.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@next-env-npm-14.2.16-87fdda37c0-10c0.zip/node_modules/@next/env/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@next-env-npm-14.2.16-87fdda37c0-10c0.zip/node_modules/@next/env/",\
         "packageDependencies": [\
           ["@next/env", "npm:14.2.16::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40next%2Fenv%2F-%2Fenv-14.2.16.tgz"]\
         ],\
@@ -413,7 +393,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/number", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fnumber%2F-%2Fnumber-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-number-npm-1.1.0-46f9fbc916-10c0.zip/node_modules/@radix-ui/number/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-number-npm-1.1.0-46f9fbc916-10c0.zip/node_modules/@radix-ui/number/",\
         "packageDependencies": [\
           ["@radix-ui/number", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fnumber%2F-%2Fnumber-1.1.0.tgz"]\
         ],\
@@ -422,14 +402,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/primitive", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-primitive-npm-1.1.1-b8fabbc63e-10c0.zip/node_modules/@radix-ui/primitive/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-primitive-npm-1.1.1-b8fabbc63e-10c0.zip/node_modules/@radix-ui/primitive/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-primitive-npm-1.1.2-37cd21f07f-10c0.zip/node_modules/@radix-ui/primitive/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-primitive-npm-1.1.2-37cd21f07f-10c0.zip/node_modules/@radix-ui/primitive/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.2.tgz"]\
         ],\
@@ -438,14 +418,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-accordion", [\
       ["npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-accordion%2F-%2Freact-accordion-1.2.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-accordion-npm-1.2.2-e1509303e3-10c0.zip/node_modules/@radix-ui/react-accordion/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-accordion-npm-1.2.2-e1509303e3-10c0.zip/node_modules/@radix-ui/react-accordion/",\
         "packageDependencies": [\
           ["@radix-ui/react-accordion", "npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-accordion%2F-%2Freact-accordion-1.2.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-accordion%2F-%2Freact-accordion-1.2.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-accordion-virtual-a1df62bfbe/3/.yarn/berry/cache/@radix-ui-react-accordion-npm-1.2.2-e1509303e3-10c0.zip/node_modules/@radix-ui/react-accordion/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-accordion-virtual-a1df62bfbe/7/home/alura/.yarn/berry/cache/@radix-ui-react-accordion-npm-1.2.2-e1509303e3-10c0.zip/node_modules/@radix-ui/react-accordion/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-accordion", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-accordion%2F-%2Freact-accordion-1.2.2.tgz"],\
@@ -473,14 +453,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-alert-dialog", [\
       ["npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-alert-dialog%2F-%2Freact-alert-dialog-1.1.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-alert-dialog-npm-1.1.4-43551f89fb-10c0.zip/node_modules/@radix-ui/react-alert-dialog/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-alert-dialog-npm-1.1.4-43551f89fb-10c0.zip/node_modules/@radix-ui/react-alert-dialog/",\
         "packageDependencies": [\
           ["@radix-ui/react-alert-dialog", "npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-alert-dialog%2F-%2Freact-alert-dialog-1.1.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-alert-dialog%2F-%2Freact-alert-dialog-1.1.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-alert-dialog-virtual-6fbaa9a9c2/3/.yarn/berry/cache/@radix-ui-react-alert-dialog-npm-1.1.4-43551f89fb-10c0.zip/node_modules/@radix-ui/react-alert-dialog/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-alert-dialog-virtual-6fbaa9a9c2/7/home/alura/.yarn/berry/cache/@radix-ui-react-alert-dialog-npm-1.1.4-43551f89fb-10c0.zip/node_modules/@radix-ui/react-alert-dialog/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-alert-dialog", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-alert-dialog%2F-%2Freact-alert-dialog-1.1.4.tgz"],\
@@ -505,14 +485,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-arrow", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-arrow%2F-%2Freact-arrow-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-arrow-npm-1.1.1-d91d13e2a8-10c0.zip/node_modules/@radix-ui/react-arrow/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-arrow-npm-1.1.1-d91d13e2a8-10c0.zip/node_modules/@radix-ui/react-arrow/",\
         "packageDependencies": [\
           ["@radix-ui/react-arrow", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-arrow%2F-%2Freact-arrow-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:5bad1e68d0e42249d025bc5b78a3f352e8d958bde5c00d3dfc07ea197cfd08ae2a03ebd4c4ffc1c2a160276c6fcdb7d5381dfd40afb436b2aec70cb9eb5da1db#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-arrow%2F-%2Freact-arrow-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-arrow-virtual-28e2593bc2/3/.yarn/berry/cache/@radix-ui-react-arrow-npm-1.1.1-d91d13e2a8-10c0.zip/node_modules/@radix-ui/react-arrow/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-arrow-virtual-28e2593bc2/7/home/alura/.yarn/berry/cache/@radix-ui-react-arrow-npm-1.1.1-d91d13e2a8-10c0.zip/node_modules/@radix-ui/react-arrow/",\
         "packageDependencies": [\
           ["@radix-ui/react-arrow", "virtual:5bad1e68d0e42249d025bc5b78a3f352e8d958bde5c00d3dfc07ea197cfd08ae2a03ebd4c4ffc1c2a160276c6fcdb7d5381dfd40afb436b2aec70cb9eb5da1db#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-arrow%2F-%2Freact-arrow-1.1.1.tgz"],\
           ["@radix-ui/react-primitive", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"],\
@@ -532,14 +512,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-aspect-ratio", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-aspect-ratio%2F-%2Freact-aspect-ratio-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-aspect-ratio-npm-1.1.1-3e94b80ebc-10c0.zip/node_modules/@radix-ui/react-aspect-ratio/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-aspect-ratio-npm-1.1.1-3e94b80ebc-10c0.zip/node_modules/@radix-ui/react-aspect-ratio/",\
         "packageDependencies": [\
           ["@radix-ui/react-aspect-ratio", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-aspect-ratio%2F-%2Freact-aspect-ratio-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-aspect-ratio%2F-%2Freact-aspect-ratio-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-aspect-ratio-virtual-c4713e04d2/3/.yarn/berry/cache/@radix-ui-react-aspect-ratio-npm-1.1.1-3e94b80ebc-10c0.zip/node_modules/@radix-ui/react-aspect-ratio/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-aspect-ratio-virtual-c4713e04d2/7/home/alura/.yarn/berry/cache/@radix-ui-react-aspect-ratio-npm-1.1.1-3e94b80ebc-10c0.zip/node_modules/@radix-ui/react-aspect-ratio/",\
         "packageDependencies": [\
           ["@radix-ui/react-aspect-ratio", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-aspect-ratio%2F-%2Freact-aspect-ratio-1.1.1.tgz"],\
           ["@radix-ui/react-primitive", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"],\
@@ -559,14 +539,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-avatar", [\
       ["npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-avatar%2F-%2Freact-avatar-1.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-avatar-npm-1.1.2-99f0109db1-10c0.zip/node_modules/@radix-ui/react-avatar/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-avatar-npm-1.1.2-99f0109db1-10c0.zip/node_modules/@radix-ui/react-avatar/",\
         "packageDependencies": [\
           ["@radix-ui/react-avatar", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-avatar%2F-%2Freact-avatar-1.1.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-avatar%2F-%2Freact-avatar-1.1.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-avatar-virtual-2ddca3419b/3/.yarn/berry/cache/@radix-ui-react-avatar-npm-1.1.2-99f0109db1-10c0.zip/node_modules/@radix-ui/react-avatar/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-avatar-virtual-2ddca3419b/7/home/alura/.yarn/berry/cache/@radix-ui-react-avatar-npm-1.1.2-99f0109db1-10c0.zip/node_modules/@radix-ui/react-avatar/",\
         "packageDependencies": [\
           ["@radix-ui/react-avatar", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-avatar%2F-%2Freact-avatar-1.1.2.tgz"],\
           ["@radix-ui/react-context", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.1.tgz"],\
@@ -589,14 +569,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-checkbox", [\
       ["npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-checkbox%2F-%2Freact-checkbox-1.1.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-checkbox-npm-1.1.3-be796cc36a-10c0.zip/node_modules/@radix-ui/react-checkbox/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-checkbox-npm-1.1.3-be796cc36a-10c0.zip/node_modules/@radix-ui/react-checkbox/",\
         "packageDependencies": [\
           ["@radix-ui/react-checkbox", "npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-checkbox%2F-%2Freact-checkbox-1.1.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-checkbox%2F-%2Freact-checkbox-1.1.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-checkbox-virtual-a679ad3a5e/3/.yarn/berry/cache/@radix-ui-react-checkbox-npm-1.1.3-be796cc36a-10c0.zip/node_modules/@radix-ui/react-checkbox/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-checkbox-virtual-a679ad3a5e/7/home/alura/.yarn/berry/cache/@radix-ui-react-checkbox-npm-1.1.3-be796cc36a-10c0.zip/node_modules/@radix-ui/react-checkbox/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-checkbox", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-checkbox%2F-%2Freact-checkbox-1.1.3.tgz"],\
@@ -623,14 +603,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-collapsible", [\
       ["npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collapsible%2F-%2Freact-collapsible-1.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-collapsible-npm-1.1.2-6ae69f9d76-10c0.zip/node_modules/@radix-ui/react-collapsible/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-collapsible-npm-1.1.2-6ae69f9d76-10c0.zip/node_modules/@radix-ui/react-collapsible/",\
         "packageDependencies": [\
           ["@radix-ui/react-collapsible", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collapsible%2F-%2Freact-collapsible-1.1.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collapsible%2F-%2Freact-collapsible-1.1.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-collapsible-virtual-dd78ca09ef/3/.yarn/berry/cache/@radix-ui-react-collapsible-npm-1.1.2-6ae69f9d76-10c0.zip/node_modules/@radix-ui/react-collapsible/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-collapsible-virtual-dd78ca09ef/7/home/alura/.yarn/berry/cache/@radix-ui-react-collapsible-npm-1.1.2-6ae69f9d76-10c0.zip/node_modules/@radix-ui/react-collapsible/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-collapsible", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collapsible%2F-%2Freact-collapsible-1.1.2.tgz"],\
@@ -657,14 +637,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-collection", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collection%2F-%2Freact-collection-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-collection-npm-1.1.1-278d18097a-10c0.zip/node_modules/@radix-ui/react-collection/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-collection-npm-1.1.1-278d18097a-10c0.zip/node_modules/@radix-ui/react-collection/",\
         "packageDependencies": [\
           ["@radix-ui/react-collection", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collection%2F-%2Freact-collection-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collection%2F-%2Freact-collection-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-collection-virtual-d2ac92368e/3/.yarn/berry/cache/@radix-ui-react-collection-npm-1.1.1-278d18097a-10c0.zip/node_modules/@radix-ui/react-collection/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-collection-virtual-d2ac92368e/7/home/alura/.yarn/berry/cache/@radix-ui-react-collection-npm-1.1.1-278d18097a-10c0.zip/node_modules/@radix-ui/react-collection/",\
         "packageDependencies": [\
           ["@radix-ui/react-collection", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collection%2F-%2Freact-collection-1.1.1.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
@@ -687,21 +667,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-compose-refs", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-compose-refs-npm-1.1.1-e92d8fed6a-10c0.zip/node_modules/@radix-ui/react-compose-refs/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-compose-refs-npm-1.1.1-e92d8fed6a-10c0.zip/node_modules/@radix-ui/react-compose-refs/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-compose-refs-npm-1.1.2-cee8a19f72-10c0.zip/node_modules/@radix-ui/react-compose-refs/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-compose-refs-npm-1.1.2-cee8a19f72-10c0.zip/node_modules/@radix-ui/react-compose-refs/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-compose-refs-virtual-0a85f0add6/3/.yarn/berry/cache/@radix-ui-react-compose-refs-npm-1.1.2-cee8a19f72-10c0.zip/node_modules/@radix-ui/react-compose-refs/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-compose-refs-virtual-0a85f0add6/7/home/alura/.yarn/berry/cache/@radix-ui-react-compose-refs-npm-1.1.2-cee8a19f72-10c0.zip/node_modules/@radix-ui/react-compose-refs/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.2.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -714,7 +694,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-compose-refs-virtual-67c8ffa87c/3/.yarn/berry/cache/@radix-ui-react-compose-refs-npm-1.1.1-e92d8fed6a-10c0.zip/node_modules/@radix-ui/react-compose-refs/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-compose-refs-virtual-67c8ffa87c/7/home/alura/.yarn/berry/cache/@radix-ui-react-compose-refs-npm-1.1.1-e92d8fed6a-10c0.zip/node_modules/@radix-ui/react-compose-refs/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -729,21 +709,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-context", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-context-npm-1.1.1-0981c9ba1d-10c0.zip/node_modules/@radix-ui/react-context/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-context-npm-1.1.1-0981c9ba1d-10c0.zip/node_modules/@radix-ui/react-context/",\
         "packageDependencies": [\
           ["@radix-ui/react-context", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-context-npm-1.1.2-ab9dd25d94-10c0.zip/node_modules/@radix-ui/react-context/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-context-npm-1.1.2-ab9dd25d94-10c0.zip/node_modules/@radix-ui/react-context/",\
         "packageDependencies": [\
           ["@radix-ui/react-context", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-context-virtual-a281e761c4/3/.yarn/berry/cache/@radix-ui-react-context-npm-1.1.2-ab9dd25d94-10c0.zip/node_modules/@radix-ui/react-context/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-context-virtual-a281e761c4/7/home/alura/.yarn/berry/cache/@radix-ui-react-context-npm-1.1.2-ab9dd25d94-10c0.zip/node_modules/@radix-ui/react-context/",\
         "packageDependencies": [\
           ["@radix-ui/react-context", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.2.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -756,7 +736,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-context-virtual-597cc4b62b/3/.yarn/berry/cache/@radix-ui-react-context-npm-1.1.1-0981c9ba1d-10c0.zip/node_modules/@radix-ui/react-context/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-context-virtual-597cc4b62b/7/home/alura/.yarn/berry/cache/@radix-ui-react-context-npm-1.1.1-0981c9ba1d-10c0.zip/node_modules/@radix-ui/react-context/",\
         "packageDependencies": [\
           ["@radix-ui/react-context", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.1.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -771,14 +751,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-context-menu", [\
       ["npm:2.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context-menu%2F-%2Freact-context-menu-2.2.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-context-menu-npm-2.2.4-793749b436-10c0.zip/node_modules/@radix-ui/react-context-menu/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-context-menu-npm-2.2.4-793749b436-10c0.zip/node_modules/@radix-ui/react-context-menu/",\
         "packageDependencies": [\
           ["@radix-ui/react-context-menu", "npm:2.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context-menu%2F-%2Freact-context-menu-2.2.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:2.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context-menu%2F-%2Freact-context-menu-2.2.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-context-menu-virtual-b96739648c/3/.yarn/berry/cache/@radix-ui-react-context-menu-npm-2.2.4-793749b436-10c0.zip/node_modules/@radix-ui/react-context-menu/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-context-menu-virtual-b96739648c/7/home/alura/.yarn/berry/cache/@radix-ui-react-context-menu-npm-2.2.4-793749b436-10c0.zip/node_modules/@radix-ui/react-context-menu/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-context", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.1.tgz"],\
@@ -803,21 +783,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-dialog", [\
       ["npm:1.1.14::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dialog%2F-%2Freact-dialog-1.1.14.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-dialog-npm-1.1.14-fe3c26a50d-10c0.zip/node_modules/@radix-ui/react-dialog/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-dialog-npm-1.1.14-fe3c26a50d-10c0.zip/node_modules/@radix-ui/react-dialog/",\
         "packageDependencies": [\
           ["@radix-ui/react-dialog", "npm:1.1.14::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dialog%2F-%2Freact-dialog-1.1.14.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dialog%2F-%2Freact-dialog-1.1.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-dialog-npm-1.1.4-bb6891eafd-10c0.zip/node_modules/@radix-ui/react-dialog/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-dialog-npm-1.1.4-bb6891eafd-10c0.zip/node_modules/@radix-ui/react-dialog/",\
         "packageDependencies": [\
           ["@radix-ui/react-dialog", "npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dialog%2F-%2Freact-dialog-1.1.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dialog%2F-%2Freact-dialog-1.1.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dialog-virtual-849212d963/3/.yarn/berry/cache/@radix-ui-react-dialog-npm-1.1.4-bb6891eafd-10c0.zip/node_modules/@radix-ui/react-dialog/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dialog-virtual-849212d963/7/home/alura/.yarn/berry/cache/@radix-ui-react-dialog-npm-1.1.4-bb6891eafd-10c0.zip/node_modules/@radix-ui/react-dialog/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
@@ -848,7 +828,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:1.1.14::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dialog%2F-%2Freact-dialog-1.1.14.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dialog-virtual-3dee8565dd/3/.yarn/berry/cache/@radix-ui-react-dialog-npm-1.1.14-fe3c26a50d-10c0.zip/node_modules/@radix-ui/react-dialog/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dialog-virtual-3dee8565dd/7/home/alura/.yarn/berry/cache/@radix-ui-react-dialog-npm-1.1.14-fe3c26a50d-10c0.zip/node_modules/@radix-ui/react-dialog/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.2.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.2.tgz"],\
@@ -881,14 +861,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-direction", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-direction%2F-%2Freact-direction-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-direction-npm-1.1.0-a8ee7a7394-10c0.zip/node_modules/@radix-ui/react-direction/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-direction-npm-1.1.0-a8ee7a7394-10c0.zip/node_modules/@radix-ui/react-direction/",\
         "packageDependencies": [\
           ["@radix-ui/react-direction", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-direction%2F-%2Freact-direction-1.1.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-direction%2F-%2Freact-direction-1.1.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-direction-virtual-0c113f250b/3/.yarn/berry/cache/@radix-ui-react-direction-npm-1.1.0-a8ee7a7394-10c0.zip/node_modules/@radix-ui/react-direction/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-direction-virtual-0c113f250b/7/home/alura/.yarn/berry/cache/@radix-ui-react-direction-npm-1.1.0-a8ee7a7394-10c0.zip/node_modules/@radix-ui/react-direction/",\
         "packageDependencies": [\
           ["@radix-ui/react-direction", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-direction%2F-%2Freact-direction-1.1.0.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -903,21 +883,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-dismissable-layer", [\
       ["npm:1.1.10::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dismissable-layer%2F-%2Freact-dismissable-layer-1.1.10.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-dismissable-layer-npm-1.1.10-2c7bee831a-10c0.zip/node_modules/@radix-ui/react-dismissable-layer/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-dismissable-layer-npm-1.1.10-2c7bee831a-10c0.zip/node_modules/@radix-ui/react-dismissable-layer/",\
         "packageDependencies": [\
           ["@radix-ui/react-dismissable-layer", "npm:1.1.10::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dismissable-layer%2F-%2Freact-dismissable-layer-1.1.10.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dismissable-layer%2F-%2Freact-dismissable-layer-1.1.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-dismissable-layer-npm-1.1.3-c369917703-10c0.zip/node_modules/@radix-ui/react-dismissable-layer/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-dismissable-layer-npm-1.1.3-c369917703-10c0.zip/node_modules/@radix-ui/react-dismissable-layer/",\
         "packageDependencies": [\
           ["@radix-ui/react-dismissable-layer", "npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dismissable-layer%2F-%2Freact-dismissable-layer-1.1.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.10::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dismissable-layer%2F-%2Freact-dismissable-layer-1.1.10.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dismissable-layer-virtual-1295ca61da/3/.yarn/berry/cache/@radix-ui-react-dismissable-layer-npm-1.1.10-2c7bee831a-10c0.zip/node_modules/@radix-ui/react-dismissable-layer/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dismissable-layer-virtual-1295ca61da/7/home/alura/.yarn/berry/cache/@radix-ui-react-dismissable-layer-npm-1.1.10-2c7bee831a-10c0.zip/node_modules/@radix-ui/react-dismissable-layer/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.2.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.2.tgz"],\
@@ -939,7 +919,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dismissable-layer%2F-%2Freact-dismissable-layer-1.1.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dismissable-layer-virtual-42c1a5875e/3/.yarn/berry/cache/@radix-ui-react-dismissable-layer-npm-1.1.3-c369917703-10c0.zip/node_modules/@radix-ui/react-dismissable-layer/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dismissable-layer-virtual-42c1a5875e/7/home/alura/.yarn/berry/cache/@radix-ui-react-dismissable-layer-npm-1.1.3-c369917703-10c0.zip/node_modules/@radix-ui/react-dismissable-layer/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
@@ -963,14 +943,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-dropdown-menu", [\
       ["npm:2.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dropdown-menu%2F-%2Freact-dropdown-menu-2.1.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-dropdown-menu-npm-2.1.4-0370686959-10c0.zip/node_modules/@radix-ui/react-dropdown-menu/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-dropdown-menu-npm-2.1.4-0370686959-10c0.zip/node_modules/@radix-ui/react-dropdown-menu/",\
         "packageDependencies": [\
           ["@radix-ui/react-dropdown-menu", "npm:2.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dropdown-menu%2F-%2Freact-dropdown-menu-2.1.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:2.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dropdown-menu%2F-%2Freact-dropdown-menu-2.1.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dropdown-menu-virtual-62a88237b5/3/.yarn/berry/cache/@radix-ui-react-dropdown-menu-npm-2.1.4-0370686959-10c0.zip/node_modules/@radix-ui/react-dropdown-menu/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-dropdown-menu-virtual-62a88237b5/7/home/alura/.yarn/berry/cache/@radix-ui-react-dropdown-menu-npm-2.1.4-0370686959-10c0.zip/node_modules/@radix-ui/react-dropdown-menu/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
@@ -996,21 +976,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-focus-guards", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-guards%2F-%2Freact-focus-guards-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-focus-guards-npm-1.1.1-e8a6425980-10c0.zip/node_modules/@radix-ui/react-focus-guards/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-focus-guards-npm-1.1.1-e8a6425980-10c0.zip/node_modules/@radix-ui/react-focus-guards/",\
         "packageDependencies": [\
           ["@radix-ui/react-focus-guards", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-guards%2F-%2Freact-focus-guards-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-guards%2F-%2Freact-focus-guards-1.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-focus-guards-npm-1.1.2-51502926e3-10c0.zip/node_modules/@radix-ui/react-focus-guards/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-focus-guards-npm-1.1.2-51502926e3-10c0.zip/node_modules/@radix-ui/react-focus-guards/",\
         "packageDependencies": [\
           ["@radix-ui/react-focus-guards", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-guards%2F-%2Freact-focus-guards-1.1.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-guards%2F-%2Freact-focus-guards-1.1.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-focus-guards-virtual-4f97a663f1/3/.yarn/berry/cache/@radix-ui-react-focus-guards-npm-1.1.2-51502926e3-10c0.zip/node_modules/@radix-ui/react-focus-guards/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-focus-guards-virtual-4f97a663f1/7/home/alura/.yarn/berry/cache/@radix-ui-react-focus-guards-npm-1.1.2-51502926e3-10c0.zip/node_modules/@radix-ui/react-focus-guards/",\
         "packageDependencies": [\
           ["@radix-ui/react-focus-guards", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-guards%2F-%2Freact-focus-guards-1.1.2.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -1023,7 +1003,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-guards%2F-%2Freact-focus-guards-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-focus-guards-virtual-11257a0196/3/.yarn/berry/cache/@radix-ui-react-focus-guards-npm-1.1.1-e8a6425980-10c0.zip/node_modules/@radix-ui/react-focus-guards/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-focus-guards-virtual-11257a0196/7/home/alura/.yarn/berry/cache/@radix-ui-react-focus-guards-npm-1.1.1-e8a6425980-10c0.zip/node_modules/@radix-ui/react-focus-guards/",\
         "packageDependencies": [\
           ["@radix-ui/react-focus-guards", "virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-guards%2F-%2Freact-focus-guards-1.1.1.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -1038,21 +1018,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-focus-scope", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-scope%2F-%2Freact-focus-scope-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-focus-scope-npm-1.1.1-3dfdd79604-10c0.zip/node_modules/@radix-ui/react-focus-scope/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-focus-scope-npm-1.1.1-3dfdd79604-10c0.zip/node_modules/@radix-ui/react-focus-scope/",\
         "packageDependencies": [\
           ["@radix-ui/react-focus-scope", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-scope%2F-%2Freact-focus-scope-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-scope%2F-%2Freact-focus-scope-1.1.7.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-focus-scope-npm-1.1.7-e36104d81d-10c0.zip/node_modules/@radix-ui/react-focus-scope/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-focus-scope-npm-1.1.7-e36104d81d-10c0.zip/node_modules/@radix-ui/react-focus-scope/",\
         "packageDependencies": [\
           ["@radix-ui/react-focus-scope", "npm:1.1.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-scope%2F-%2Freact-focus-scope-1.1.7.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-scope%2F-%2Freact-focus-scope-1.1.7.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-focus-scope-virtual-cbb7f48a1f/3/.yarn/berry/cache/@radix-ui-react-focus-scope-npm-1.1.7-e36104d81d-10c0.zip/node_modules/@radix-ui/react-focus-scope/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-focus-scope-virtual-cbb7f48a1f/7/home/alura/.yarn/berry/cache/@radix-ui-react-focus-scope-npm-1.1.7-e36104d81d-10c0.zip/node_modules/@radix-ui/react-focus-scope/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.2.tgz"],\
           ["@radix-ui/react-focus-scope", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-scope%2F-%2Freact-focus-scope-1.1.7.tgz"],\
@@ -1072,7 +1052,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-scope%2F-%2Freact-focus-scope-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-focus-scope-virtual-4bd44411a3/3/.yarn/berry/cache/@radix-ui-react-focus-scope-npm-1.1.1-3dfdd79604-10c0.zip/node_modules/@radix-ui/react-focus-scope/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-focus-scope-virtual-4bd44411a3/7/home/alura/.yarn/berry/cache/@radix-ui-react-focus-scope-npm-1.1.1-3dfdd79604-10c0.zip/node_modules/@radix-ui/react-focus-scope/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
           ["@radix-ui/react-focus-scope", "virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-focus-scope%2F-%2Freact-focus-scope-1.1.1.tgz"],\
@@ -1094,14 +1074,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-hover-card", [\
       ["npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-hover-card%2F-%2Freact-hover-card-1.1.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-hover-card-npm-1.1.4-b014451789-10c0.zip/node_modules/@radix-ui/react-hover-card/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-hover-card-npm-1.1.4-b014451789-10c0.zip/node_modules/@radix-ui/react-hover-card/",\
         "packageDependencies": [\
           ["@radix-ui/react-hover-card", "npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-hover-card%2F-%2Freact-hover-card-1.1.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-hover-card%2F-%2Freact-hover-card-1.1.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-hover-card-virtual-08a8680ea0/3/.yarn/berry/cache/@radix-ui-react-hover-card-npm-1.1.4-b014451789-10c0.zip/node_modules/@radix-ui/react-hover-card/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-hover-card-virtual-08a8680ea0/7/home/alura/.yarn/berry/cache/@radix-ui-react-hover-card-npm-1.1.4-b014451789-10c0.zip/node_modules/@radix-ui/react-hover-card/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
@@ -1129,21 +1109,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-id", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-id%2F-%2Freact-id-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-id-npm-1.1.0-391f088799-10c0.zip/node_modules/@radix-ui/react-id/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-id-npm-1.1.0-391f088799-10c0.zip/node_modules/@radix-ui/react-id/",\
         "packageDependencies": [\
           ["@radix-ui/react-id", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-id%2F-%2Freact-id-1.1.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-id%2F-%2Freact-id-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-id-npm-1.1.1-130a51cf03-10c0.zip/node_modules/@radix-ui/react-id/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-id-npm-1.1.1-130a51cf03-10c0.zip/node_modules/@radix-ui/react-id/",\
         "packageDependencies": [\
           ["@radix-ui/react-id", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-id%2F-%2Freact-id-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-id%2F-%2Freact-id-1.1.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-id-virtual-05f8238cef/3/.yarn/berry/cache/@radix-ui-react-id-npm-1.1.0-391f088799-10c0.zip/node_modules/@radix-ui/react-id/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-id-virtual-05f8238cef/7/home/alura/.yarn/berry/cache/@radix-ui-react-id-npm-1.1.0-391f088799-10c0.zip/node_modules/@radix-ui/react-id/",\
         "packageDependencies": [\
           ["@radix-ui/react-id", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-id%2F-%2Freact-id-1.1.0.tgz"],\
           ["@radix-ui/react-use-layout-effect", "virtual:05f8238cef7afd223d2586e46b11535d618582d3379eecdd14532dc5d327aa9894fefb2c7e2368259303991593f750385280e839acc0dab27378c7a226d1cc1b#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.0.tgz"],\
@@ -1157,7 +1137,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-id%2F-%2Freact-id-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-id-virtual-addf9ea275/3/.yarn/berry/cache/@radix-ui-react-id-npm-1.1.1-130a51cf03-10c0.zip/node_modules/@radix-ui/react-id/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-id-virtual-addf9ea275/7/home/alura/.yarn/berry/cache/@radix-ui-react-id-npm-1.1.1-130a51cf03-10c0.zip/node_modules/@radix-ui/react-id/",\
         "packageDependencies": [\
           ["@radix-ui/react-id", "virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-id%2F-%2Freact-id-1.1.1.tgz"],\
           ["@radix-ui/react-use-layout-effect", "virtual:654ce505059fcc149e041a7c7b1b4a761c882883eb7543f609816ddb5ef49748cc5128dca8c254847e95a2ebd2806129bf8bc1c909a8b0c6645a9e9d3c7025b9#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.1.tgz"],\
@@ -1173,14 +1153,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-label", [\
       ["npm:2.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-label%2F-%2Freact-label-2.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-label-npm-2.1.1-a9a5714e43-10c0.zip/node_modules/@radix-ui/react-label/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-label-npm-2.1.1-a9a5714e43-10c0.zip/node_modules/@radix-ui/react-label/",\
         "packageDependencies": [\
           ["@radix-ui/react-label", "npm:2.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-label%2F-%2Freact-label-2.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:2.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-label%2F-%2Freact-label-2.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-label-virtual-52791fdf32/3/.yarn/berry/cache/@radix-ui-react-label-npm-2.1.1-a9a5714e43-10c0.zip/node_modules/@radix-ui/react-label/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-label-virtual-52791fdf32/7/home/alura/.yarn/berry/cache/@radix-ui-react-label-npm-2.1.1-a9a5714e43-10c0.zip/node_modules/@radix-ui/react-label/",\
         "packageDependencies": [\
           ["@radix-ui/react-label", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:2.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-label%2F-%2Freact-label-2.1.1.tgz"],\
           ["@radix-ui/react-primitive", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"],\
@@ -1200,14 +1180,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-menu", [\
       ["npm:2.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-menu%2F-%2Freact-menu-2.1.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-menu-npm-2.1.4-337c756be5-10c0.zip/node_modules/@radix-ui/react-menu/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-menu-npm-2.1.4-337c756be5-10c0.zip/node_modules/@radix-ui/react-menu/",\
         "packageDependencies": [\
           ["@radix-ui/react-menu", "npm:2.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-menu%2F-%2Freact-menu-2.1.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:b96739648cdd1254c088e74c679138d6a33c83b7d5e222c249b4b84841a1bddba0fdffc40fff3562e935699e72e3e64bc5a113795218fc8c5717ee8e1120211f#npm:2.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-menu%2F-%2Freact-menu-2.1.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-menu-virtual-c4ec276d2e/3/.yarn/berry/cache/@radix-ui-react-menu-npm-2.1.4-337c756be5-10c0.zip/node_modules/@radix-ui/react-menu/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-menu-virtual-c4ec276d2e/7/home/alura/.yarn/berry/cache/@radix-ui-react-menu-npm-2.1.4-337c756be5-10c0.zip/node_modules/@radix-ui/react-menu/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-collection", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collection%2F-%2Freact-collection-1.1.1.tgz"],\
@@ -1244,14 +1224,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-menubar", [\
       ["npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-menubar%2F-%2Freact-menubar-1.1.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-menubar-npm-1.1.4-d92c346533-10c0.zip/node_modules/@radix-ui/react-menubar/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-menubar-npm-1.1.4-d92c346533-10c0.zip/node_modules/@radix-ui/react-menubar/",\
         "packageDependencies": [\
           ["@radix-ui/react-menubar", "npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-menubar%2F-%2Freact-menubar-1.1.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-menubar%2F-%2Freact-menubar-1.1.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-menubar-virtual-e3fe08653e/3/.yarn/berry/cache/@radix-ui-react-menubar-npm-1.1.4-d92c346533-10c0.zip/node_modules/@radix-ui/react-menubar/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-menubar-virtual-e3fe08653e/7/home/alura/.yarn/berry/cache/@radix-ui-react-menubar-npm-1.1.4-d92c346533-10c0.zip/node_modules/@radix-ui/react-menubar/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-collection", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collection%2F-%2Freact-collection-1.1.1.tgz"],\
@@ -1280,14 +1260,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-navigation-menu", [\
       ["npm:1.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-navigation-menu%2F-%2Freact-navigation-menu-1.2.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-navigation-menu-npm-1.2.3-8f2194fbd4-10c0.zip/node_modules/@radix-ui/react-navigation-menu/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-navigation-menu-npm-1.2.3-8f2194fbd4-10c0.zip/node_modules/@radix-ui/react-navigation-menu/",\
         "packageDependencies": [\
           ["@radix-ui/react-navigation-menu", "npm:1.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-navigation-menu%2F-%2Freact-navigation-menu-1.2.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-navigation-menu%2F-%2Freact-navigation-menu-1.2.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-navigation-menu-virtual-ad58b6e0ab/3/.yarn/berry/cache/@radix-ui-react-navigation-menu-npm-1.2.3-8f2194fbd4-10c0.zip/node_modules/@radix-ui/react-navigation-menu/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-navigation-menu-virtual-ad58b6e0ab/7/home/alura/.yarn/berry/cache/@radix-ui-react-navigation-menu-npm-1.2.3-8f2194fbd4-10c0.zip/node_modules/@radix-ui/react-navigation-menu/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-collection", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collection%2F-%2Freact-collection-1.1.1.tgz"],\
@@ -1320,14 +1300,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-popover", [\
       ["npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-popover%2F-%2Freact-popover-1.1.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-popover-npm-1.1.4-7c471121dc-10c0.zip/node_modules/@radix-ui/react-popover/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-popover-npm-1.1.4-7c471121dc-10c0.zip/node_modules/@radix-ui/react-popover/",\
         "packageDependencies": [\
           ["@radix-ui/react-popover", "npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-popover%2F-%2Freact-popover-1.1.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-popover%2F-%2Freact-popover-1.1.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-popover-virtual-5d198b94bb/3/.yarn/berry/cache/@radix-ui-react-popover-npm-1.1.4-7c471121dc-10c0.zip/node_modules/@radix-ui/react-popover/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-popover-virtual-5d198b94bb/7/home/alura/.yarn/berry/cache/@radix-ui-react-popover-npm-1.1.4-7c471121dc-10c0.zip/node_modules/@radix-ui/react-popover/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
@@ -1361,14 +1341,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-popper", [\
       ["npm:1.2.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-popper%2F-%2Freact-popper-1.2.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-popper-npm-1.2.1-30b87bd864-10c0.zip/node_modules/@radix-ui/react-popper/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-popper-npm-1.2.1-30b87bd864-10c0.zip/node_modules/@radix-ui/react-popper/",\
         "packageDependencies": [\
           ["@radix-ui/react-popper", "npm:1.2.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-popper%2F-%2Freact-popper-1.2.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:1.2.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-popper%2F-%2Freact-popper-1.2.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-popper-virtual-5bad1e68d0/3/.yarn/berry/cache/@radix-ui-react-popper-npm-1.2.1-30b87bd864-10c0.zip/node_modules/@radix-ui/react-popper/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-popper-virtual-5bad1e68d0/7/home/alura/.yarn/berry/cache/@radix-ui-react-popper-npm-1.2.1-30b87bd864-10c0.zip/node_modules/@radix-ui/react-popper/",\
         "packageDependencies": [\
           ["@floating-ui/react-dom", "virtual:5bad1e68d0e42249d025bc5b78a3f352e8d958bde5c00d3dfc07ea197cfd08ae2a03ebd4c4ffc1c2a160276c6fcdb7d5381dfd40afb436b2aec70cb9eb5da1db#npm:2.1.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz"],\
           ["@radix-ui/react-arrow", "virtual:5bad1e68d0e42249d025bc5b78a3f352e8d958bde5c00d3dfc07ea197cfd08ae2a03ebd4c4ffc1c2a160276c6fcdb7d5381dfd40afb436b2aec70cb9eb5da1db#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-arrow%2F-%2Freact-arrow-1.1.1.tgz"],\
@@ -1397,21 +1377,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-portal", [\
       ["npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-portal%2F-%2Freact-portal-1.1.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-portal-npm-1.1.3-483248f917-10c0.zip/node_modules/@radix-ui/react-portal/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-portal-npm-1.1.3-483248f917-10c0.zip/node_modules/@radix-ui/react-portal/",\
         "packageDependencies": [\
           ["@radix-ui/react-portal", "npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-portal%2F-%2Freact-portal-1.1.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-portal%2F-%2Freact-portal-1.1.9.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-portal-npm-1.1.9-73d2bdbbe0-10c0.zip/node_modules/@radix-ui/react-portal/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-portal-npm-1.1.9-73d2bdbbe0-10c0.zip/node_modules/@radix-ui/react-portal/",\
         "packageDependencies": [\
           ["@radix-ui/react-portal", "npm:1.1.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-portal%2F-%2Freact-portal-1.1.9.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-portal%2F-%2Freact-portal-1.1.9.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-portal-virtual-654ce50505/3/.yarn/berry/cache/@radix-ui-react-portal-npm-1.1.9-73d2bdbbe0-10c0.zip/node_modules/@radix-ui/react-portal/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-portal-virtual-654ce50505/7/home/alura/.yarn/berry/cache/@radix-ui-react-portal-npm-1.1.9-73d2bdbbe0-10c0.zip/node_modules/@radix-ui/react-portal/",\
         "packageDependencies": [\
           ["@radix-ui/react-portal", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-portal%2F-%2Freact-portal-1.1.9.tgz"],\
           ["@radix-ui/react-primitive", "virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:2.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.1.3.tgz"],\
@@ -1430,7 +1410,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-portal%2F-%2Freact-portal-1.1.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-portal-virtual-10d533456b/3/.yarn/berry/cache/@radix-ui-react-portal-npm-1.1.3-483248f917-10c0.zip/node_modules/@radix-ui/react-portal/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-portal-virtual-10d533456b/7/home/alura/.yarn/berry/cache/@radix-ui-react-portal-npm-1.1.3-483248f917-10c0.zip/node_modules/@radix-ui/react-portal/",\
         "packageDependencies": [\
           ["@radix-ui/react-portal", "virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-portal%2F-%2Freact-portal-1.1.3.tgz"],\
           ["@radix-ui/react-primitive", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"],\
@@ -1451,21 +1431,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-presence", [\
       ["npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-presence%2F-%2Freact-presence-1.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-presence-npm-1.1.2-495cff0a3a-10c0.zip/node_modules/@radix-ui/react-presence/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-presence-npm-1.1.2-495cff0a3a-10c0.zip/node_modules/@radix-ui/react-presence/",\
         "packageDependencies": [\
           ["@radix-ui/react-presence", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-presence%2F-%2Freact-presence-1.1.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-presence%2F-%2Freact-presence-1.1.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-presence-npm-1.1.4-5873230e17-10c0.zip/node_modules/@radix-ui/react-presence/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-presence-npm-1.1.4-5873230e17-10c0.zip/node_modules/@radix-ui/react-presence/",\
         "packageDependencies": [\
           ["@radix-ui/react-presence", "npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-presence%2F-%2Freact-presence-1.1.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-presence%2F-%2Freact-presence-1.1.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-presence-virtual-283a3d6258/3/.yarn/berry/cache/@radix-ui-react-presence-npm-1.1.4-5873230e17-10c0.zip/node_modules/@radix-ui/react-presence/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-presence-virtual-283a3d6258/7/home/alura/.yarn/berry/cache/@radix-ui-react-presence-npm-1.1.4-5873230e17-10c0.zip/node_modules/@radix-ui/react-presence/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.2.tgz"],\
           ["@radix-ui/react-presence", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-presence%2F-%2Freact-presence-1.1.4.tgz"],\
@@ -1484,7 +1464,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:a679ad3a5e8654fb421f30d1c6cda312b1a286393d0e1e33f97d17be638a39720d9f3f5b83bdf98b4c229ec262aac39d6ea149f78cf37fdddd262bbb1f822164#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-presence%2F-%2Freact-presence-1.1.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-presence-virtual-d62194e3b7/3/.yarn/berry/cache/@radix-ui-react-presence-npm-1.1.2-495cff0a3a-10c0.zip/node_modules/@radix-ui/react-presence/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-presence-virtual-d62194e3b7/7/home/alura/.yarn/berry/cache/@radix-ui-react-presence-npm-1.1.2-495cff0a3a-10c0.zip/node_modules/@radix-ui/react-presence/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
           ["@radix-ui/react-presence", "virtual:a679ad3a5e8654fb421f30d1c6cda312b1a286393d0e1e33f97d17be638a39720d9f3f5b83bdf98b4c229ec262aac39d6ea149f78cf37fdddd262bbb1f822164#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-presence%2F-%2Freact-presence-1.1.2.tgz"],\
@@ -1505,21 +1485,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-primitive", [\
       ["npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-primitive-npm-2.0.1-067061445e-10c0.zip/node_modules/@radix-ui/react-primitive/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-primitive-npm-2.0.1-067061445e-10c0.zip/node_modules/@radix-ui/react-primitive/",\
         "packageDependencies": [\
           ["@radix-ui/react-primitive", "npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:2.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.1.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-primitive-npm-2.1.3-a78ca619ce-10c0.zip/node_modules/@radix-ui/react-primitive/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-primitive-npm-2.1.3-a78ca619ce-10c0.zip/node_modules/@radix-ui/react-primitive/",\
         "packageDependencies": [\
           ["@radix-ui/react-primitive", "npm:2.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.1.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-primitive-virtual-4aa6fe4186/3/.yarn/berry/cache/@radix-ui-react-primitive-npm-2.0.1-067061445e-10c0.zip/node_modules/@radix-ui/react-primitive/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-primitive-virtual-4aa6fe4186/7/home/alura/.yarn/berry/cache/@radix-ui-react-primitive-npm-2.0.1-067061445e-10c0.zip/node_modules/@radix-ui/react-primitive/",\
         "packageDependencies": [\
           ["@radix-ui/react-primitive", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"],\
           ["@radix-ui/react-slot", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.1.1.tgz"],\
@@ -1537,7 +1517,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:2.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.1.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-primitive-virtual-c35a48bbe2/3/.yarn/berry/cache/@radix-ui-react-primitive-npm-2.1.3-a78ca619ce-10c0.zip/node_modules/@radix-ui/react-primitive/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-primitive-virtual-c35a48bbe2/7/home/alura/.yarn/berry/cache/@radix-ui-react-primitive-npm-2.1.3-a78ca619ce-10c0.zip/node_modules/@radix-ui/react-primitive/",\
         "packageDependencies": [\
           ["@radix-ui/react-primitive", "virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:2.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.1.3.tgz"],\
           ["@radix-ui/react-slot", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.2.3.tgz"],\
@@ -1557,14 +1537,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-progress", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-progress%2F-%2Freact-progress-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-progress-npm-1.1.1-6aefd30b07-10c0.zip/node_modules/@radix-ui/react-progress/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-progress-npm-1.1.1-6aefd30b07-10c0.zip/node_modules/@radix-ui/react-progress/",\
         "packageDependencies": [\
           ["@radix-ui/react-progress", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-progress%2F-%2Freact-progress-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-progress%2F-%2Freact-progress-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-progress-virtual-f81d7a061d/3/.yarn/berry/cache/@radix-ui-react-progress-npm-1.1.1-6aefd30b07-10c0.zip/node_modules/@radix-ui/react-progress/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-progress-virtual-f81d7a061d/7/home/alura/.yarn/berry/cache/@radix-ui-react-progress-npm-1.1.1-6aefd30b07-10c0.zip/node_modules/@radix-ui/react-progress/",\
         "packageDependencies": [\
           ["@radix-ui/react-context", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.1.tgz"],\
           ["@radix-ui/react-primitive", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"],\
@@ -1585,14 +1565,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-radio-group", [\
       ["npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-radio-group%2F-%2Freact-radio-group-1.2.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-radio-group-npm-1.2.2-d75400c856-10c0.zip/node_modules/@radix-ui/react-radio-group/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-radio-group-npm-1.2.2-d75400c856-10c0.zip/node_modules/@radix-ui/react-radio-group/",\
         "packageDependencies": [\
           ["@radix-ui/react-radio-group", "npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-radio-group%2F-%2Freact-radio-group-1.2.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-radio-group%2F-%2Freact-radio-group-1.2.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-radio-group-virtual-d966dc9c77/3/.yarn/berry/cache/@radix-ui-react-radio-group-npm-1.2.2-d75400c856-10c0.zip/node_modules/@radix-ui/react-radio-group/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-radio-group-virtual-d966dc9c77/7/home/alura/.yarn/berry/cache/@radix-ui-react-radio-group-npm-1.2.2-d75400c856-10c0.zip/node_modules/@radix-ui/react-radio-group/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
@@ -1621,14 +1601,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-roving-focus", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-roving-focus%2F-%2Freact-roving-focus-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-roving-focus-npm-1.1.1-69c572e977-10c0.zip/node_modules/@radix-ui/react-roving-focus/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-roving-focus-npm-1.1.1-69c572e977-10c0.zip/node_modules/@radix-ui/react-roving-focus/",\
         "packageDependencies": [\
           ["@radix-ui/react-roving-focus", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-roving-focus%2F-%2Freact-roving-focus-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-roving-focus%2F-%2Freact-roving-focus-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-roving-focus-virtual-bea03f40b0/3/.yarn/berry/cache/@radix-ui-react-roving-focus-npm-1.1.1-69c572e977-10c0.zip/node_modules/@radix-ui/react-roving-focus/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-roving-focus-virtual-bea03f40b0/7/home/alura/.yarn/berry/cache/@radix-ui-react-roving-focus-npm-1.1.1-69c572e977-10c0.zip/node_modules/@radix-ui/react-roving-focus/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-collection", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collection%2F-%2Freact-collection-1.1.1.tgz"],\
@@ -1656,14 +1636,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-scroll-area", [\
       ["npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-scroll-area%2F-%2Freact-scroll-area-1.2.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-scroll-area-npm-1.2.2-acb60e6587-10c0.zip/node_modules/@radix-ui/react-scroll-area/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-scroll-area-npm-1.2.2-acb60e6587-10c0.zip/node_modules/@radix-ui/react-scroll-area/",\
         "packageDependencies": [\
           ["@radix-ui/react-scroll-area", "npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-scroll-area%2F-%2Freact-scroll-area-1.2.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-scroll-area%2F-%2Freact-scroll-area-1.2.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-scroll-area-virtual-8a539633d5/3/.yarn/berry/cache/@radix-ui-react-scroll-area-npm-1.2.2-acb60e6587-10c0.zip/node_modules/@radix-ui/react-scroll-area/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-scroll-area-virtual-8a539633d5/7/home/alura/.yarn/berry/cache/@radix-ui-react-scroll-area-npm-1.2.2-acb60e6587-10c0.zip/node_modules/@radix-ui/react-scroll-area/",\
         "packageDependencies": [\
           ["@radix-ui/number", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fnumber%2F-%2Fnumber-1.1.0.tgz"],\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
@@ -1691,14 +1671,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-select", [\
       ["npm:2.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-select%2F-%2Freact-select-2.1.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-select-npm-2.1.4-ec65539c6e-10c0.zip/node_modules/@radix-ui/react-select/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-select-npm-2.1.4-ec65539c6e-10c0.zip/node_modules/@radix-ui/react-select/",\
         "packageDependencies": [\
           ["@radix-ui/react-select", "npm:2.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-select%2F-%2Freact-select-2.1.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:2.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-select%2F-%2Freact-select-2.1.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-select-virtual-e8b52c73f8/3/.yarn/berry/cache/@radix-ui-react-select-npm-2.1.4-ec65539c6e-10c0.zip/node_modules/@radix-ui/react-select/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-select-virtual-e8b52c73f8/7/home/alura/.yarn/berry/cache/@radix-ui-react-select-npm-2.1.4-ec65539c6e-10c0.zip/node_modules/@radix-ui/react-select/",\
         "packageDependencies": [\
           ["@radix-ui/number", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fnumber%2F-%2Fnumber-1.1.0.tgz"],\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
@@ -1738,14 +1718,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-separator", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-separator%2F-%2Freact-separator-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-separator-npm-1.1.1-aec9a9db53-10c0.zip/node_modules/@radix-ui/react-separator/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-separator-npm-1.1.1-aec9a9db53-10c0.zip/node_modules/@radix-ui/react-separator/",\
         "packageDependencies": [\
           ["@radix-ui/react-separator", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-separator%2F-%2Freact-separator-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-separator%2F-%2Freact-separator-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-separator-virtual-fe10ab2a46/3/.yarn/berry/cache/@radix-ui-react-separator-npm-1.1.1-aec9a9db53-10c0.zip/node_modules/@radix-ui/react-separator/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-separator-virtual-fe10ab2a46/7/home/alura/.yarn/berry/cache/@radix-ui-react-separator-npm-1.1.1-aec9a9db53-10c0.zip/node_modules/@radix-ui/react-separator/",\
         "packageDependencies": [\
           ["@radix-ui/react-primitive", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"],\
           ["@radix-ui/react-separator", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-separator%2F-%2Freact-separator-1.1.1.tgz"],\
@@ -1765,14 +1745,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-slider", [\
       ["npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slider%2F-%2Freact-slider-1.2.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-slider-npm-1.2.2-69a636b82f-10c0.zip/node_modules/@radix-ui/react-slider/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-slider-npm-1.2.2-69a636b82f-10c0.zip/node_modules/@radix-ui/react-slider/",\
         "packageDependencies": [\
           ["@radix-ui/react-slider", "npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slider%2F-%2Freact-slider-1.2.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slider%2F-%2Freact-slider-1.2.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-slider-virtual-56e5e37e6c/3/.yarn/berry/cache/@radix-ui-react-slider-npm-1.2.2-69a636b82f-10c0.zip/node_modules/@radix-ui/react-slider/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-slider-virtual-56e5e37e6c/7/home/alura/.yarn/berry/cache/@radix-ui-react-slider-npm-1.2.2-69a636b82f-10c0.zip/node_modules/@radix-ui/react-slider/",\
         "packageDependencies": [\
           ["@radix-ui/number", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fnumber%2F-%2Fnumber-1.1.0.tgz"],\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
@@ -1802,21 +1782,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-slot", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-slot-npm-1.1.1-10939b2c15-10c0.zip/node_modules/@radix-ui/react-slot/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-slot-npm-1.1.1-10939b2c15-10c0.zip/node_modules/@radix-ui/react-slot/",\
         "packageDependencies": [\
           ["@radix-ui/react-slot", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.2.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-slot-npm-1.2.3-965101493f-10c0.zip/node_modules/@radix-ui/react-slot/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-slot-npm-1.2.3-965101493f-10c0.zip/node_modules/@radix-ui/react-slot/",\
         "packageDependencies": [\
           ["@radix-ui/react-slot", "npm:1.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.2.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.2.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-slot-virtual-2a89f7fddc/3/.yarn/berry/cache/@radix-ui-react-slot-npm-1.2.3-965101493f-10c0.zip/node_modules/@radix-ui/react-slot/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-slot-virtual-2a89f7fddc/7/home/alura/.yarn/berry/cache/@radix-ui-react-slot-npm-1.2.3-965101493f-10c0.zip/node_modules/@radix-ui/react-slot/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.2.tgz"],\
           ["@radix-ui/react-slot", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.2.3.tgz"],\
@@ -1830,7 +1810,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-slot-virtual-2912186891/3/.yarn/berry/cache/@radix-ui-react-slot-npm-1.1.1-10939b2c15-10c0.zip/node_modules/@radix-ui/react-slot/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-slot-virtual-2912186891/7/home/alura/.yarn/berry/cache/@radix-ui-react-slot-npm-1.1.1-10939b2c15-10c0.zip/node_modules/@radix-ui/react-slot/",\
         "packageDependencies": [\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
           ["@radix-ui/react-slot", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-slot%2F-%2Freact-slot-1.1.1.tgz"],\
@@ -1846,14 +1826,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-switch", [\
       ["npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-switch%2F-%2Freact-switch-1.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-switch-npm-1.1.2-1fedccb5be-10c0.zip/node_modules/@radix-ui/react-switch/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-switch-npm-1.1.2-1fedccb5be-10c0.zip/node_modules/@radix-ui/react-switch/",\
         "packageDependencies": [\
           ["@radix-ui/react-switch", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-switch%2F-%2Freact-switch-1.1.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-switch%2F-%2Freact-switch-1.1.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-switch-virtual-a97fa33130/3/.yarn/berry/cache/@radix-ui-react-switch-npm-1.1.2-1fedccb5be-10c0.zip/node_modules/@radix-ui/react-switch/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-switch-virtual-a97fa33130/7/home/alura/.yarn/berry/cache/@radix-ui-react-switch-npm-1.1.2-1fedccb5be-10c0.zip/node_modules/@radix-ui/react-switch/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
@@ -1879,14 +1859,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-tabs", [\
       ["npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-tabs%2F-%2Freact-tabs-1.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-tabs-npm-1.1.2-15e4b407e9-10c0.zip/node_modules/@radix-ui/react-tabs/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-tabs-npm-1.1.2-15e4b407e9-10c0.zip/node_modules/@radix-ui/react-tabs/",\
         "packageDependencies": [\
           ["@radix-ui/react-tabs", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-tabs%2F-%2Freact-tabs-1.1.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-tabs%2F-%2Freact-tabs-1.1.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-tabs-virtual-2c6571f18e/3/.yarn/berry/cache/@radix-ui-react-tabs-npm-1.1.2-15e4b407e9-10c0.zip/node_modules/@radix-ui/react-tabs/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-tabs-virtual-2c6571f18e/7/home/alura/.yarn/berry/cache/@radix-ui-react-tabs-npm-1.1.2-15e4b407e9-10c0.zip/node_modules/@radix-ui/react-tabs/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-context", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.1.tgz"],\
@@ -1913,14 +1893,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-toast", [\
       ["npm:1.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-toast%2F-%2Freact-toast-1.2.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-toast-npm-1.2.4-9fca315f13-10c0.zip/node_modules/@radix-ui/react-toast/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-toast-npm-1.2.4-9fca315f13-10c0.zip/node_modules/@radix-ui/react-toast/",\
         "packageDependencies": [\
           ["@radix-ui/react-toast", "npm:1.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-toast%2F-%2Freact-toast-1.2.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-toast%2F-%2Freact-toast-1.2.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-toast-virtual-3579364089/3/.yarn/berry/cache/@radix-ui-react-toast-npm-1.2.4-9fca315f13-10c0.zip/node_modules/@radix-ui/react-toast/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-toast-virtual-3579364089/7/home/alura/.yarn/berry/cache/@radix-ui-react-toast-npm-1.2.4-9fca315f13-10c0.zip/node_modules/@radix-ui/react-toast/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-collection", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-collection%2F-%2Freact-collection-1.1.1.tgz"],\
@@ -1951,14 +1931,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-toggle", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-toggle%2F-%2Freact-toggle-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-toggle-npm-1.1.1-a79642bebe-10c0.zip/node_modules/@radix-ui/react-toggle/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-toggle-npm-1.1.1-a79642bebe-10c0.zip/node_modules/@radix-ui/react-toggle/",\
         "packageDependencies": [\
           ["@radix-ui/react-toggle", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-toggle%2F-%2Freact-toggle-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-toggle%2F-%2Freact-toggle-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-toggle-virtual-56d2c12eba/3/.yarn/berry/cache/@radix-ui-react-toggle-npm-1.1.1-a79642bebe-10c0.zip/node_modules/@radix-ui/react-toggle/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-toggle-virtual-56d2c12eba/7/home/alura/.yarn/berry/cache/@radix-ui-react-toggle-npm-1.1.1-a79642bebe-10c0.zip/node_modules/@radix-ui/react-toggle/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-primitive", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"],\
@@ -1980,14 +1960,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-toggle-group", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-toggle-group%2F-%2Freact-toggle-group-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-toggle-group-npm-1.1.1-763738aeb4-10c0.zip/node_modules/@radix-ui/react-toggle-group/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-toggle-group-npm-1.1.1-763738aeb4-10c0.zip/node_modules/@radix-ui/react-toggle-group/",\
         "packageDependencies": [\
           ["@radix-ui/react-toggle-group", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-toggle-group%2F-%2Freact-toggle-group-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-toggle-group%2F-%2Freact-toggle-group-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-toggle-group-virtual-49e60a3f37/3/.yarn/berry/cache/@radix-ui-react-toggle-group-npm-1.1.1-763738aeb4-10c0.zip/node_modules/@radix-ui/react-toggle-group/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-toggle-group-virtual-49e60a3f37/7/home/alura/.yarn/berry/cache/@radix-ui-react-toggle-group-npm-1.1.1-763738aeb4-10c0.zip/node_modules/@radix-ui/react-toggle-group/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-context", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-context%2F-%2Freact-context-1.1.1.tgz"],\
@@ -2013,14 +1993,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-tooltip", [\
       ["npm:1.1.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-tooltip%2F-%2Freact-tooltip-1.1.6.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-tooltip-npm-1.1.6-2fd6bbd23a-10c0.zip/node_modules/@radix-ui/react-tooltip/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-tooltip-npm-1.1.6-2fd6bbd23a-10c0.zip/node_modules/@radix-ui/react-tooltip/",\
         "packageDependencies": [\
           ["@radix-ui/react-tooltip", "npm:1.1.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-tooltip%2F-%2Freact-tooltip-1.1.6.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-tooltip%2F-%2Freact-tooltip-1.1.6.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-tooltip-virtual-3941a5302f/3/.yarn/berry/cache/@radix-ui-react-tooltip-npm-1.1.6-2fd6bbd23a-10c0.zip/node_modules/@radix-ui/react-tooltip/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-tooltip-virtual-3941a5302f/7/home/alura/.yarn/berry/cache/@radix-ui-react-tooltip-npm-1.1.6-2fd6bbd23a-10c0.zip/node_modules/@radix-ui/react-tooltip/",\
         "packageDependencies": [\
           ["@radix-ui/primitive", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Fprimitive%2F-%2Fprimitive-1.1.1.tgz"],\
           ["@radix-ui/react-compose-refs", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-compose-refs%2F-%2Freact-compose-refs-1.1.1.tgz"],\
@@ -2051,21 +2031,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-use-callback-ref", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-callback-ref-npm-1.1.0-ae9e46984f-10c0.zip/node_modules/@radix-ui/react-use-callback-ref/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-callback-ref-npm-1.1.0-ae9e46984f-10c0.zip/node_modules/@radix-ui/react-use-callback-ref/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-callback-ref", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-callback-ref-npm-1.1.1-aa1d9e7e06-10c0.zip/node_modules/@radix-ui/react-use-callback-ref/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-callback-ref-npm-1.1.1-aa1d9e7e06-10c0.zip/node_modules/@radix-ui/react-use-callback-ref/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-callback-ref", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:1295ca61da9c35d4b74986047c469dd67445f6ce16d6dbf9ac094306bd1577b2b328465a78d53d2109fd90afb578b0fab57daa87c1a52b649e5f8dd34efd7e11#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-callback-ref-virtual-d545a679b8/3/.yarn/berry/cache/@radix-ui-react-use-callback-ref-npm-1.1.1-aa1d9e7e06-10c0.zip/node_modules/@radix-ui/react-use-callback-ref/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-callback-ref-virtual-d545a679b8/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-callback-ref-npm-1.1.1-aa1d9e7e06-10c0.zip/node_modules/@radix-ui/react-use-callback-ref/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-callback-ref", "virtual:1295ca61da9c35d4b74986047c469dd67445f6ce16d6dbf9ac094306bd1577b2b328465a78d53d2109fd90afb578b0fab57daa87c1a52b649e5f8dd34efd7e11#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.1.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -2078,7 +2058,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:ab32f0e4a701ff946df6a4c9432e30236fa294c742b408a0c8f3c1af78d35dd6052f94683abd645734c7fe0f47829be9fae66f8d433514c12c63bd4f42039966#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-callback-ref-virtual-54968695c3/3/.yarn/berry/cache/@radix-ui-react-use-callback-ref-npm-1.1.0-ae9e46984f-10c0.zip/node_modules/@radix-ui/react-use-callback-ref/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-callback-ref-virtual-54968695c3/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-callback-ref-npm-1.1.0-ae9e46984f-10c0.zip/node_modules/@radix-ui/react-use-callback-ref/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-callback-ref", "virtual:ab32f0e4a701ff946df6a4c9432e30236fa294c742b408a0c8f3c1af78d35dd6052f94683abd645734c7fe0f47829be9fae66f8d433514c12c63bd4f42039966#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.0.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -2093,21 +2073,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-use-controllable-state", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-controllable-state%2F-%2Freact-use-controllable-state-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-controllable-state-npm-1.1.0-1e640b2cb1-10c0.zip/node_modules/@radix-ui/react-use-controllable-state/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-controllable-state-npm-1.1.0-1e640b2cb1-10c0.zip/node_modules/@radix-ui/react-use-controllable-state/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-controllable-state", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-controllable-state%2F-%2Freact-use-controllable-state-1.1.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-controllable-state%2F-%2Freact-use-controllable-state-1.2.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-controllable-state-npm-1.2.2-c6f5f52713-10c0.zip/node_modules/@radix-ui/react-use-controllable-state/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-controllable-state-npm-1.2.2-c6f5f52713-10c0.zip/node_modules/@radix-ui/react-use-controllable-state/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-controllable-state", "npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-controllable-state%2F-%2Freact-use-controllable-state-1.2.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-controllable-state%2F-%2Freact-use-controllable-state-1.2.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-controllable-state-virtual-cba35ce545/3/.yarn/berry/cache/@radix-ui-react-use-controllable-state-npm-1.2.2-c6f5f52713-10c0.zip/node_modules/@radix-ui/react-use-controllable-state/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-controllable-state-virtual-cba35ce545/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-controllable-state-npm-1.2.2-c6f5f52713-10c0.zip/node_modules/@radix-ui/react-use-controllable-state/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-controllable-state", "virtual:3dee8565dd60ff1e2a0469d2c70a7c786097e2c66c4acbb565f7572bb5e382de012c1a3ca977631c1a7999f0775d2a51da33007db41b94e727ee0d5dab32b304#npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-controllable-state%2F-%2Freact-use-controllable-state-1.2.2.tgz"],\
           ["@radix-ui/react-use-effect-event", "virtual:cba35ce54590db78c6ea10c5df30dd93aa1487e2add5663e65a5abebb99eaa567da083783416e4e949057ffc0f5551a2604049ced60d841962afe5155b0a4549#npm:0.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-effect-event%2F-%2Freact-use-effect-event-0.0.2.tgz"],\
@@ -2122,7 +2102,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-controllable-state%2F-%2Freact-use-controllable-state-1.1.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-controllable-state-virtual-ab32f0e4a7/3/.yarn/berry/cache/@radix-ui-react-use-controllable-state-npm-1.1.0-1e640b2cb1-10c0.zip/node_modules/@radix-ui/react-use-controllable-state/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-controllable-state-virtual-ab32f0e4a7/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-controllable-state-npm-1.1.0-1e640b2cb1-10c0.zip/node_modules/@radix-ui/react-use-controllable-state/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-callback-ref", "virtual:ab32f0e4a701ff946df6a4c9432e30236fa294c742b408a0c8f3c1af78d35dd6052f94683abd645734c7fe0f47829be9fae66f8d433514c12c63bd4f42039966#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.0.tgz"],\
           ["@radix-ui/react-use-controllable-state", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-controllable-state%2F-%2Freact-use-controllable-state-1.1.0.tgz"],\
@@ -2138,14 +2118,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-use-effect-event", [\
       ["npm:0.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-effect-event%2F-%2Freact-use-effect-event-0.0.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-effect-event-npm-0.0.2-afe1072028-10c0.zip/node_modules/@radix-ui/react-use-effect-event/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-effect-event-npm-0.0.2-afe1072028-10c0.zip/node_modules/@radix-ui/react-use-effect-event/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-effect-event", "npm:0.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-effect-event%2F-%2Freact-use-effect-event-0.0.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:cba35ce54590db78c6ea10c5df30dd93aa1487e2add5663e65a5abebb99eaa567da083783416e4e949057ffc0f5551a2604049ced60d841962afe5155b0a4549#npm:0.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-effect-event%2F-%2Freact-use-effect-event-0.0.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-effect-event-virtual-7867a067c0/3/.yarn/berry/cache/@radix-ui-react-use-effect-event-npm-0.0.2-afe1072028-10c0.zip/node_modules/@radix-ui/react-use-effect-event/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-effect-event-virtual-7867a067c0/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-effect-event-npm-0.0.2-afe1072028-10c0.zip/node_modules/@radix-ui/react-use-effect-event/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-effect-event", "virtual:cba35ce54590db78c6ea10c5df30dd93aa1487e2add5663e65a5abebb99eaa567da083783416e4e949057ffc0f5551a2604049ced60d841962afe5155b0a4549#npm:0.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-effect-event%2F-%2Freact-use-effect-event-0.0.2.tgz"],\
           ["@radix-ui/react-use-layout-effect", "virtual:654ce505059fcc149e041a7c7b1b4a761c882883eb7543f609816ddb5ef49748cc5128dca8c254847e95a2ebd2806129bf8bc1c909a8b0c6645a9e9d3c7025b9#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.1.tgz"],\
@@ -2161,21 +2141,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-use-escape-keydown", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-escape-keydown%2F-%2Freact-use-escape-keydown-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-escape-keydown-npm-1.1.0-20ea2d629a-10c0.zip/node_modules/@radix-ui/react-use-escape-keydown/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-escape-keydown-npm-1.1.0-20ea2d629a-10c0.zip/node_modules/@radix-ui/react-use-escape-keydown/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-escape-keydown", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-escape-keydown%2F-%2Freact-use-escape-keydown-1.1.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-escape-keydown%2F-%2Freact-use-escape-keydown-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-escape-keydown-npm-1.1.1-e3e3212502-10c0.zip/node_modules/@radix-ui/react-use-escape-keydown/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-escape-keydown-npm-1.1.1-e3e3212502-10c0.zip/node_modules/@radix-ui/react-use-escape-keydown/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-escape-keydown", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-escape-keydown%2F-%2Freact-use-escape-keydown-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:1295ca61da9c35d4b74986047c469dd67445f6ce16d6dbf9ac094306bd1577b2b328465a78d53d2109fd90afb578b0fab57daa87c1a52b649e5f8dd34efd7e11#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-escape-keydown%2F-%2Freact-use-escape-keydown-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-escape-keydown-virtual-b5fb7b86dc/3/.yarn/berry/cache/@radix-ui-react-use-escape-keydown-npm-1.1.1-e3e3212502-10c0.zip/node_modules/@radix-ui/react-use-escape-keydown/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-escape-keydown-virtual-b5fb7b86dc/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-escape-keydown-npm-1.1.1-e3e3212502-10c0.zip/node_modules/@radix-ui/react-use-escape-keydown/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-callback-ref", "virtual:1295ca61da9c35d4b74986047c469dd67445f6ce16d6dbf9ac094306bd1577b2b328465a78d53d2109fd90afb578b0fab57daa87c1a52b649e5f8dd34efd7e11#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.1.tgz"],\
           ["@radix-ui/react-use-escape-keydown", "virtual:1295ca61da9c35d4b74986047c469dd67445f6ce16d6dbf9ac094306bd1577b2b328465a78d53d2109fd90afb578b0fab57daa87c1a52b649e5f8dd34efd7e11#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-escape-keydown%2F-%2Freact-use-escape-keydown-1.1.1.tgz"],\
@@ -2189,7 +2169,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:42c1a5875ef6473343b61659f1d274d62d0e84c5e1a45a826d252246a5c426d58469bae52a81a156486cc21939a59123fce8384222567729cfcbacac1e220aa2#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-escape-keydown%2F-%2Freact-use-escape-keydown-1.1.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-escape-keydown-virtual-28af393d28/3/.yarn/berry/cache/@radix-ui-react-use-escape-keydown-npm-1.1.0-20ea2d629a-10c0.zip/node_modules/@radix-ui/react-use-escape-keydown/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-escape-keydown-virtual-28af393d28/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-escape-keydown-npm-1.1.0-20ea2d629a-10c0.zip/node_modules/@radix-ui/react-use-escape-keydown/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-callback-ref", "virtual:ab32f0e4a701ff946df6a4c9432e30236fa294c742b408a0c8f3c1af78d35dd6052f94683abd645734c7fe0f47829be9fae66f8d433514c12c63bd4f42039966#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-callback-ref%2F-%2Freact-use-callback-ref-1.1.0.tgz"],\
           ["@radix-ui/react-use-escape-keydown", "virtual:42c1a5875ef6473343b61659f1d274d62d0e84c5e1a45a826d252246a5c426d58469bae52a81a156486cc21939a59123fce8384222567729cfcbacac1e220aa2#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-escape-keydown%2F-%2Freact-use-escape-keydown-1.1.0.tgz"],\
@@ -2205,21 +2185,21 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-use-layout-effect", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-layout-effect-npm-1.1.0-5cc56e9469-10c0.zip/node_modules/@radix-ui/react-use-layout-effect/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-layout-effect-npm-1.1.0-5cc56e9469-10c0.zip/node_modules/@radix-ui/react-use-layout-effect/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-layout-effect", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-layout-effect-npm-1.1.1-333c997b1a-10c0.zip/node_modules/@radix-ui/react-use-layout-effect/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-layout-effect-npm-1.1.1-333c997b1a-10c0.zip/node_modules/@radix-ui/react-use-layout-effect/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-layout-effect", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:05f8238cef7afd223d2586e46b11535d618582d3379eecdd14532dc5d327aa9894fefb2c7e2368259303991593f750385280e839acc0dab27378c7a226d1cc1b#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-layout-effect-virtual-20963ea846/3/.yarn/berry/cache/@radix-ui-react-use-layout-effect-npm-1.1.0-5cc56e9469-10c0.zip/node_modules/@radix-ui/react-use-layout-effect/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-layout-effect-virtual-20963ea846/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-layout-effect-npm-1.1.0-5cc56e9469-10c0.zip/node_modules/@radix-ui/react-use-layout-effect/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-layout-effect", "virtual:05f8238cef7afd223d2586e46b11535d618582d3379eecdd14532dc5d327aa9894fefb2c7e2368259303991593f750385280e839acc0dab27378c7a226d1cc1b#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.0.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -2232,7 +2212,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:654ce505059fcc149e041a7c7b1b4a761c882883eb7543f609816ddb5ef49748cc5128dca8c254847e95a2ebd2806129bf8bc1c909a8b0c6645a9e9d3c7025b9#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-layout-effect-virtual-457c11756a/3/.yarn/berry/cache/@radix-ui-react-use-layout-effect-npm-1.1.1-333c997b1a-10c0.zip/node_modules/@radix-ui/react-use-layout-effect/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-layout-effect-virtual-457c11756a/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-layout-effect-npm-1.1.1-333c997b1a-10c0.zip/node_modules/@radix-ui/react-use-layout-effect/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-layout-effect", "virtual:654ce505059fcc149e041a7c7b1b4a761c882883eb7543f609816ddb5ef49748cc5128dca8c254847e95a2ebd2806129bf8bc1c909a8b0c6645a9e9d3c7025b9#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.1.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -2247,14 +2227,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-use-previous", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-previous%2F-%2Freact-use-previous-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-previous-npm-1.1.0-e3a5281fa8-10c0.zip/node_modules/@radix-ui/react-use-previous/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-previous-npm-1.1.0-e3a5281fa8-10c0.zip/node_modules/@radix-ui/react-use-previous/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-previous", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-previous%2F-%2Freact-use-previous-1.1.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:a679ad3a5e8654fb421f30d1c6cda312b1a286393d0e1e33f97d17be638a39720d9f3f5b83bdf98b4c229ec262aac39d6ea149f78cf37fdddd262bbb1f822164#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-previous%2F-%2Freact-use-previous-1.1.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-previous-virtual-61c80939ed/3/.yarn/berry/cache/@radix-ui-react-use-previous-npm-1.1.0-e3a5281fa8-10c0.zip/node_modules/@radix-ui/react-use-previous/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-previous-virtual-61c80939ed/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-previous-npm-1.1.0-e3a5281fa8-10c0.zip/node_modules/@radix-ui/react-use-previous/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-previous", "virtual:a679ad3a5e8654fb421f30d1c6cda312b1a286393d0e1e33f97d17be638a39720d9f3f5b83bdf98b4c229ec262aac39d6ea149f78cf37fdddd262bbb1f822164#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-previous%2F-%2Freact-use-previous-1.1.0.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -2269,14 +2249,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-use-rect", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-rect%2F-%2Freact-use-rect-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-rect-npm-1.1.0-79e91c12a3-10c0.zip/node_modules/@radix-ui/react-use-rect/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-rect-npm-1.1.0-79e91c12a3-10c0.zip/node_modules/@radix-ui/react-use-rect/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-rect", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-rect%2F-%2Freact-use-rect-1.1.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:5bad1e68d0e42249d025bc5b78a3f352e8d958bde5c00d3dfc07ea197cfd08ae2a03ebd4c4ffc1c2a160276c6fcdb7d5381dfd40afb436b2aec70cb9eb5da1db#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-rect%2F-%2Freact-use-rect-1.1.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-rect-virtual-531449b5f1/3/.yarn/berry/cache/@radix-ui-react-use-rect-npm-1.1.0-79e91c12a3-10c0.zip/node_modules/@radix-ui/react-use-rect/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-rect-virtual-531449b5f1/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-rect-npm-1.1.0-79e91c12a3-10c0.zip/node_modules/@radix-ui/react-use-rect/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-rect", "virtual:5bad1e68d0e42249d025bc5b78a3f352e8d958bde5c00d3dfc07ea197cfd08ae2a03ebd4c4ffc1c2a160276c6fcdb7d5381dfd40afb436b2aec70cb9eb5da1db#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-rect%2F-%2Freact-use-rect-1.1.0.tgz"],\
           ["@radix-ui/rect", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Frect%2F-%2Frect-1.1.0.tgz"],\
@@ -2292,14 +2272,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-use-size", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-size%2F-%2Freact-use-size-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-use-size-npm-1.1.0-4c1af279fe-10c0.zip/node_modules/@radix-ui/react-use-size/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-use-size-npm-1.1.0-4c1af279fe-10c0.zip/node_modules/@radix-ui/react-use-size/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-size", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-size%2F-%2Freact-use-size-1.1.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:a679ad3a5e8654fb421f30d1c6cda312b1a286393d0e1e33f97d17be638a39720d9f3f5b83bdf98b4c229ec262aac39d6ea149f78cf37fdddd262bbb1f822164#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-size%2F-%2Freact-use-size-1.1.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-size-virtual-d8ed46397a/3/.yarn/berry/cache/@radix-ui-react-use-size-npm-1.1.0-4c1af279fe-10c0.zip/node_modules/@radix-ui/react-use-size/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-use-size-virtual-d8ed46397a/7/home/alura/.yarn/berry/cache/@radix-ui-react-use-size-npm-1.1.0-4c1af279fe-10c0.zip/node_modules/@radix-ui/react-use-size/",\
         "packageDependencies": [\
           ["@radix-ui/react-use-layout-effect", "virtual:05f8238cef7afd223d2586e46b11535d618582d3379eecdd14532dc5d327aa9894fefb2c7e2368259303991593f750385280e839acc0dab27378c7a226d1cc1b#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-layout-effect%2F-%2Freact-use-layout-effect-1.1.0.tgz"],\
           ["@radix-ui/react-use-size", "virtual:a679ad3a5e8654fb421f30d1c6cda312b1a286393d0e1e33f97d17be638a39720d9f3f5b83bdf98b4c229ec262aac39d6ea149f78cf37fdddd262bbb1f822164#npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-use-size%2F-%2Freact-use-size-1.1.0.tgz"],\
@@ -2315,14 +2295,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/react-visually-hidden", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-visually-hidden%2F-%2Freact-visually-hidden-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-react-visually-hidden-npm-1.1.1-19d22283a8-10c0.zip/node_modules/@radix-ui/react-visually-hidden/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-react-visually-hidden-npm-1.1.1-19d22283a8-10c0.zip/node_modules/@radix-ui/react-visually-hidden/",\
         "packageDependencies": [\
           ["@radix-ui/react-visually-hidden", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-visually-hidden%2F-%2Freact-visually-hidden-1.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:ad58b6e0ab7ee8b5552d391a205e328f29ca464af8660061fda81fb6c5a8021981d84370f12ea09e628686881deebd9c9d7d11dd8ecd62a0d572f6cb07ffb3ac#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-visually-hidden%2F-%2Freact-visually-hidden-1.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-visually-hidden-virtual-452bc77a21/3/.yarn/berry/cache/@radix-ui-react-visually-hidden-npm-1.1.1-19d22283a8-10c0.zip/node_modules/@radix-ui/react-visually-hidden/",\
+        "packageLocation": "./.yarn/__virtual__/@radix-ui-react-visually-hidden-virtual-452bc77a21/7/home/alura/.yarn/berry/cache/@radix-ui-react-visually-hidden-npm-1.1.1-19d22283a8-10c0.zip/node_modules/@radix-ui/react-visually-hidden/",\
         "packageDependencies": [\
           ["@radix-ui/react-primitive", "virtual:a1df62bfbee9ce008229049fb6f3061bfa3b5af94e6d594526c25c7cc261efbe4c588bc3cafaf4ef4a973a958b4c6c69e724390a2f561ec97371a14145be02b4#npm:2.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-primitive%2F-%2Freact-primitive-2.0.1.tgz"],\
           ["@radix-ui/react-visually-hidden", "virtual:ad58b6e0ab7ee8b5552d391a205e328f29ca464af8660061fda81fb6c5a8021981d84370f12ea09e628686881deebd9c9d7d11dd8ecd62a0d572f6cb07ffb3ac#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-visually-hidden%2F-%2Freact-visually-hidden-1.1.1.tgz"],\
@@ -2342,7 +2322,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@radix-ui/rect", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Frect%2F-%2Frect-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@radix-ui-rect-npm-1.1.0-e6dfe6c8a0-10c0.zip/node_modules/@radix-ui/rect/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@radix-ui-rect-npm-1.1.0-e6dfe6c8a0-10c0.zip/node_modules/@radix-ui/rect/",\
         "packageDependencies": [\
           ["@radix-ui/rect", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Frect%2F-%2Frect-1.1.0.tgz"]\
         ],\
@@ -2351,7 +2331,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@swc/counter", [\
       ["npm:0.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40swc%2Fcounter%2F-%2Fcounter-0.1.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@swc-counter-npm-0.1.3-51a9224156-10c0.zip/node_modules/@swc/counter/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@swc-counter-npm-0.1.3-51a9224156-10c0.zip/node_modules/@swc/counter/",\
         "packageDependencies": [\
           ["@swc/counter", "npm:0.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40swc%2Fcounter%2F-%2Fcounter-0.1.3.tgz"]\
         ],\
@@ -2360,7 +2340,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@swc/helpers", [\
       ["npm:0.5.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40swc%2Fhelpers%2F-%2Fhelpers-0.5.5.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@swc-helpers-npm-0.5.5-d786f4bf6b-10c0.zip/node_modules/@swc/helpers/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@swc-helpers-npm-0.5.5-d786f4bf6b-10c0.zip/node_modules/@swc/helpers/",\
         "packageDependencies": [\
           ["@swc/counter", "npm:0.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40swc%2Fcounter%2F-%2Fcounter-0.1.3.tgz"],\
           ["@swc/helpers", "npm:0.5.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40swc%2Fhelpers%2F-%2Fhelpers-0.5.5.tgz"],\
@@ -2371,7 +2351,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@tailwindcss/node", [\
       ["npm:4.1.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40tailwindcss%2Fnode%2F-%2Fnode-4.1.11.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@tailwindcss-node-npm-4.1.11-06aff9c671-10c0.zip/node_modules/@tailwindcss/node/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@tailwindcss-node-npm-4.1.11-06aff9c671-10c0.zip/node_modules/@tailwindcss/node/",\
         "packageDependencies": [\
           ["@ampproject/remapping", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40ampproject%2Fremapping%2F-%2Fremapping-2.3.0.tgz"],\
           ["@tailwindcss/node", "npm:4.1.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40tailwindcss%2Fnode%2F-%2Fnode-4.1.11.tgz"],\
@@ -2524,7 +2504,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@tailwindcss/postcss", [\
       ["npm:4.1.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40tailwindcss%2Fpostcss%2F-%2Fpostcss-4.1.11.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@tailwindcss-postcss-npm-4.1.11-bc69095032-10c0.zip/node_modules/@tailwindcss/postcss/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@tailwindcss-postcss-npm-4.1.11-bc69095032-10c0.zip/node_modules/@tailwindcss/postcss/",\
         "packageDependencies": [\
           ["@alloc/quick-lru", "npm:5.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40alloc%2Fquick-lru%2F-%2Fquick-lru-5.2.0.tgz"],\
           ["@tailwindcss/node", "npm:4.1.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40tailwindcss%2Fnode%2F-%2Fnode-4.1.11.tgz"],\
@@ -2538,7 +2518,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@tybys/wasm-util", [\
       ["npm:0.10.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40tybys%2Fwasm-util%2F-%2Fwasm-util-0.10.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@tybys-wasm-util-npm-0.10.0-d057e384cd-10c0.zip/node_modules/@tybys/wasm-util/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@tybys-wasm-util-npm-0.10.0-d057e384cd-10c0.zip/node_modules/@tybys/wasm-util/",\
         "packageDependencies": [\
           ["@tybys/wasm-util", "npm:0.10.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40tybys%2Fwasm-util%2F-%2Fwasm-util-0.10.0.tgz"],\
           ["tslib", "npm:2.8.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftslib%2F-%2Ftslib-2.8.1.tgz"]\
@@ -2546,7 +2526,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:0.9.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40tybys%2Fwasm-util%2F-%2Fwasm-util-0.9.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@tybys-wasm-util-npm-0.9.0-8691eacab8-10c0.zip/node_modules/@tybys/wasm-util/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@tybys-wasm-util-npm-0.9.0-8691eacab8-10c0.zip/node_modules/@tybys/wasm-util/",\
         "packageDependencies": [\
           ["@tybys/wasm-util", "npm:0.9.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40tybys%2Fwasm-util%2F-%2Fwasm-util-0.9.0.tgz"],\
           ["tslib", "npm:2.8.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftslib%2F-%2Ftslib-2.8.1.tgz"]\
@@ -2556,7 +2536,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/d3-array", [\
       ["npm:3.2.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-array%2F-%2Fd3-array-3.2.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-d3-array-npm-3.2.1-fdd8b84fc4-10c0.zip/node_modules/@types/d3-array/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-d3-array-npm-3.2.1-fdd8b84fc4-10c0.zip/node_modules/@types/d3-array/",\
         "packageDependencies": [\
           ["@types/d3-array", "npm:3.2.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-array%2F-%2Fd3-array-3.2.1.tgz"]\
         ],\
@@ -2565,7 +2545,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/d3-color", [\
       ["npm:3.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-color%2F-%2Fd3-color-3.1.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-d3-color-npm-3.1.3-ccc6c8a872-10c0.zip/node_modules/@types/d3-color/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-d3-color-npm-3.1.3-ccc6c8a872-10c0.zip/node_modules/@types/d3-color/",\
         "packageDependencies": [\
           ["@types/d3-color", "npm:3.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-color%2F-%2Fd3-color-3.1.3.tgz"]\
         ],\
@@ -2574,7 +2554,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/d3-ease", [\
       ["npm:3.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-ease%2F-%2Fd3-ease-3.0.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-d3-ease-npm-3.0.2-e59d766e14-10c0.zip/node_modules/@types/d3-ease/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-d3-ease-npm-3.0.2-e59d766e14-10c0.zip/node_modules/@types/d3-ease/",\
         "packageDependencies": [\
           ["@types/d3-ease", "npm:3.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-ease%2F-%2Fd3-ease-3.0.2.tgz"]\
         ],\
@@ -2583,7 +2563,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/d3-interpolate", [\
       ["npm:3.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-interpolate%2F-%2Fd3-interpolate-3.0.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-d3-interpolate-npm-3.0.4-cd08c403b0-10c0.zip/node_modules/@types/d3-interpolate/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-d3-interpolate-npm-3.0.4-cd08c403b0-10c0.zip/node_modules/@types/d3-interpolate/",\
         "packageDependencies": [\
           ["@types/d3-color", "npm:3.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-color%2F-%2Fd3-color-3.1.3.tgz"],\
           ["@types/d3-interpolate", "npm:3.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-interpolate%2F-%2Fd3-interpolate-3.0.4.tgz"]\
@@ -2593,7 +2573,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/d3-path", [\
       ["npm:3.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-path%2F-%2Fd3-path-3.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-d3-path-npm-3.1.1-6c150609d6-10c0.zip/node_modules/@types/d3-path/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-d3-path-npm-3.1.1-6c150609d6-10c0.zip/node_modules/@types/d3-path/",\
         "packageDependencies": [\
           ["@types/d3-path", "npm:3.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-path%2F-%2Fd3-path-3.1.1.tgz"]\
         ],\
@@ -2602,7 +2582,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/d3-scale", [\
       ["npm:4.0.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-scale%2F-%2Fd3-scale-4.0.9.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-d3-scale-npm-4.0.9-065080e60a-10c0.zip/node_modules/@types/d3-scale/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-d3-scale-npm-4.0.9-065080e60a-10c0.zip/node_modules/@types/d3-scale/",\
         "packageDependencies": [\
           ["@types/d3-scale", "npm:4.0.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-scale%2F-%2Fd3-scale-4.0.9.tgz"],\
           ["@types/d3-time", "npm:3.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-time%2F-%2Fd3-time-3.0.4.tgz"]\
@@ -2612,7 +2592,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/d3-shape", [\
       ["npm:3.1.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-shape%2F-%2Fd3-shape-3.1.7.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-d3-shape-npm-3.1.7-6d9752c99e-10c0.zip/node_modules/@types/d3-shape/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-d3-shape-npm-3.1.7-6d9752c99e-10c0.zip/node_modules/@types/d3-shape/",\
         "packageDependencies": [\
           ["@types/d3-path", "npm:3.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-path%2F-%2Fd3-path-3.1.1.tgz"],\
           ["@types/d3-shape", "npm:3.1.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-shape%2F-%2Fd3-shape-3.1.7.tgz"]\
@@ -2622,7 +2602,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/d3-time", [\
       ["npm:3.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-time%2F-%2Fd3-time-3.0.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-d3-time-npm-3.0.4-2c21ef9d88-10c0.zip/node_modules/@types/d3-time/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-d3-time-npm-3.0.4-2c21ef9d88-10c0.zip/node_modules/@types/d3-time/",\
         "packageDependencies": [\
           ["@types/d3-time", "npm:3.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-time%2F-%2Fd3-time-3.0.4.tgz"]\
         ],\
@@ -2631,7 +2611,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/d3-timer", [\
       ["npm:3.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-timer%2F-%2Fd3-timer-3.0.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-d3-timer-npm-3.0.2-7cb3ef15dd-10c0.zip/node_modules/@types/d3-timer/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-d3-timer-npm-3.0.2-7cb3ef15dd-10c0.zip/node_modules/@types/d3-timer/",\
         "packageDependencies": [\
           ["@types/d3-timer", "npm:3.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-timer%2F-%2Fd3-timer-3.0.2.tgz"]\
         ],\
@@ -2640,7 +2620,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/node", [\
       ["npm:22.17.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fnode%2F-%2Fnode-22.17.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-node-npm-22.17.1-22f0af55ff-10c0.zip/node_modules/@types/node/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-node-npm-22.17.1-22f0af55ff-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
           ["@types/node", "npm:22.17.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fnode%2F-%2Fnode-22.17.1.tgz"],\
           ["undici-types", "npm:6.21.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fundici-types%2F-%2Fundici-types-6.21.0.tgz"]\
@@ -2650,7 +2630,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/prop-types", [\
       ["npm:15.7.15::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fprop-types%2F-%2Fprop-types-15.7.15.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-prop-types-npm-15.7.15-b42a9a9c63-10c0.zip/node_modules/@types/prop-types/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-prop-types-npm-15.7.15-b42a9a9c63-10c0.zip/node_modules/@types/prop-types/",\
         "packageDependencies": [\
           ["@types/prop-types", "npm:15.7.15::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fprop-types%2F-%2Fprop-types-15.7.15.tgz"]\
         ],\
@@ -2659,7 +2639,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/react", [\
       ["npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-react-npm-18.3.23-ac9bb7bacd-10c0.zip/node_modules/@types/react/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-react-npm-18.3.23-ac9bb7bacd-10c0.zip/node_modules/@types/react/",\
         "packageDependencies": [\
           ["@types/prop-types", "npm:15.7.15::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fprop-types%2F-%2Fprop-types-15.7.15.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -2670,14 +2650,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/react-dom", [\
       ["npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-react-dom-npm-18.3.7-1b1c1a3b8f-10c0.zip/node_modules/@types/react-dom/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/@types-react-dom-npm-18.3.7-1b1c1a3b8f-10c0.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
           ["@types/react-dom", "npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@types-react-dom-virtual-8486ac1ae8/3/.yarn/berry/cache/@types-react-dom-npm-18.3.7-1b1c1a3b8f-10c0.zip/node_modules/@types/react-dom/",\
+        "packageLocation": "./.yarn/__virtual__/@types-react-dom-virtual-8486ac1ae8/7/home/alura/.yarn/berry/cache/@types-react-dom-npm-18.3.7-1b1c1a3b8f-10c0.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["@types/react-dom", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz"]\
@@ -2690,7 +2670,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["aria-hidden", [\
       ["npm:1.2.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Faria-hidden%2F-%2Faria-hidden-1.2.6.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/aria-hidden-npm-1.2.6-43e8e82626-10c0.zip/node_modules/aria-hidden/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/aria-hidden-npm-1.2.6-43e8e82626-10c0.zip/node_modules/aria-hidden/",\
         "packageDependencies": [\
           ["aria-hidden", "npm:1.2.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Faria-hidden%2F-%2Faria-hidden-1.2.6.tgz"],\
           ["tslib", "npm:2.8.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftslib%2F-%2Ftslib-2.8.1.tgz"]\
@@ -2700,14 +2680,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["autoprefixer", [\
       ["npm:10.4.21::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fautoprefixer%2F-%2Fautoprefixer-10.4.21.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/autoprefixer-npm-10.4.21-c80e2e8161-10c0.zip/node_modules/autoprefixer/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/autoprefixer-npm-10.4.21-c80e2e8161-10c0.zip/node_modules/autoprefixer/",\
         "packageDependencies": [\
           ["autoprefixer", "npm:10.4.21::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fautoprefixer%2F-%2Fautoprefixer-10.4.21.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:10.4.21::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fautoprefixer%2F-%2Fautoprefixer-10.4.21.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-4b7972def7/3/.yarn/berry/cache/autoprefixer-npm-10.4.21-c80e2e8161-10c0.zip/node_modules/autoprefixer/",\
+        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-4b7972def7/7/home/alura/.yarn/berry/cache/autoprefixer-npm-10.4.21-c80e2e8161-10c0.zip/node_modules/autoprefixer/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
           ["autoprefixer", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:10.4.21::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fautoprefixer%2F-%2Fautoprefixer-10.4.21.tgz"],\
@@ -2728,7 +2708,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["browserslist", [\
       ["npm:4.25.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fbrowserslist%2F-%2Fbrowserslist-4.25.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/browserslist-npm-4.25.2-619fdf3122-10c0.zip/node_modules/browserslist/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/browserslist-npm-4.25.2-619fdf3122-10c0.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.25.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fbrowserslist%2F-%2Fbrowserslist-4.25.2.tgz"],\
           ["caniuse-lite", "npm:1.0.30001734::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001734.tgz"],\
@@ -2741,7 +2721,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["busboy", [\
       ["npm:1.6.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fbusboy%2F-%2Fbusboy-1.6.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/busboy-npm-1.6.0-a093ce1de6-10c0.zip/node_modules/busboy/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/busboy-npm-1.6.0-a093ce1de6-10c0.zip/node_modules/busboy/",\
         "packageDependencies": [\
           ["busboy", "npm:1.6.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fbusboy%2F-%2Fbusboy-1.6.0.tgz"],\
           ["streamsearch", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fstreamsearch%2F-%2Fstreamsearch-1.1.0.tgz"]\
@@ -2751,7 +2731,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["caniuse-lite", [\
       ["npm:1.0.30001734::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001734.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/caniuse-lite-npm-1.0.30001734-f63c832181-10c0.zip/node_modules/caniuse-lite/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/caniuse-lite-npm-1.0.30001734-f63c832181-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
           ["caniuse-lite", "npm:1.0.30001734::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001734.tgz"]\
         ],\
@@ -2760,7 +2740,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["chownr", [\
       ["npm:3.0.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fchownr%2F-%2Fchownr-3.0.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/chownr-npm-3.0.0-b4b340485c-10c0.zip/node_modules/chownr/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/chownr-npm-3.0.0-b4b340485c-10c0.zip/node_modules/chownr/",\
         "packageDependencies": [\
           ["chownr", "npm:3.0.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fchownr%2F-%2Fchownr-3.0.0.tgz"]\
         ],\
@@ -2769,7 +2749,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["class-variance-authority", [\
       ["npm:0.7.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fclass-variance-authority%2F-%2Fclass-variance-authority-0.7.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/class-variance-authority-npm-0.7.1-2cbd25e791-10c0.zip/node_modules/class-variance-authority/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/class-variance-authority-npm-0.7.1-2cbd25e791-10c0.zip/node_modules/class-variance-authority/",\
         "packageDependencies": [\
           ["class-variance-authority", "npm:0.7.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fclass-variance-authority%2F-%2Fclass-variance-authority-0.7.1.tgz"],\
           ["clsx", "npm:2.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fclsx%2F-%2Fclsx-2.1.1.tgz"]\
@@ -2779,7 +2759,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["client-only", [\
       ["npm:0.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fclient-only%2F-%2Fclient-only-0.0.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/client-only-npm-0.0.1-cab92a3683-10c0.zip/node_modules/client-only/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/client-only-npm-0.0.1-cab92a3683-10c0.zip/node_modules/client-only/",\
         "packageDependencies": [\
           ["client-only", "npm:0.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fclient-only%2F-%2Fclient-only-0.0.1.tgz"]\
         ],\
@@ -2788,7 +2768,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["clsx", [\
       ["npm:2.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fclsx%2F-%2Fclsx-2.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/clsx-npm-2.1.1-2a96c6d6ae-10c0.zip/node_modules/clsx/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/clsx-npm-2.1.1-2a96c6d6ae-10c0.zip/node_modules/clsx/",\
         "packageDependencies": [\
           ["clsx", "npm:2.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fclsx%2F-%2Fclsx-2.1.1.tgz"]\
         ],\
@@ -2797,14 +2777,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["cmdk", [\
       ["npm:1.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcmdk%2F-%2Fcmdk-1.0.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/cmdk-npm-1.0.4-cc194c12cf-10c0.zip/node_modules/cmdk/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/cmdk-npm-1.0.4-cc194c12cf-10c0.zip/node_modules/cmdk/",\
         "packageDependencies": [\
           ["cmdk", "npm:1.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcmdk%2F-%2Fcmdk-1.0.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcmdk%2F-%2Fcmdk-1.0.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/cmdk-virtual-ff36491878/3/.yarn/berry/cache/cmdk-npm-1.0.4-cc194c12cf-10c0.zip/node_modules/cmdk/",\
+        "packageLocation": "./.yarn/__virtual__/cmdk-virtual-ff36491878/7/home/alura/.yarn/berry/cache/cmdk-npm-1.0.4-cc194c12cf-10c0.zip/node_modules/cmdk/",\
         "packageDependencies": [\
           ["@radix-ui/react-dialog", "virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:1.1.14::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dialog%2F-%2Freact-dialog-1.1.14.tgz"],\
           ["@radix-ui/react-id", "virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-id%2F-%2Freact-id-1.1.1.tgz"],\
@@ -2827,7 +2807,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["csstype", [\
       ["npm:3.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcsstype%2F-%2Fcsstype-3.1.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/csstype-npm-3.1.3-1b545bb7c2-10c0.zip/node_modules/csstype/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/csstype-npm-3.1.3-1b545bb7c2-10c0.zip/node_modules/csstype/",\
         "packageDependencies": [\
           ["csstype", "npm:3.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcsstype%2F-%2Fcsstype-3.1.3.tgz"]\
         ],\
@@ -2836,7 +2816,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-array", [\
       ["npm:3.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-array%2F-%2Fd3-array-3.2.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-array-npm-3.2.4-27c0d26e8b-10c0.zip/node_modules/d3-array/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-array-npm-3.2.4-27c0d26e8b-10c0.zip/node_modules/d3-array/",\
         "packageDependencies": [\
           ["d3-array", "npm:3.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-array%2F-%2Fd3-array-3.2.4.tgz"],\
           ["internmap", "npm:2.0.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Finternmap%2F-%2Finternmap-2.0.3.tgz"]\
@@ -2846,7 +2826,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-color", [\
       ["npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-color%2F-%2Fd3-color-3.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-color-npm-3.1.0-8b2d9e8a80-10c0.zip/node_modules/d3-color/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-color-npm-3.1.0-8b2d9e8a80-10c0.zip/node_modules/d3-color/",\
         "packageDependencies": [\
           ["d3-color", "npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-color%2F-%2Fd3-color-3.1.0.tgz"]\
         ],\
@@ -2855,7 +2835,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-ease", [\
       ["npm:3.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-ease%2F-%2Fd3-ease-3.0.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-ease-npm-3.0.1-d0016b0093-10c0.zip/node_modules/d3-ease/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-ease-npm-3.0.1-d0016b0093-10c0.zip/node_modules/d3-ease/",\
         "packageDependencies": [\
           ["d3-ease", "npm:3.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-ease%2F-%2Fd3-ease-3.0.1.tgz"]\
         ],\
@@ -2864,7 +2844,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-format", [\
       ["npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-format%2F-%2Fd3-format-3.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-format-npm-3.1.0-d19ffb2f33-10c0.zip/node_modules/d3-format/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-format-npm-3.1.0-d19ffb2f33-10c0.zip/node_modules/d3-format/",\
         "packageDependencies": [\
           ["d3-format", "npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-format%2F-%2Fd3-format-3.1.0.tgz"]\
         ],\
@@ -2873,7 +2853,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-interpolate", [\
       ["npm:3.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-interpolate%2F-%2Fd3-interpolate-3.0.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-interpolate-npm-3.0.1-bf019eda08-10c0.zip/node_modules/d3-interpolate/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-interpolate-npm-3.0.1-bf019eda08-10c0.zip/node_modules/d3-interpolate/",\
         "packageDependencies": [\
           ["d3-color", "npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-color%2F-%2Fd3-color-3.1.0.tgz"],\
           ["d3-interpolate", "npm:3.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-interpolate%2F-%2Fd3-interpolate-3.0.1.tgz"]\
@@ -2883,7 +2863,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-path", [\
       ["npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-path%2F-%2Fd3-path-3.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-path-npm-3.1.0-e9705f0678-10c0.zip/node_modules/d3-path/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-path-npm-3.1.0-e9705f0678-10c0.zip/node_modules/d3-path/",\
         "packageDependencies": [\
           ["d3-path", "npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-path%2F-%2Fd3-path-3.1.0.tgz"]\
         ],\
@@ -2892,7 +2872,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-scale", [\
       ["npm:4.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-scale%2F-%2Fd3-scale-4.0.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-scale-npm-4.0.2-e7587c1dbf-10c0.zip/node_modules/d3-scale/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-scale-npm-4.0.2-e7587c1dbf-10c0.zip/node_modules/d3-scale/",\
         "packageDependencies": [\
           ["d3-array", "npm:3.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-array%2F-%2Fd3-array-3.2.4.tgz"],\
           ["d3-format", "npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-format%2F-%2Fd3-format-3.1.0.tgz"],\
@@ -2906,7 +2886,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-shape", [\
       ["npm:3.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-shape%2F-%2Fd3-shape-3.2.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-shape-npm-3.2.0-ef50f19496-10c0.zip/node_modules/d3-shape/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-shape-npm-3.2.0-ef50f19496-10c0.zip/node_modules/d3-shape/",\
         "packageDependencies": [\
           ["d3-path", "npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-path%2F-%2Fd3-path-3.1.0.tgz"],\
           ["d3-shape", "npm:3.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-shape%2F-%2Fd3-shape-3.2.0.tgz"]\
@@ -2916,7 +2896,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-time", [\
       ["npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-time%2F-%2Fd3-time-3.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-time-npm-3.1.0-92b7738475-10c0.zip/node_modules/d3-time/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-time-npm-3.1.0-92b7738475-10c0.zip/node_modules/d3-time/",\
         "packageDependencies": [\
           ["d3-array", "npm:3.2.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-array%2F-%2Fd3-array-3.2.4.tgz"],\
           ["d3-time", "npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-time%2F-%2Fd3-time-3.1.0.tgz"]\
@@ -2926,7 +2906,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-time-format", [\
       ["npm:4.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-time-format%2F-%2Fd3-time-format-4.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-time-format-npm-4.1.0-cbdc14a236-10c0.zip/node_modules/d3-time-format/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-time-format-npm-4.1.0-cbdc14a236-10c0.zip/node_modules/d3-time-format/",\
         "packageDependencies": [\
           ["d3-time", "npm:3.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-time%2F-%2Fd3-time-3.1.0.tgz"],\
           ["d3-time-format", "npm:4.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-time-format%2F-%2Fd3-time-format-4.1.0.tgz"]\
@@ -2936,7 +2916,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["d3-timer", [\
       ["npm:3.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-timer%2F-%2Fd3-timer-3.0.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/d3-timer-npm-3.0.1-960b35c9e7-10c0.zip/node_modules/d3-timer/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/d3-timer-npm-3.0.1-960b35c9e7-10c0.zip/node_modules/d3-timer/",\
         "packageDependencies": [\
           ["d3-timer", "npm:3.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fd3-timer%2F-%2Fd3-timer-3.0.1.tgz"]\
         ],\
@@ -2945,7 +2925,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["date-fns", [\
       ["npm:4.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdate-fns%2F-%2Fdate-fns-4.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/date-fns-npm-4.1.0-6738b8a469-10c0.zip/node_modules/date-fns/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/date-fns-npm-4.1.0-6738b8a469-10c0.zip/node_modules/date-fns/",\
         "packageDependencies": [\
           ["date-fns", "npm:4.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdate-fns%2F-%2Fdate-fns-4.1.0.tgz"]\
         ],\
@@ -2954,7 +2934,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["date-fns-jalali", [\
       ["npm:4.1.0-0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdate-fns-jalali%2F-%2Fdate-fns-jalali-4.1.0-0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/date-fns-jalali-npm-4.1.0-0-97f0044c65-10c0.zip/node_modules/date-fns-jalali/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/date-fns-jalali-npm-4.1.0-0-97f0044c65-10c0.zip/node_modules/date-fns-jalali/",\
         "packageDependencies": [\
           ["date-fns-jalali", "npm:4.1.0-0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdate-fns-jalali%2F-%2Fdate-fns-jalali-4.1.0-0.tgz"]\
         ],\
@@ -2963,7 +2943,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["decimal.js-light", [\
       ["npm:2.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.5.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/decimal.js-light-npm-2.5.1-ba2d121c8f-10c0.zip/node_modules/decimal.js-light/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/decimal.js-light-npm-2.5.1-ba2d121c8f-10c0.zip/node_modules/decimal.js-light/",\
         "packageDependencies": [\
           ["decimal.js-light", "npm:2.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.5.1.tgz"]\
         ],\
@@ -2972,7 +2952,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["detect-libc", [\
       ["npm:2.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdetect-libc%2F-%2Fdetect-libc-2.0.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/detect-libc-npm-2.0.4-4f14396c1e-10c0.zip/node_modules/detect-libc/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/detect-libc-npm-2.0.4-4f14396c1e-10c0.zip/node_modules/detect-libc/",\
         "packageDependencies": [\
           ["detect-libc", "npm:2.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdetect-libc%2F-%2Fdetect-libc-2.0.4.tgz"]\
         ],\
@@ -2981,7 +2961,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["detect-node-es", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdetect-node-es%2F-%2Fdetect-node-es-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/detect-node-es-npm-1.1.0-d580b7b88c-10c0.zip/node_modules/detect-node-es/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/detect-node-es-npm-1.1.0-d580b7b88c-10c0.zip/node_modules/detect-node-es/",\
         "packageDependencies": [\
           ["detect-node-es", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdetect-node-es%2F-%2Fdetect-node-es-1.1.0.tgz"]\
         ],\
@@ -2990,7 +2970,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["dom-helpers", [\
       ["npm:5.2.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdom-helpers%2F-%2Fdom-helpers-5.2.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/dom-helpers-npm-5.2.1-e645abac8d-10c0.zip/node_modules/dom-helpers/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/dom-helpers-npm-5.2.1-e645abac8d-10c0.zip/node_modules/dom-helpers/",\
         "packageDependencies": [\
           ["@babel/runtime", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40babel%2Fruntime%2F-%2Fruntime-7.28.2.tgz"],\
           ["csstype", "npm:3.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcsstype%2F-%2Fcsstype-3.1.3.tgz"],\
@@ -3001,7 +2981,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["electron-to-chromium", [\
       ["npm:1.5.200::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Felectron-to-chromium%2F-%2Felectron-to-chromium-1.5.200.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/electron-to-chromium-npm-1.5.200-227991be93-10c0.zip/node_modules/electron-to-chromium/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/electron-to-chromium-npm-1.5.200-227991be93-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
           ["electron-to-chromium", "npm:1.5.200::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Felectron-to-chromium%2F-%2Felectron-to-chromium-1.5.200.tgz"]\
         ],\
@@ -3010,7 +2990,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["embla-carousel", [\
       ["npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel%2F-%2Fembla-carousel-8.5.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/embla-carousel-npm-8.5.1-51b78fdb04-10c0.zip/node_modules/embla-carousel/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/embla-carousel-npm-8.5.1-51b78fdb04-10c0.zip/node_modules/embla-carousel/",\
         "packageDependencies": [\
           ["embla-carousel", "npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel%2F-%2Fembla-carousel-8.5.1.tgz"]\
         ],\
@@ -3019,14 +2999,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["embla-carousel-react", [\
       ["npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel-react%2F-%2Fembla-carousel-react-8.5.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/embla-carousel-react-npm-8.5.1-87f6ba2003-10c0.zip/node_modules/embla-carousel-react/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/embla-carousel-react-npm-8.5.1-87f6ba2003-10c0.zip/node_modules/embla-carousel-react/",\
         "packageDependencies": [\
           ["embla-carousel-react", "npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel-react%2F-%2Fembla-carousel-react-8.5.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel-react%2F-%2Fembla-carousel-react-8.5.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/embla-carousel-react-virtual-39b979c28b/3/.yarn/berry/cache/embla-carousel-react-npm-8.5.1-87f6ba2003-10c0.zip/node_modules/embla-carousel-react/",\
+        "packageLocation": "./.yarn/__virtual__/embla-carousel-react-virtual-39b979c28b/7/home/alura/.yarn/berry/cache/embla-carousel-react-npm-8.5.1-87f6ba2003-10c0.zip/node_modules/embla-carousel-react/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["embla-carousel", "npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel%2F-%2Fembla-carousel-8.5.1.tgz"],\
@@ -3043,14 +3023,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["embla-carousel-reactive-utils", [\
       ["npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel-reactive-utils%2F-%2Fembla-carousel-reactive-utils-8.5.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/embla-carousel-reactive-utils-npm-8.5.1-d656be2fb5-10c0.zip/node_modules/embla-carousel-reactive-utils/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/embla-carousel-reactive-utils-npm-8.5.1-d656be2fb5-10c0.zip/node_modules/embla-carousel-reactive-utils/",\
         "packageDependencies": [\
           ["embla-carousel-reactive-utils", "npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel-reactive-utils%2F-%2Fembla-carousel-reactive-utils-8.5.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:39b979c28b9fd70eddbadf659d8a41ca74e7f2c77922e6ca7987779ce5784f55d019420223d72ef218900d9fcedb308855c3c5c30a1f93ea0324296e25487788#npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel-reactive-utils%2F-%2Fembla-carousel-reactive-utils-8.5.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/embla-carousel-reactive-utils-virtual-381b9ff80d/3/.yarn/berry/cache/embla-carousel-reactive-utils-npm-8.5.1-d656be2fb5-10c0.zip/node_modules/embla-carousel-reactive-utils/",\
+        "packageLocation": "./.yarn/__virtual__/embla-carousel-reactive-utils-virtual-381b9ff80d/7/home/alura/.yarn/berry/cache/embla-carousel-reactive-utils-npm-8.5.1-d656be2fb5-10c0.zip/node_modules/embla-carousel-reactive-utils/",\
         "packageDependencies": [\
           ["@types/embla-carousel", null],\
           ["embla-carousel", "npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel%2F-%2Fembla-carousel-8.5.1.tgz"],\
@@ -3065,7 +3045,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["enhanced-resolve", [\
       ["npm:5.18.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fenhanced-resolve%2F-%2Fenhanced-resolve-5.18.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/enhanced-resolve-npm-5.18.3-8a17e8a3e1-10c0.zip/node_modules/enhanced-resolve/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/enhanced-resolve-npm-5.18.3-8a17e8a3e1-10c0.zip/node_modules/enhanced-resolve/",\
         "packageDependencies": [\
           ["enhanced-resolve", "npm:5.18.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fenhanced-resolve%2F-%2Fenhanced-resolve-5.18.3.tgz"],\
           ["graceful-fs", "npm:4.2.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fgraceful-fs%2F-%2Fgraceful-fs-4.2.11.tgz"],\
@@ -3076,7 +3056,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["escalade", [\
       ["npm:3.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fescalade%2F-%2Fescalade-3.2.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/escalade-npm-3.2.0-93701ec594-10c0.zip/node_modules/escalade/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/escalade-npm-3.2.0-93701ec594-10c0.zip/node_modules/escalade/",\
         "packageDependencies": [\
           ["escalade", "npm:3.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fescalade%2F-%2Fescalade-3.2.0.tgz"]\
         ],\
@@ -3085,7 +3065,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eventemitter3", [\
       ["npm:4.0.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Feventemitter3%2F-%2Feventemitter3-4.0.7.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/eventemitter3-npm-4.0.7-c01b99c860-10c0.zip/node_modules/eventemitter3/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/eventemitter3-npm-4.0.7-c01b99c860-10c0.zip/node_modules/eventemitter3/",\
         "packageDependencies": [\
           ["eventemitter3", "npm:4.0.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Feventemitter3%2F-%2Feventemitter3-4.0.7.tgz"]\
         ],\
@@ -3094,7 +3074,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fast-equals", [\
       ["npm:5.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ffast-equals%2F-%2Ffast-equals-5.2.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/fast-equals-npm-5.2.2-adbc413052-10c0.zip/node_modules/fast-equals/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/fast-equals-npm-5.2.2-adbc413052-10c0.zip/node_modules/fast-equals/",\
         "packageDependencies": [\
           ["fast-equals", "npm:5.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ffast-equals%2F-%2Ffast-equals-5.2.2.tgz"]\
         ],\
@@ -3103,56 +3083,23 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fraction.js", [\
       ["npm:4.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ffraction.js%2F-%2Ffraction.js-4.3.7.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/fraction.js-npm-4.3.7-a1ab0e4549-10c0.zip/node_modules/fraction.js/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/fraction.js-npm-4.3.7-a1ab0e4549-10c0.zip/node_modules/fraction.js/",\
         "packageDependencies": [\
           ["fraction.js", "npm:4.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ffraction.js%2F-%2Ffraction.js-4.3.7.tgz"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
-    ["framer-motion", [\
-      ["npm:12.23.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fframer-motion%2F-%2Fframer-motion-12.23.12.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/framer-motion-npm-12.23.12-adec157ba4-10c0.zip/node_modules/framer-motion/",\
-        "packageDependencies": [\
-          ["framer-motion", "npm:12.23.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fframer-motion%2F-%2Fframer-motion-12.23.12.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:12.23.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fframer-motion%2F-%2Fframer-motion-12.23.12.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/framer-motion-virtual-cc71718809/3/.yarn/berry/cache/framer-motion-npm-12.23.12-adec157ba4-10c0.zip/node_modules/framer-motion/",\
-        "packageDependencies": [\
-          ["@emotion/is-prop-valid", "npm:1.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emotion%2Fis-prop-valid%2F-%2Fis-prop-valid-1.3.1.tgz"],\
-          ["@types/emotion__is-prop-valid", null],\
-          ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
-          ["@types/react-dom", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz"],\
-          ["framer-motion", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:12.23.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fframer-motion%2F-%2Fframer-motion-12.23.12.tgz"],\
-          ["motion-dom", "npm:12.23.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmotion-dom%2F-%2Fmotion-dom-12.23.12.tgz"],\
-          ["motion-utils", "npm:12.23.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmotion-utils%2F-%2Fmotion-utils-12.23.6.tgz"],\
-          ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact%2F-%2Freact-18.3.1.tgz"],\
-          ["react-dom", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-dom%2F-%2Freact-dom-18.3.1.tgz"],\
-          ["tslib", "npm:2.8.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftslib%2F-%2Ftslib-2.8.1.tgz"]\
-        ],\
-        "packagePeers": [\
-          "@emotion/is-prop-valid",\
-          "@types/emotion__is-prop-valid",\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["geist", [\
       ["npm:1.4.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fgeist%2F-%2Fgeist-1.4.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/geist-npm-1.4.2-494038d9c5-10c0.zip/node_modules/geist/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/geist-npm-1.4.2-494038d9c5-10c0.zip/node_modules/geist/",\
         "packageDependencies": [\
           ["geist", "npm:1.4.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fgeist%2F-%2Fgeist-1.4.2.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.4.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fgeist%2F-%2Fgeist-1.4.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/geist-virtual-3327bf3d83/3/.yarn/berry/cache/geist-npm-1.4.2-494038d9c5-10c0.zip/node_modules/geist/",\
+        "packageLocation": "./.yarn/__virtual__/geist-virtual-3327bf3d83/7/home/alura/.yarn/berry/cache/geist-npm-1.4.2-494038d9c5-10c0.zip/node_modules/geist/",\
         "packageDependencies": [\
           ["@types/next", null],\
           ["geist", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.4.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fgeist%2F-%2Fgeist-1.4.2.tgz"],\
@@ -3167,7 +3114,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["get-nonce", [\
       ["npm:1.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fget-nonce%2F-%2Fget-nonce-1.0.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/get-nonce-npm-1.0.1-d06a9e57dd-10c0.zip/node_modules/get-nonce/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/get-nonce-npm-1.0.1-d06a9e57dd-10c0.zip/node_modules/get-nonce/",\
         "packageDependencies": [\
           ["get-nonce", "npm:1.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fget-nonce%2F-%2Fget-nonce-1.0.1.tgz"]\
         ],\
@@ -3176,7 +3123,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["graceful-fs", [\
       ["npm:4.2.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fgraceful-fs%2F-%2Fgraceful-fs-4.2.11.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/graceful-fs-npm-4.2.11-fc80a00ec7-10c0.zip/node_modules/graceful-fs/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/graceful-fs-npm-4.2.11-fc80a00ec7-10c0.zip/node_modules/graceful-fs/",\
         "packageDependencies": [\
           ["graceful-fs", "npm:4.2.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fgraceful-fs%2F-%2Fgraceful-fs-4.2.11.tgz"]\
         ],\
@@ -3185,14 +3132,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["input-otp", [\
       ["npm:1.4.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Finput-otp%2F-%2Finput-otp-1.4.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/input-otp-npm-1.4.1-f5401fe1b7-10c0.zip/node_modules/input-otp/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/input-otp-npm-1.4.1-f5401fe1b7-10c0.zip/node_modules/input-otp/",\
         "packageDependencies": [\
           ["input-otp", "npm:1.4.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Finput-otp%2F-%2Finput-otp-1.4.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.4.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Finput-otp%2F-%2Finput-otp-1.4.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/input-otp-virtual-6d944ff28a/3/.yarn/berry/cache/input-otp-npm-1.4.1-f5401fe1b7-10c0.zip/node_modules/input-otp/",\
+        "packageLocation": "./.yarn/__virtual__/input-otp-virtual-6d944ff28a/7/home/alura/.yarn/berry/cache/input-otp-npm-1.4.1-f5401fe1b7-10c0.zip/node_modules/input-otp/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["@types/react-dom", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz"],\
@@ -3211,7 +3158,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["internmap", [\
       ["npm:2.0.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Finternmap%2F-%2Finternmap-2.0.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/internmap-npm-2.0.3-476112314a-10c0.zip/node_modules/internmap/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/internmap-npm-2.0.3-476112314a-10c0.zip/node_modules/internmap/",\
         "packageDependencies": [\
           ["internmap", "npm:2.0.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Finternmap%2F-%2Finternmap-2.0.3.tgz"]\
         ],\
@@ -3220,7 +3167,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["jiti", [\
       ["npm:2.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fjiti%2F-%2Fjiti-2.5.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/jiti-npm-2.5.1-b07e96cac5-10c0.zip/node_modules/jiti/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/jiti-npm-2.5.1-b07e96cac5-10c0.zip/node_modules/jiti/",\
         "packageDependencies": [\
           ["jiti", "npm:2.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fjiti%2F-%2Fjiti-2.5.1.tgz"]\
         ],\
@@ -3229,7 +3176,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["js-tokens", [\
       ["npm:4.0.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fjs-tokens%2F-%2Fjs-tokens-4.0.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/js-tokens-npm-4.0.0-f473d24632-10c0.zip/node_modules/js-tokens/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/js-tokens-npm-4.0.0-f473d24632-10c0.zip/node_modules/js-tokens/",\
         "packageDependencies": [\
           ["js-tokens", "npm:4.0.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fjs-tokens%2F-%2Fjs-tokens-4.0.0.tgz"]\
         ],\
@@ -3238,7 +3185,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["lightningcss", [\
       ["npm:1.30.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flightningcss%2F-%2Flightningcss-1.30.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/lightningcss-npm-1.30.1-038dc77ef4-10c0.zip/node_modules/lightningcss/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/lightningcss-npm-1.30.1-038dc77ef4-10c0.zip/node_modules/lightningcss/",\
         "packageDependencies": [\
           ["detect-libc", "npm:2.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdetect-libc%2F-%2Fdetect-libc-2.0.4.tgz"],\
           ["lightningcss", "npm:1.30.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flightningcss%2F-%2Flightningcss-1.30.1.tgz"],\
@@ -3348,7 +3295,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["lodash", [\
       ["npm:4.17.21::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flodash%2F-%2Flodash-4.17.21.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/lodash-npm-4.17.21-8379ec1af1-10c0.zip/node_modules/lodash/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/lodash-npm-4.17.21-8379ec1af1-10c0.zip/node_modules/lodash/",\
         "packageDependencies": [\
           ["lodash", "npm:4.17.21::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flodash%2F-%2Flodash-4.17.21.tgz"]\
         ],\
@@ -3357,7 +3304,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["loose-envify", [\
       ["npm:1.4.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Floose-envify%2F-%2Floose-envify-1.4.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/loose-envify-npm-1.4.0-ba5cebce6d-10c0.zip/node_modules/loose-envify/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/loose-envify-npm-1.4.0-ba5cebce6d-10c0.zip/node_modules/loose-envify/",\
         "packageDependencies": [\
           ["js-tokens", "npm:4.0.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fjs-tokens%2F-%2Fjs-tokens-4.0.0.tgz"],\
           ["loose-envify", "npm:1.4.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Floose-envify%2F-%2Floose-envify-1.4.0.tgz"]\
@@ -3367,14 +3314,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["lucide-react", [\
       ["npm:0.454.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flucide-react%2F-%2Flucide-react-0.454.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/lucide-react-npm-0.454.0-71014a89ea-10c0.zip/node_modules/lucide-react/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/lucide-react-npm-0.454.0-71014a89ea-10c0.zip/node_modules/lucide-react/",\
         "packageDependencies": [\
           ["lucide-react", "npm:0.454.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flucide-react%2F-%2Flucide-react-0.454.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:0.454.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flucide-react%2F-%2Flucide-react-0.454.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/lucide-react-virtual-3291294af9/3/.yarn/berry/cache/lucide-react-npm-0.454.0-71014a89ea-10c0.zip/node_modules/lucide-react/",\
+        "packageLocation": "./.yarn/__virtual__/lucide-react-virtual-3291294af9/7/home/alura/.yarn/berry/cache/lucide-react-npm-0.454.0-71014a89ea-10c0.zip/node_modules/lucide-react/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["lucide-react", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:0.454.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flucide-react%2F-%2Flucide-react-0.454.0.tgz"],\
@@ -3389,7 +3336,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["magic-string", [\
       ["npm:0.30.17::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmagic-string%2F-%2Fmagic-string-0.30.17.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/magic-string-npm-0.30.17-8e71628439-10c0.zip/node_modules/magic-string/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/magic-string-npm-0.30.17-8e71628439-10c0.zip/node_modules/magic-string/",\
         "packageDependencies": [\
           ["@jridgewell/sourcemap-codec", "npm:1.5.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40jridgewell%2Fsourcemap-codec%2F-%2Fsourcemap-codec-1.5.4.tgz"],\
           ["magic-string", "npm:0.30.17::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmagic-string%2F-%2Fmagic-string-0.30.17.tgz"]\
@@ -3399,7 +3346,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minipass", [\
       ["npm:7.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fminipass%2F-%2Fminipass-7.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/minipass-npm-7.1.2-25e18cdb9e-10c0.zip/node_modules/minipass/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/minipass-npm-7.1.2-25e18cdb9e-10c0.zip/node_modules/minipass/",\
         "packageDependencies": [\
           ["minipass", "npm:7.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fminipass%2F-%2Fminipass-7.1.2.tgz"]\
         ],\
@@ -3408,7 +3355,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minizlib", [\
       ["npm:3.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fminizlib%2F-%2Fminizlib-3.0.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/minizlib-npm-3.0.2-a114eb148f-10c0.zip/node_modules/minizlib/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/minizlib-npm-3.0.2-a114eb148f-10c0.zip/node_modules/minizlib/",\
         "packageDependencies": [\
           ["minipass", "npm:7.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fminipass%2F-%2Fminipass-7.1.2.tgz"],\
           ["minizlib", "npm:3.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fminizlib%2F-%2Fminizlib-3.0.2.tgz"]\
@@ -3418,28 +3365,9 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["mkdirp", [\
       ["npm:3.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmkdirp%2F-%2Fmkdirp-3.0.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/mkdirp-npm-3.0.1-821d8f4ab0-10c0.zip/node_modules/mkdirp/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/mkdirp-npm-3.0.1-821d8f4ab0-10c0.zip/node_modules/mkdirp/",\
         "packageDependencies": [\
           ["mkdirp", "npm:3.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmkdirp%2F-%2Fmkdirp-3.0.1.tgz"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["motion-dom", [\
-      ["npm:12.23.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmotion-dom%2F-%2Fmotion-dom-12.23.12.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/motion-dom-npm-12.23.12-e7c4d7bfe7-10c0.zip/node_modules/motion-dom/",\
-        "packageDependencies": [\
-          ["motion-dom", "npm:12.23.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmotion-dom%2F-%2Fmotion-dom-12.23.12.tgz"],\
-          ["motion-utils", "npm:12.23.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmotion-utils%2F-%2Fmotion-utils-12.23.6.tgz"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["motion-utils", [\
-      ["npm:12.23.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmotion-utils%2F-%2Fmotion-utils-12.23.6.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/motion-utils-npm-12.23.6-a2a05e4068-10c0.zip/node_modules/motion-utils/",\
-        "packageDependencies": [\
-          ["motion-utils", "npm:12.23.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fmotion-utils%2F-%2Fmotion-utils-12.23.6.tgz"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3448,7 +3376,6 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@emotion/is-prop-valid", "npm:1.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40emotion%2Fis-prop-valid%2F-%2Fis-prop-valid-1.3.1.tgz"],\
           ["@hookform/resolvers", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:3.10.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40hookform%2Fresolvers%2F-%2Fresolvers-3.10.0.tgz"],\
           ["@radix-ui/react-accordion", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-accordion%2F-%2Freact-accordion-1.2.2.tgz"],\
           ["@radix-ui/react-alert-dialog", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.1.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-alert-dialog%2F-%2Freact-alert-dialog-1.1.4.tgz"],\
@@ -3487,7 +3414,6 @@ const RAW_RUNTIME_STATE =
           ["cmdk", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fcmdk%2F-%2Fcmdk-1.0.4.tgz"],\
           ["date-fns", "npm:4.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdate-fns%2F-%2Fdate-fns-4.1.0.tgz"],\
           ["embla-carousel-react", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:8.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fembla-carousel-react%2F-%2Fembla-carousel-react-8.5.1.tgz"],\
-          ["framer-motion", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:12.23.12::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fframer-motion%2F-%2Fframer-motion-12.23.12.tgz"],\
           ["geist", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.4.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fgeist%2F-%2Fgeist-1.4.2.tgz"],\
           ["input-otp", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.4.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Finput-otp%2F-%2Finput-otp-1.4.1.tgz"],\
           ["lucide-react", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:0.454.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Flucide-react%2F-%2Flucide-react-0.454.0.tgz"],\
@@ -3508,6 +3434,7 @@ const RAW_RUNTIME_STATE =
           ["tw-animate-css", "npm:1.3.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftw-animate-css%2F-%2Ftw-animate-css-1.3.3.tgz"],\
           ["typescript", "patch:typescript@npm%3A5.9.2%3A%3A__archiveUrl=https%253A%252F%252Fpackages.atlassian.com%252Fapi%252Fnpm%252Fnpm-remote%252Ftypescript%252F-%252Ftypescript-5.9.2.tgz#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
           ["vaul", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:0.9.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fvaul%2F-%2Fvaul-0.9.9.tgz"],\
+          ["yaml", "npm:2.8.3"],\
           ["zod", "npm:3.25.67::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fzod%2F-%2Fzod-3.25.67.tgz"]\
         ],\
         "linkType": "SOFT"\
@@ -3515,7 +3442,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["nanoid", [\
       ["npm:3.3.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnanoid%2F-%2Fnanoid-3.3.11.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/nanoid-npm-3.3.11-901c5efec2-10c0.zip/node_modules/nanoid/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/nanoid-npm-3.3.11-901c5efec2-10c0.zip/node_modules/nanoid/",\
         "packageDependencies": [\
           ["nanoid", "npm:3.3.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnanoid%2F-%2Fnanoid-3.3.11.tgz"]\
         ],\
@@ -3524,14 +3451,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["next", [\
       ["npm:14.2.16::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnext%2F-%2Fnext-14.2.16.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/next-npm-14.2.16-c835c0885d-10c0.zip/node_modules/next/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/next-npm-14.2.16-c835c0885d-10c0.zip/node_modules/next/",\
         "packageDependencies": [\
           ["next", "npm:14.2.16::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnext%2F-%2Fnext-14.2.16.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:14.2.16::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnext%2F-%2Fnext-14.2.16.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/next-virtual-f0cfa6251e/3/.yarn/berry/cache/next-npm-14.2.16-c835c0885d-10c0.zip/node_modules/next/",\
+        "packageLocation": "./.yarn/__virtual__/next-virtual-f0cfa6251e/7/home/alura/.yarn/berry/cache/next-npm-14.2.16-c835c0885d-10c0.zip/node_modules/next/",\
         "packageDependencies": [\
           ["@next/env", "npm:14.2.16::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40next%2Fenv%2F-%2Fenv-14.2.16.tgz"],\
           ["@next/swc-darwin-arm64", "npm:14.2.16::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40next%2Fswc-darwin-arm64%2F-%2Fswc-darwin-arm64-14.2.16.tgz"],\
@@ -3578,14 +3505,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["next-themes", [\
       ["npm:0.4.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnext-themes%2F-%2Fnext-themes-0.4.6.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/next-themes-npm-0.4.6-25cefae592-10c0.zip/node_modules/next-themes/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/next-themes-npm-0.4.6-25cefae592-10c0.zip/node_modules/next-themes/",\
         "packageDependencies": [\
           ["next-themes", "npm:0.4.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnext-themes%2F-%2Fnext-themes-0.4.6.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:0.4.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnext-themes%2F-%2Fnext-themes-0.4.6.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/next-themes-virtual-e6e13a94ec/3/.yarn/berry/cache/next-themes-npm-0.4.6-25cefae592-10c0.zip/node_modules/next-themes/",\
+        "packageLocation": "./.yarn/__virtual__/next-themes-virtual-e6e13a94ec/7/home/alura/.yarn/berry/cache/next-themes-npm-0.4.6-25cefae592-10c0.zip/node_modules/next-themes/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["@types/react-dom", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz"],\
@@ -3604,7 +3531,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["node-releases", [\
       ["npm:2.0.19::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnode-releases%2F-%2Fnode-releases-2.0.19.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/node-releases-npm-2.0.19-05f8a79c93-10c0.zip/node_modules/node-releases/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/node-releases-npm-2.0.19-05f8a79c93-10c0.zip/node_modules/node-releases/",\
         "packageDependencies": [\
           ["node-releases", "npm:2.0.19::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnode-releases%2F-%2Fnode-releases-2.0.19.tgz"]\
         ],\
@@ -3613,7 +3540,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["normalize-range", [\
       ["npm:0.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnormalize-range%2F-%2Fnormalize-range-0.1.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/normalize-range-npm-0.1.2-2f63bc27f8-10c0.zip/node_modules/normalize-range/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/normalize-range-npm-0.1.2-2f63bc27f8-10c0.zip/node_modules/normalize-range/",\
         "packageDependencies": [\
           ["normalize-range", "npm:0.1.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnormalize-range%2F-%2Fnormalize-range-0.1.2.tgz"]\
         ],\
@@ -3622,7 +3549,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object-assign", [\
       ["npm:4.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fobject-assign%2F-%2Fobject-assign-4.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/object-assign-npm-4.1.1-f24d92603e-10c0.zip/node_modules/object-assign/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/object-assign-npm-4.1.1-f24d92603e-10c0.zip/node_modules/object-assign/",\
         "packageDependencies": [\
           ["object-assign", "npm:4.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fobject-assign%2F-%2Fobject-assign-4.1.1.tgz"]\
         ],\
@@ -3631,7 +3558,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["picocolors", [\
       ["npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fpicocolors%2F-%2Fpicocolors-1.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/picocolors-npm-1.1.1-ada48e28ce-10c0.zip/node_modules/picocolors/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/picocolors-npm-1.1.1-ada48e28ce-10c0.zip/node_modules/picocolors/",\
         "packageDependencies": [\
           ["picocolors", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fpicocolors%2F-%2Fpicocolors-1.1.1.tgz"]\
         ],\
@@ -3640,7 +3567,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["postcss", [\
       ["npm:8.4.31::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fpostcss%2F-%2Fpostcss-8.4.31.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/postcss-npm-8.4.31-3de268ffaf-10c0.zip/node_modules/postcss/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/postcss-npm-8.4.31-3de268ffaf-10c0.zip/node_modules/postcss/",\
         "packageDependencies": [\
           ["nanoid", "npm:3.3.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnanoid%2F-%2Fnanoid-3.3.11.tgz"],\
           ["picocolors", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fpicocolors%2F-%2Fpicocolors-1.1.1.tgz"],\
@@ -3650,7 +3577,7 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:8.5.6::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fpostcss%2F-%2Fpostcss-8.5.6.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/postcss-npm-8.5.6-f592bd9630-10c0.zip/node_modules/postcss/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/postcss-npm-8.5.6-f592bd9630-10c0.zip/node_modules/postcss/",\
         "packageDependencies": [\
           ["nanoid", "npm:3.3.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fnanoid%2F-%2Fnanoid-3.3.11.tgz"],\
           ["picocolors", "npm:1.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fpicocolors%2F-%2Fpicocolors-1.1.1.tgz"],\
@@ -3662,7 +3589,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["postcss-value-parser", [\
       ["npm:4.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fpostcss-value-parser%2F-%2Fpostcss-value-parser-4.2.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/postcss-value-parser-npm-4.2.0-090c3c0617-10c0.zip/node_modules/postcss-value-parser/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/postcss-value-parser-npm-4.2.0-090c3c0617-10c0.zip/node_modules/postcss-value-parser/",\
         "packageDependencies": [\
           ["postcss-value-parser", "npm:4.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fpostcss-value-parser%2F-%2Fpostcss-value-parser-4.2.0.tgz"]\
         ],\
@@ -3671,7 +3598,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["prop-types", [\
       ["npm:15.8.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fprop-types%2F-%2Fprop-types-15.8.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/prop-types-npm-15.8.1-c442046b44-10c0.zip/node_modules/prop-types/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/prop-types-npm-15.8.1-c442046b44-10c0.zip/node_modules/prop-types/",\
         "packageDependencies": [\
           ["loose-envify", "npm:1.4.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Floose-envify%2F-%2Floose-envify-1.4.0.tgz"],\
           ["object-assign", "npm:4.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fobject-assign%2F-%2Fobject-assign-4.1.1.tgz"],\
@@ -3683,7 +3610,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react", [\
       ["npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact%2F-%2Freact-18.3.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-npm-18.3.1-faccce891d-10c0.zip/node_modules/react/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-npm-18.3.1-faccce891d-10c0.zip/node_modules/react/",\
         "packageDependencies": [\
           ["loose-envify", "npm:1.4.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Floose-envify%2F-%2Floose-envify-1.4.0.tgz"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact%2F-%2Freact-18.3.1.tgz"]\
@@ -3693,14 +3620,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-day-picker", [\
       ["npm:9.8.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-day-picker%2F-%2Freact-day-picker-9.8.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-day-picker-npm-9.8.0-011691139e-10c0.zip/node_modules/react-day-picker/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-day-picker-npm-9.8.0-011691139e-10c0.zip/node_modules/react-day-picker/",\
         "packageDependencies": [\
           ["react-day-picker", "npm:9.8.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-day-picker%2F-%2Freact-day-picker-9.8.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:9.8.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-day-picker%2F-%2Freact-day-picker-9.8.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/react-day-picker-virtual-8aa3a99ea0/3/.yarn/berry/cache/react-day-picker-npm-9.8.0-011691139e-10c0.zip/node_modules/react-day-picker/",\
+        "packageLocation": "./.yarn/__virtual__/react-day-picker-virtual-8aa3a99ea0/7/home/alura/.yarn/berry/cache/react-day-picker-npm-9.8.0-011691139e-10c0.zip/node_modules/react-day-picker/",\
         "packageDependencies": [\
           ["@date-fns/tz", "npm:1.2.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40date-fns%2Ftz%2F-%2Ftz-1.2.0.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -3718,14 +3645,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-dom", [\
       ["npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-dom%2F-%2Freact-dom-18.3.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-dom-npm-18.3.1-ec3dcc9bcf-10c0.zip/node_modules/react-dom/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-dom-npm-18.3.1-ec3dcc9bcf-10c0.zip/node_modules/react-dom/",\
         "packageDependencies": [\
           ["react-dom", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-dom%2F-%2Freact-dom-18.3.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-dom%2F-%2Freact-dom-18.3.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-1af0fa465f/3/.yarn/berry/cache/react-dom-npm-18.3.1-ec3dcc9bcf-10c0.zip/node_modules/react-dom/",\
+        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-1af0fa465f/7/home/alura/.yarn/berry/cache/react-dom-npm-18.3.1-ec3dcc9bcf-10c0.zip/node_modules/react-dom/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["loose-envify", "npm:1.4.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Floose-envify%2F-%2Floose-envify-1.4.0.tgz"],\
@@ -3742,14 +3669,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-hook-form", [\
       ["npm:7.62.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-hook-form%2F-%2Freact-hook-form-7.62.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-hook-form-npm-7.62.0-8df309cd54-10c0.zip/node_modules/react-hook-form/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-hook-form-npm-7.62.0-8df309cd54-10c0.zip/node_modules/react-hook-form/",\
         "packageDependencies": [\
           ["react-hook-form", "npm:7.62.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-hook-form%2F-%2Freact-hook-form-7.62.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:7.62.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-hook-form%2F-%2Freact-hook-form-7.62.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/react-hook-form-virtual-b7fe2cb952/3/.yarn/berry/cache/react-hook-form-npm-7.62.0-8df309cd54-10c0.zip/node_modules/react-hook-form/",\
+        "packageLocation": "./.yarn/__virtual__/react-hook-form-virtual-b7fe2cb952/7/home/alura/.yarn/berry/cache/react-hook-form-npm-7.62.0-8df309cd54-10c0.zip/node_modules/react-hook-form/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact%2F-%2Freact-18.3.1.tgz"],\
@@ -3764,14 +3691,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-is", [\
       ["npm:16.13.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-is%2F-%2Freact-is-16.13.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-is-npm-16.13.1-4a7f97072c-10c0.zip/node_modules/react-is/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-is-npm-16.13.1-4a7f97072c-10c0.zip/node_modules/react-is/",\
         "packageDependencies": [\
           ["react-is", "npm:16.13.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-is%2F-%2Freact-is-16.13.1.tgz"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-is%2F-%2Freact-is-18.3.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-is-npm-18.3.1-33ab5a53be-10c0.zip/node_modules/react-is/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-is-npm-18.3.1-33ab5a53be-10c0.zip/node_modules/react-is/",\
         "packageDependencies": [\
           ["react-is", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-is%2F-%2Freact-is-18.3.1.tgz"]\
         ],\
@@ -3780,14 +3707,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-remove-scroll", [\
       ["npm:2.7.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-remove-scroll%2F-%2Freact-remove-scroll-2.7.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-remove-scroll-npm-2.7.1-96026304d4-10c0.zip/node_modules/react-remove-scroll/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-remove-scroll-npm-2.7.1-96026304d4-10c0.zip/node_modules/react-remove-scroll/",\
         "packageDependencies": [\
           ["react-remove-scroll", "npm:2.7.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-remove-scroll%2F-%2Freact-remove-scroll-2.7.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:c4ec276d2e6dff55888aaf17ac450ec0a1bf21e79f52f8ec4442d8d0205f0dbe24e6e8f6cec3d22a5e30314326aa7cb865e54bf8f60244ccb997be4603108c7f#npm:2.7.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-remove-scroll%2F-%2Freact-remove-scroll-2.7.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/react-remove-scroll-virtual-5db959baee/3/.yarn/berry/cache/react-remove-scroll-npm-2.7.1-96026304d4-10c0.zip/node_modules/react-remove-scroll/",\
+        "packageLocation": "./.yarn/__virtual__/react-remove-scroll-virtual-5db959baee/7/home/alura/.yarn/berry/cache/react-remove-scroll-npm-2.7.1-96026304d4-10c0.zip/node_modules/react-remove-scroll/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact%2F-%2Freact-18.3.1.tgz"],\
@@ -3807,14 +3734,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-remove-scroll-bar", [\
       ["npm:2.3.8::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-remove-scroll-bar%2F-%2Freact-remove-scroll-bar-2.3.8.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-remove-scroll-bar-npm-2.3.8-d4ae68effa-10c0.zip/node_modules/react-remove-scroll-bar/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-remove-scroll-bar-npm-2.3.8-d4ae68effa-10c0.zip/node_modules/react-remove-scroll-bar/",\
         "packageDependencies": [\
           ["react-remove-scroll-bar", "npm:2.3.8::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-remove-scroll-bar%2F-%2Freact-remove-scroll-bar-2.3.8.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:5db959baee50b2ae83417d6f2cf48440806568b08781fda7dca633b7762087972039b942a8ed4199a574b9fc723f93493ea397ac21fb15f002ab9e85fd077b71#npm:2.3.8::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-remove-scroll-bar%2F-%2Freact-remove-scroll-bar-2.3.8.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/react-remove-scroll-bar-virtual-8b3dfeead1/3/.yarn/berry/cache/react-remove-scroll-bar-npm-2.3.8-d4ae68effa-10c0.zip/node_modules/react-remove-scroll-bar/",\
+        "packageLocation": "./.yarn/__virtual__/react-remove-scroll-bar-virtual-8b3dfeead1/7/home/alura/.yarn/berry/cache/react-remove-scroll-bar-npm-2.3.8-d4ae68effa-10c0.zip/node_modules/react-remove-scroll-bar/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact%2F-%2Freact-18.3.1.tgz"],\
@@ -3831,14 +3758,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-resizable-panels", [\
       ["npm:2.1.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-resizable-panels%2F-%2Freact-resizable-panels-2.1.9.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-resizable-panels-npm-2.1.9-06a833e57d-10c0.zip/node_modules/react-resizable-panels/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-resizable-panels-npm-2.1.9-06a833e57d-10c0.zip/node_modules/react-resizable-panels/",\
         "packageDependencies": [\
           ["react-resizable-panels", "npm:2.1.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-resizable-panels%2F-%2Freact-resizable-panels-2.1.9.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:2.1.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-resizable-panels%2F-%2Freact-resizable-panels-2.1.9.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/react-resizable-panels-virtual-ade57f2b64/3/.yarn/berry/cache/react-resizable-panels-npm-2.1.9-06a833e57d-10c0.zip/node_modules/react-resizable-panels/",\
+        "packageLocation": "./.yarn/__virtual__/react-resizable-panels-virtual-ade57f2b64/7/home/alura/.yarn/berry/cache/react-resizable-panels-npm-2.1.9-06a833e57d-10c0.zip/node_modules/react-resizable-panels/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["@types/react-dom", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz"],\
@@ -3857,14 +3784,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-smooth", [\
       ["npm:4.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-smooth%2F-%2Freact-smooth-4.0.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-smooth-npm-4.0.4-52c57ada64-10c0.zip/node_modules/react-smooth/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-smooth-npm-4.0.4-52c57ada64-10c0.zip/node_modules/react-smooth/",\
         "packageDependencies": [\
           ["react-smooth", "npm:4.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-smooth%2F-%2Freact-smooth-4.0.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:7b49f5cfdc575cca6cbd14fdca93c7619152a907fb31ef9deee2e4b80ce891b9d6a8fda26e72006fe25b89a9a66818284dcda806f23b19a77395b73b344456ec#npm:4.0.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-smooth%2F-%2Freact-smooth-4.0.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/react-smooth-virtual-fe7e3dff0d/3/.yarn/berry/cache/react-smooth-npm-4.0.4-52c57ada64-10c0.zip/node_modules/react-smooth/",\
+        "packageLocation": "./.yarn/__virtual__/react-smooth-virtual-fe7e3dff0d/7/home/alura/.yarn/berry/cache/react-smooth-npm-4.0.4-52c57ada64-10c0.zip/node_modules/react-smooth/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["@types/react-dom", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz"],\
@@ -3886,14 +3813,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-style-singleton", [\
       ["npm:2.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-style-singleton%2F-%2Freact-style-singleton-2.2.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-style-singleton-npm-2.2.3-448e9783cf-10c0.zip/node_modules/react-style-singleton/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-style-singleton-npm-2.2.3-448e9783cf-10c0.zip/node_modules/react-style-singleton/",\
         "packageDependencies": [\
           ["react-style-singleton", "npm:2.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-style-singleton%2F-%2Freact-style-singleton-2.2.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:5db959baee50b2ae83417d6f2cf48440806568b08781fda7dca633b7762087972039b942a8ed4199a574b9fc723f93493ea397ac21fb15f002ab9e85fd077b71#npm:2.2.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-style-singleton%2F-%2Freact-style-singleton-2.2.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/react-style-singleton-virtual-f42f3c9dc7/3/.yarn/berry/cache/react-style-singleton-npm-2.2.3-448e9783cf-10c0.zip/node_modules/react-style-singleton/",\
+        "packageLocation": "./.yarn/__virtual__/react-style-singleton-virtual-f42f3c9dc7/7/home/alura/.yarn/berry/cache/react-style-singleton-npm-2.2.3-448e9783cf-10c0.zip/node_modules/react-style-singleton/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["get-nonce", "npm:1.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fget-nonce%2F-%2Fget-nonce-1.0.1.tgz"],\
@@ -3910,14 +3837,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-transition-group", [\
       ["npm:4.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-transition-group%2F-%2Freact-transition-group-4.4.5.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/react-transition-group-npm-4.4.5-58c4a52400-10c0.zip/node_modules/react-transition-group/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/react-transition-group-npm-4.4.5-58c4a52400-10c0.zip/node_modules/react-transition-group/",\
         "packageDependencies": [\
           ["react-transition-group", "npm:4.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-transition-group%2F-%2Freact-transition-group-4.4.5.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:fe7e3dff0db36b23ef726ed79635d5ae1ec525927c949390a859632f250051e0fcb9cedbe11db82ad8d355fa7e32bf51e5b6e2c2d0e49fb8c9fe68e2d4ee7dea#npm:4.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact-transition-group%2F-%2Freact-transition-group-4.4.5.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/react-transition-group-virtual-ec68c0bea4/3/.yarn/berry/cache/react-transition-group-npm-4.4.5-58c4a52400-10c0.zip/node_modules/react-transition-group/",\
+        "packageLocation": "./.yarn/__virtual__/react-transition-group-virtual-ec68c0bea4/7/home/alura/.yarn/berry/cache/react-transition-group-npm-4.4.5-58c4a52400-10c0.zip/node_modules/react-transition-group/",\
         "packageDependencies": [\
           ["@babel/runtime", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40babel%2Fruntime%2F-%2Fruntime-7.28.2.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -3940,14 +3867,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["recharts", [\
       ["npm:2.15.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Frecharts%2F-%2Frecharts-2.15.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/recharts-npm-2.15.4-5a67888758-10c0.zip/node_modules/recharts/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/recharts-npm-2.15.4-5a67888758-10c0.zip/node_modules/recharts/",\
         "packageDependencies": [\
           ["recharts", "npm:2.15.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Frecharts%2F-%2Frecharts-2.15.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:2.15.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Frecharts%2F-%2Frecharts-2.15.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/recharts-virtual-7b49f5cfdc/3/.yarn/berry/cache/recharts-npm-2.15.4-5a67888758-10c0.zip/node_modules/recharts/",\
+        "packageLocation": "./.yarn/__virtual__/recharts-virtual-7b49f5cfdc/7/home/alura/.yarn/berry/cache/recharts-npm-2.15.4-5a67888758-10c0.zip/node_modules/recharts/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["@types/react-dom", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz"],\
@@ -3974,7 +3901,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["recharts-scale", [\
       ["npm:0.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Frecharts-scale%2F-%2Frecharts-scale-0.4.5.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/recharts-scale-npm-0.4.5-a1377a7e6c-10c0.zip/node_modules/recharts-scale/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/recharts-scale-npm-0.4.5-a1377a7e6c-10c0.zip/node_modules/recharts-scale/",\
         "packageDependencies": [\
           ["decimal.js-light", "npm:2.5.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.5.1.tgz"],\
           ["recharts-scale", "npm:0.4.5::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Frecharts-scale%2F-%2Frecharts-scale-0.4.5.tgz"]\
@@ -3984,7 +3911,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["scheduler", [\
       ["npm:0.23.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fscheduler%2F-%2Fscheduler-0.23.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/scheduler-npm-0.23.2-fb050d4158-10c0.zip/node_modules/scheduler/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/scheduler-npm-0.23.2-fb050d4158-10c0.zip/node_modules/scheduler/",\
         "packageDependencies": [\
           ["loose-envify", "npm:1.4.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Floose-envify%2F-%2Floose-envify-1.4.0.tgz"],\
           ["scheduler", "npm:0.23.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fscheduler%2F-%2Fscheduler-0.23.2.tgz"]\
@@ -3994,14 +3921,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["sonner", [\
       ["npm:1.7.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fsonner%2F-%2Fsonner-1.7.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/sonner-npm-1.7.4-fdae636677-10c0.zip/node_modules/sonner/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/sonner-npm-1.7.4-fdae636677-10c0.zip/node_modules/sonner/",\
         "packageDependencies": [\
           ["sonner", "npm:1.7.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fsonner%2F-%2Fsonner-1.7.4.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.7.4::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fsonner%2F-%2Fsonner-1.7.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/sonner-virtual-eb95d1e95e/3/.yarn/berry/cache/sonner-npm-1.7.4-fdae636677-10c0.zip/node_modules/sonner/",\
+        "packageLocation": "./.yarn/__virtual__/sonner-virtual-eb95d1e95e/7/home/alura/.yarn/berry/cache/sonner-npm-1.7.4-fdae636677-10c0.zip/node_modules/sonner/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["@types/react-dom", "virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:18.3.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact-dom%2F-%2Freact-dom-18.3.7.tgz"],\
@@ -4020,7 +3947,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["source-map-js", [\
       ["npm:1.2.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fsource-map-js%2F-%2Fsource-map-js-1.2.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/source-map-js-npm-1.2.1-db4a987611-10c0.zip/node_modules/source-map-js/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/source-map-js-npm-1.2.1-db4a987611-10c0.zip/node_modules/source-map-js/",\
         "packageDependencies": [\
           ["source-map-js", "npm:1.2.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fsource-map-js%2F-%2Fsource-map-js-1.2.1.tgz"]\
         ],\
@@ -4029,7 +3956,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["streamsearch", [\
       ["npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fstreamsearch%2F-%2Fstreamsearch-1.1.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/streamsearch-npm-1.1.0-35472a7df0-10c0.zip/node_modules/streamsearch/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/streamsearch-npm-1.1.0-35472a7df0-10c0.zip/node_modules/streamsearch/",\
         "packageDependencies": [\
           ["streamsearch", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fstreamsearch%2F-%2Fstreamsearch-1.1.0.tgz"]\
         ],\
@@ -4038,14 +3965,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["styled-jsx", [\
       ["npm:5.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fstyled-jsx%2F-%2Fstyled-jsx-5.1.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/styled-jsx-npm-5.1.1-a2896e4d43-10c0.zip/node_modules/styled-jsx/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/styled-jsx-npm-5.1.1-a2896e4d43-10c0.zip/node_modules/styled-jsx/",\
         "packageDependencies": [\
           ["styled-jsx", "npm:5.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fstyled-jsx%2F-%2Fstyled-jsx-5.1.1.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f0cfa6251e93e0adf99b1e6943ebb23f19e0f7137ba90377f479c6959f1409bcf2ee5a91eaa5236f36a46c72f7e6af8b76481859e7f2ebe2f2d6da54307944ef#npm:5.1.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fstyled-jsx%2F-%2Fstyled-jsx-5.1.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/styled-jsx-virtual-6143568d9f/3/.yarn/berry/cache/styled-jsx-npm-5.1.1-a2896e4d43-10c0.zip/node_modules/styled-jsx/",\
+        "packageLocation": "./.yarn/__virtual__/styled-jsx-virtual-6143568d9f/7/home/alura/.yarn/berry/cache/styled-jsx-npm-5.1.1-a2896e4d43-10c0.zip/node_modules/styled-jsx/",\
         "packageDependencies": [\
           ["@babel/core", null],\
           ["@types/babel-plugin-macros", null],\
@@ -4069,7 +3996,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tailwind-merge", [\
       ["npm:2.6.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftailwind-merge%2F-%2Ftailwind-merge-2.6.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/tailwind-merge-npm-2.6.0-bf47d298f8-10c0.zip/node_modules/tailwind-merge/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/tailwind-merge-npm-2.6.0-bf47d298f8-10c0.zip/node_modules/tailwind-merge/",\
         "packageDependencies": [\
           ["tailwind-merge", "npm:2.6.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftailwind-merge%2F-%2Ftailwind-merge-2.6.0.tgz"]\
         ],\
@@ -4078,7 +4005,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tailwindcss", [\
       ["npm:4.1.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftailwindcss%2F-%2Ftailwindcss-4.1.11.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/tailwindcss-npm-4.1.11-2f2530142b-10c0.zip/node_modules/tailwindcss/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/tailwindcss-npm-4.1.11-2f2530142b-10c0.zip/node_modules/tailwindcss/",\
         "packageDependencies": [\
           ["tailwindcss", "npm:4.1.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftailwindcss%2F-%2Ftailwindcss-4.1.11.tgz"]\
         ],\
@@ -4087,14 +4014,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tailwindcss-animate", [\
       ["npm:1.0.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftailwindcss-animate%2F-%2Ftailwindcss-animate-1.0.7.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/tailwindcss-animate-npm-1.0.7-8bb3111476-10c0.zip/node_modules/tailwindcss-animate/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/tailwindcss-animate-npm-1.0.7-8bb3111476-10c0.zip/node_modules/tailwindcss-animate/",\
         "packageDependencies": [\
           ["tailwindcss-animate", "npm:1.0.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftailwindcss-animate%2F-%2Ftailwindcss-animate-1.0.7.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:1.0.7::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftailwindcss-animate%2F-%2Ftailwindcss-animate-1.0.7.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/tailwindcss-animate-virtual-6f98d66ff9/3/.yarn/berry/cache/tailwindcss-animate-npm-1.0.7-8bb3111476-10c0.zip/node_modules/tailwindcss-animate/",\
+        "packageLocation": "./.yarn/__virtual__/tailwindcss-animate-virtual-6f98d66ff9/7/home/alura/.yarn/berry/cache/tailwindcss-animate-npm-1.0.7-8bb3111476-10c0.zip/node_modules/tailwindcss-animate/",\
         "packageDependencies": [\
           ["@types/tailwindcss", null],\
           ["tailwindcss", "npm:4.1.11::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftailwindcss%2F-%2Ftailwindcss-4.1.11.tgz"],\
@@ -4109,7 +4036,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tapable", [\
       ["npm:2.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftapable%2F-%2Ftapable-2.2.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/tapable-npm-2.2.2-fa76dfbeb8-10c0.zip/node_modules/tapable/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/tapable-npm-2.2.2-fa76dfbeb8-10c0.zip/node_modules/tapable/",\
         "packageDependencies": [\
           ["tapable", "npm:2.2.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftapable%2F-%2Ftapable-2.2.2.tgz"]\
         ],\
@@ -4118,7 +4045,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tar", [\
       ["npm:7.4.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftar%2F-%2Ftar-7.4.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/tar-npm-7.4.3-4af9d1ac82-10c0.zip/node_modules/tar/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/tar-npm-7.4.3-4af9d1ac82-10c0.zip/node_modules/tar/",\
         "packageDependencies": [\
           ["@isaacs/fs-minipass", "npm:4.0.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40isaacs%2Ffs-minipass%2F-%2Ffs-minipass-4.0.1.tgz"],\
           ["chownr", "npm:3.0.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fchownr%2F-%2Fchownr-3.0.0.tgz"],\
@@ -4133,7 +4060,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tiny-invariant", [\
       ["npm:1.3.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftiny-invariant%2F-%2Ftiny-invariant-1.3.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/tiny-invariant-npm-1.3.3-0850d7f5a9-10c0.zip/node_modules/tiny-invariant/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/tiny-invariant-npm-1.3.3-0850d7f5a9-10c0.zip/node_modules/tiny-invariant/",\
         "packageDependencies": [\
           ["tiny-invariant", "npm:1.3.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftiny-invariant%2F-%2Ftiny-invariant-1.3.3.tgz"]\
         ],\
@@ -4142,7 +4069,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tslib", [\
       ["npm:2.8.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftslib%2F-%2Ftslib-2.8.1.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/tslib-npm-2.8.1-2a6af9019e-10c0.zip/node_modules/tslib/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/tslib-npm-2.8.1-2a6af9019e-10c0.zip/node_modules/tslib/",\
         "packageDependencies": [\
           ["tslib", "npm:2.8.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftslib%2F-%2Ftslib-2.8.1.tgz"]\
         ],\
@@ -4151,7 +4078,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tw-animate-css", [\
       ["npm:1.3.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftw-animate-css%2F-%2Ftw-animate-css-1.3.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/tw-animate-css-npm-1.3.3-549ab31e93-10c0.zip/node_modules/tw-animate-css/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/tw-animate-css-npm-1.3.3-549ab31e93-10c0.zip/node_modules/tw-animate-css/",\
         "packageDependencies": [\
           ["tw-animate-css", "npm:1.3.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Ftw-animate-css%2F-%2Ftw-animate-css-1.3.3.tgz"]\
         ],\
@@ -4160,7 +4087,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["typescript", [\
       ["patch:typescript@npm%3A5.9.2%3A%3A__archiveUrl=https%253A%252F%252Fpackages.atlassian.com%252Fapi%252Fnpm%252Fnpm-remote%252Ftypescript%252F-%252Ftypescript-5.9.2.tgz#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5", {\
-        "packageLocation": "../../.yarn/berry/cache/typescript-patch-452606a353-10c0.zip/node_modules/typescript/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/typescript-patch-452606a353-10c0.zip/node_modules/typescript/",\
         "packageDependencies": [\
           ["typescript", "patch:typescript@npm%3A5.9.2%3A%3A__archiveUrl=https%253A%252F%252Fpackages.atlassian.com%252Fapi%252Fnpm%252Fnpm-remote%252Ftypescript%252F-%252Ftypescript-5.9.2.tgz#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"]\
         ],\
@@ -4169,7 +4096,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["undici-types", [\
       ["npm:6.21.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fundici-types%2F-%2Fundici-types-6.21.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/undici-types-npm-6.21.0-01c4b4fa9f-10c0.zip/node_modules/undici-types/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/undici-types-npm-6.21.0-01c4b4fa9f-10c0.zip/node_modules/undici-types/",\
         "packageDependencies": [\
           ["undici-types", "npm:6.21.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fundici-types%2F-%2Fundici-types-6.21.0.tgz"]\
         ],\
@@ -4178,14 +4105,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["update-browserslist-db", [\
       ["npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fupdate-browserslist-db%2F-%2Fupdate-browserslist-db-1.1.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/update-browserslist-db-npm-1.1.3-1792c450a3-10c0.zip/node_modules/update-browserslist-db/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/update-browserslist-db-npm-1.1.3-1792c450a3-10c0.zip/node_modules/update-browserslist-db/",\
         "packageDependencies": [\
           ["update-browserslist-db", "npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fupdate-browserslist-db%2F-%2Fupdate-browserslist-db-1.1.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:619fdf31220f16977d3b11aaac43695a89606bdbf1b26e110340f49a9b8542082d939857f90f2f071eb21e7ab8f3fe0d3d0ac5baed47fcb866adb0c273341cd6#npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fupdate-browserslist-db%2F-%2Fupdate-browserslist-db-1.1.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/update-browserslist-db-virtual-65d7c5e4a2/3/.yarn/berry/cache/update-browserslist-db-npm-1.1.3-1792c450a3-10c0.zip/node_modules/update-browserslist-db/",\
+        "packageLocation": "./.yarn/__virtual__/update-browserslist-db-virtual-65d7c5e4a2/7/home/alura/.yarn/berry/cache/update-browserslist-db-npm-1.1.3-1792c450a3-10c0.zip/node_modules/update-browserslist-db/",\
         "packageDependencies": [\
           ["@types/browserslist", null],\
           ["browserslist", "npm:4.25.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fbrowserslist%2F-%2Fbrowserslist-4.25.2.tgz"],\
@@ -4202,14 +4129,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["use-callback-ref", [\
       ["npm:1.3.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fuse-callback-ref%2F-%2Fuse-callback-ref-1.3.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/use-callback-ref-npm-1.3.3-51cd453f38-10c0.zip/node_modules/use-callback-ref/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/use-callback-ref-npm-1.3.3-51cd453f38-10c0.zip/node_modules/use-callback-ref/",\
         "packageDependencies": [\
           ["use-callback-ref", "npm:1.3.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fuse-callback-ref%2F-%2Fuse-callback-ref-1.3.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:5db959baee50b2ae83417d6f2cf48440806568b08781fda7dca633b7762087972039b942a8ed4199a574b9fc723f93493ea397ac21fb15f002ab9e85fd077b71#npm:1.3.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fuse-callback-ref%2F-%2Fuse-callback-ref-1.3.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/use-callback-ref-virtual-cb706b1fe0/3/.yarn/berry/cache/use-callback-ref-npm-1.3.3-51cd453f38-10c0.zip/node_modules/use-callback-ref/",\
+        "packageLocation": "./.yarn/__virtual__/use-callback-ref-virtual-cb706b1fe0/7/home/alura/.yarn/berry/cache/use-callback-ref-npm-1.3.3-51cd453f38-10c0.zip/node_modules/use-callback-ref/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact%2F-%2Freact-18.3.1.tgz"],\
@@ -4225,14 +4152,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["use-sidecar", [\
       ["npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fuse-sidecar%2F-%2Fuse-sidecar-1.1.3.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/use-sidecar-npm-1.1.3-f2a727a255-10c0.zip/node_modules/use-sidecar/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/use-sidecar-npm-1.1.3-f2a727a255-10c0.zip/node_modules/use-sidecar/",\
         "packageDependencies": [\
           ["use-sidecar", "npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fuse-sidecar%2F-%2Fuse-sidecar-1.1.3.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:5db959baee50b2ae83417d6f2cf48440806568b08781fda7dca633b7762087972039b942a8ed4199a574b9fc723f93493ea397ac21fb15f002ab9e85fd077b71#npm:1.1.3::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fuse-sidecar%2F-%2Fuse-sidecar-1.1.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/use-sidecar-virtual-5206e3545f/3/.yarn/berry/cache/use-sidecar-npm-1.1.3-f2a727a255-10c0.zip/node_modules/use-sidecar/",\
+        "packageLocation": "./.yarn/__virtual__/use-sidecar-virtual-5206e3545f/7/home/alura/.yarn/berry/cache/use-sidecar-npm-1.1.3-f2a727a255-10c0.zip/node_modules/use-sidecar/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["detect-node-es", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fdetect-node-es%2F-%2Fdetect-node-es-1.1.0.tgz"],\
@@ -4249,14 +4176,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["use-sync-external-store", [\
       ["npm:1.5.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fuse-sync-external-store%2F-%2Fuse-sync-external-store-1.5.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/use-sync-external-store-npm-1.5.0-014a41a76b-10c0.zip/node_modules/use-sync-external-store/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/use-sync-external-store-npm-1.5.0-014a41a76b-10c0.zip/node_modules/use-sync-external-store/",\
         "packageDependencies": [\
           ["use-sync-external-store", "npm:1.5.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fuse-sync-external-store%2F-%2Fuse-sync-external-store-1.5.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:1.5.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fuse-sync-external-store%2F-%2Fuse-sync-external-store-1.5.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/use-sync-external-store-virtual-f7f2b8528a/3/.yarn/berry/cache/use-sync-external-store-npm-1.5.0-014a41a76b-10c0.zip/node_modules/use-sync-external-store/",\
+        "packageLocation": "./.yarn/__virtual__/use-sync-external-store-virtual-f7f2b8528a/7/home/alura/.yarn/berry/cache/use-sync-external-store-npm-1.5.0-014a41a76b-10c0.zip/node_modules/use-sync-external-store/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Freact%2F-%2Freact-18.3.1.tgz"],\
@@ -4271,14 +4198,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["vaul", [\
       ["npm:0.9.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fvaul%2F-%2Fvaul-0.9.9.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/vaul-npm-0.9.9-6404eca0b4-10c0.zip/node_modules/vaul/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/vaul-npm-0.9.9-6404eca0b4-10c0.zip/node_modules/vaul/",\
         "packageDependencies": [\
           ["vaul", "npm:0.9.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fvaul%2F-%2Fvaul-0.9.9.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:f26804631bf9ffe86abcd52bc46d87bc63f15a2139c374718eae8eb05b3bac63974b1836bb868b7a54a8acb16d44deee2b5328b1f39bcf49da309f17c93e33de#npm:0.9.9::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fvaul%2F-%2Fvaul-0.9.9.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/vaul-virtual-1ee447a61c/3/.yarn/berry/cache/vaul-npm-0.9.9-6404eca0b4-10c0.zip/node_modules/vaul/",\
+        "packageLocation": "./.yarn/__virtual__/vaul-virtual-1ee447a61c/7/home/alura/.yarn/berry/cache/vaul-npm-0.9.9-6404eca0b4-10c0.zip/node_modules/vaul/",\
         "packageDependencies": [\
           ["@radix-ui/react-dialog", "virtual:ff36491878c11be6d8ad926de7dedccf626ebd2dbaa53de9237ac9142ac0892c29db3bf8a6f69d403b5eca1475efd61ce4f1ad48ca37be2ea846c9893260e37b#npm:1.1.14::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40radix-ui%2Freact-dialog%2F-%2Freact-dialog-1.1.14.tgz"],\
           ["@types/react", "npm:18.3.23::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Freact%2F-%2Freact-18.3.23.tgz"],\
@@ -4298,7 +4225,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["victory-vendor", [\
       ["npm:36.9.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fvictory-vendor%2F-%2Fvictory-vendor-36.9.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/victory-vendor-npm-36.9.2-43e4b95dfd-10c0.zip/node_modules/victory-vendor/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/victory-vendor-npm-36.9.2-43e4b95dfd-10c0.zip/node_modules/victory-vendor/",\
         "packageDependencies": [\
           ["@types/d3-array", "npm:3.2.1::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-array%2F-%2Fd3-array-3.2.1.tgz"],\
           ["@types/d3-ease", "npm:3.0.2::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2F%40types%2Fd3-ease%2F-%2Fd3-ease-3.0.2.tgz"],\
@@ -4321,16 +4248,25 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["yallist", [\
       ["npm:5.0.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fyallist%2F-%2Fyallist-5.0.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/yallist-npm-5.0.0-f446453641-10c0.zip/node_modules/yallist/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/yallist-npm-5.0.0-f446453641-10c0.zip/node_modules/yallist/",\
         "packageDependencies": [\
           ["yallist", "npm:5.0.0::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fyallist%2F-%2Fyallist-5.0.0.tgz"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
+    ["yaml", [\
+      ["npm:2.8.3", {\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/yaml-npm-2.8.3-dfea86f9e0-10c0.zip/node_modules/yaml/",\
+        "packageDependencies": [\
+          ["yaml", "npm:2.8.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["zod", [\
       ["npm:3.25.67::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fzod%2F-%2Fzod-3.25.67.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/zod-npm-3.25.67-07247d953c-10c0.zip/node_modules/zod/",\
+        "packageLocation": "../../../../../../home/alura/.yarn/berry/cache/zod-npm-3.25.67-07247d953c-10c0.zip/node_modules/zod/",\
         "packageDependencies": [\
           ["zod", "npm:3.25.67::__archiveUrl=https%3A%2F%2Fpackages.atlassian.com%2Fapi%2Fnpm%2Fnpm-remote%2Fzod%2F-%2Fzod-3.25.67.tgz"]\
         ],\
