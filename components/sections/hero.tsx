@@ -9,7 +9,7 @@ export function HeroSection() {
       id="hero"
       className="min-h-screen flex items-center justify-center px-6"
     >
-      <div className="text-center max-w-3xl animate-fade-in-up">
+      <div className="text-center max-w-3xl hero-stagger">
         <Badge
           variant="outline"
           className="mb-6 px-4 py-1.5 text-sm border-emerald/30 bg-emerald-muted text-emerald"

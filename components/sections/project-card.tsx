@@ -20,7 +20,7 @@ export function ProjectCard({
   return (
     <div
       ref={ref}
-      className={`animate-on-scroll rounded-lg border border-border/60 bg-card p-6 transition-all duration-200 hover:border-border hover:shadow-sm ${
+      className={`animate-on-scroll rounded-lg border border-border/60 bg-card p-6 transition-all duration-200 hover:border-border hover:shadow-sm hover:scale-[1.01] ${
         featured ? "col-span-full" : ""
       }`}
       style={{ animationDelay: `${index * 100}ms` }}

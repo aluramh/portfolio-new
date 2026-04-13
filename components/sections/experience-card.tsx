@@ -24,7 +24,7 @@ export function ExperienceCard({
       {/* Card */}
       <div
         ref={ref}
-        className="animate-on-scroll rounded-lg border border-border/60 bg-card p-6 transition-all duration-200 hover:border-border hover:shadow-sm"
+        className="animate-on-scroll rounded-lg border border-border/60 bg-card p-6 transition-all duration-200 hover:border-border hover:shadow-sm hover:scale-[1.01]"
         style={{ animationDelay: `${index * 100}ms` }}
       >
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
