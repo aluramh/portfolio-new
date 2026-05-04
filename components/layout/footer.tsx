@@ -11,16 +11,18 @@ export function Footer() {
         </span>
 
         <div className="flex items-center gap-1">
-          <Button asChild variant="ghost" size="icon" className="h-8 w-8 hover:text-emerald">
-            <a
-              href={profile.links.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-            >
-              <Github className="h-4 w-4" />
-            </a>
-          </Button>
+          {profile.links.github && (
+            <Button asChild variant="ghost" size="icon" className="h-8 w-8 hover:text-emerald">
+              <a
+                href={profile.links.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <Github className="h-4 w-4" />
+              </a>
+            </Button>
+          )}
           <Button asChild variant="ghost" size="icon" className="h-8 w-8 hover:text-emerald">
             <a
               href={profile.links.linkedin}
