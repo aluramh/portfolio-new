@@ -31,9 +31,11 @@ export function HeroSection() {
           <span className="text-sm">{profile.location}</span>
         </div>
 
-        <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-          {profile.summary}
-        </p>
+        {profile.summary && (
+          <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
+            {profile.summary}
+          </p>
+        )}
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
@@ -41,8 +43,8 @@ export function HeroSection() {
             size="lg"
             className="bg-emerald hover:bg-emerald/90 text-emerald-foreground rounded-full px-8"
           >
-            <a href="#projects">
-              View Projects
+            <a href="#experience">
+              View Experience
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>
