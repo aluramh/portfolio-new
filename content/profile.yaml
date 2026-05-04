@@ -108,153 +108,56 @@ experience:
       - SQL
       - Microservices
 
-projects:
-  - title: "Realtime Analytics Dashboard"
-    description: "A high-performance analytics dashboard with live updates, charting, and role-based access control."
-    longDescription: >
-      Designed a streaming-first architecture using WebSockets and server-sent events,
-      plus a modular chart layer for extensibility. Instrumented both server and client for observability.
-    featured: true
-    image:
-    highlights:
-      - "Sub-200ms end-to-end latency for critical metrics"
-      - "Feature-flagged experiments and progressive delivery"
-      - "Automated accessibility checks in CI"
-    tech:
-      - Next.js
-      - TypeScript
-      - WebSockets
-      - Postgres
-      - Tailwind CSS
-    links:
-      live: "https://example.com/analytics"
-      github: "https://github.com/yourname/realtime-analytics"
-
-  - title: "Design System"
-    description: "A robust design system with tokens, theming, and accessible components used across multiple products."
-    longDescription: >
-      Delivered tokens, theming, and guidelines to align multiple product teams.
-      Shipped a documented component library with usage examples and recipes.
-    featured: false
-    image:
-    highlights:
-      - "Ship-ready components with a11y baked in"
-      - "Themeable tokens and dark mode"
-      - "Figma-to-code handoff improvements"
-    tech:
-      - Design System
-      - Storybook
-      - Accessibility
-      - CSS Variables
-    links:
-      live: "https://example.com/design-system"
-      github: "https://github.com/yourname/design-system"
-
-  - title: "AI-assisted Code Review"
-    description: "A lightweight AI reviewer that surfaces risky changes and suggests improvements in PRs."
-    longDescription: >
-      Integrated code intelligence with repository metadata to provide contextual
-      recommendations and auto-suggest refactors for common pitfalls.
-    featured: false
-    image:
-    highlights:
-      - "Reduced review time while improving signal"
-      - "Configurable for team conventions"
-      - "Privacy-preserving processing"
-    tech:
-      - AI
-      - TypeScript
-      - Node.js
-      - CI/CD
-    links:
-      live: "https://example.com/ai-review"
-      github: "https://github.com/yourname/ai-code-review"
-
-  - title: "Edge-rendered Marketing Site"
-    description: "A fast, localized marketing site with ISR, analytics, and A/B testing support."
-    longDescription: >
-      Implemented localized routes and caching strategies for a global audience.
-      Built a safe experimentation framework integrated with analytics.
-    featured: false
-    image:
-    highlights:
-      - "Global edge rendering with low TTFB"
-      - "Locale-aware routing and content"
-      - "Experimentation framework"
-    tech:
-      - Next.js
-      - Edge
-      - i18n
-      - A/B Testing
-    links:
-      live: "https://example.com/edge-marketing"
-      github: "https://github.com/yourname/edge-marketing"
-
-  - title: "Performance Budget CLI"
-    description: "A CLI to enforce Lighthouse budgets in CI with helpful diffs and recommendations."
-    featured: false
-    image:
-    highlights:
-      - "Quick setup with sensible defaults"
-      - "Inline PR comments"
-      - "Configurable thresholds"
-    tech:
-      - Node.js
-      - CLI
-      - Lighthouse
-      - DX
-    links:
-      github: "https://github.com/yourname/perf-budget-cli"
-
-  - title: "Open Source Contribution Tracker"
-    description: "A dashboard to visualize contributions across orgs and repos with trend insights."
-    featured: false
-    image:
-    highlights:
-      - "Customizable visualizations"
-      - "Caching and rate limit handling"
-      - "Org-wide insights"
-    tech:
-      - Next.js
-      - GitHub API
-      - Charts
-      - Postgres
-    links:
-      live: "https://example.com/oss-tracker"
-      github: "https://github.com/yourname/oss-tracker"
-
 skills:
-  - name: "Languages & Frameworks"
+  - name: "Languages"
     items:
       - TypeScript
       - JavaScript
-      - Node.js
+      - Java
+      - Python
+      - HTML/CSS
+
+  - name: "Frameworks"
+    items:
       - React
-      - Next.js
-      - HTML
-      - CSS
+      - Spring Boot
+      - Node.js
+      - React Native
 
-  - name: "Systems & Data"
+  - name: "Testing"
     items:
-      - PostgreSQL
-      - Redis
-      - REST
-      - GraphQL
-      - Pragmatic Microservices
-
-  - name: "Tooling & Quality"
-    items:
-      - Vite
-      - ESLint
       - Playwright
-      - Jest
-      - CI/CD
-      - Feature Flags
+      - Cypress
+      - React Testing Library
+
+  - name: "Feature Flags"
+    items:
+      - Statsig
+      - LaunchDarkly
+
+  - name: "Monitoring"
+    items:
+      - Sentry
+      - Datadog
+      - SignalFx
+
+  - name: "Cloud & DevOps"
+    items:
+      - AWS
+      - Google Cloud
+      - Docker
+      - Kubernetes
+
+  - name: "AI Engineering"
+    items:
+      - LLM agent design
+      - prompt engineering
+      - Rovo
+      - enterprise AI adoption
 
   - name: "Practices"
     items:
-      - Performance
-      - Accessibility
-      - DX
-      - Testing
-      - Observability
+      - Accessibility (WCAG AA/AAA)
+      - Frontend Performance
+      - Technical Architecture
+      - Agile/Scrum
