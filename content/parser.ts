@@ -18,22 +18,6 @@ export interface Experience {
   tech: string[]
 }
 
-export interface ProjectLinks {
-  github?: string
-  live?: string
-}
-
-export interface Project {
-  title: string
-  description: string
-  longDescription?: string
-  featured?: boolean
-  image?: string
-  highlights: string[]
-  tech: string[]
-  links?: ProjectLinks
-}
-
 export interface SkillGroup {
   name: string
   items: string[]
@@ -54,7 +38,6 @@ export interface Profile {
   summary: string
   links: ProfileLink
   experience: Experience[]
-  projects: Project[]
   skills: SkillGroup[]
 }
 
