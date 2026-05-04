@@ -9,7 +9,7 @@ export function ExperienceSection() {
 
         <div className="relative">
           {profile.experience.map((exp, i) => (
-            <ExperienceCard key={exp.company} experience={exp} index={i} />
+            <ExperienceCard key={`${exp.company}-${exp.role}`} experience={exp} index={i} />
           ))}
         </div>
       </div>
