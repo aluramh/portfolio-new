@@ -1,19 +1,17 @@
 meta:
-  siteTitle: "Alex Ramirez — Senior Software Engineer"
+  siteTitle: "Alejandro Ramirez Herrera — Senior Software Engineer"
   description: "I build scalable, user-centric web applications."
 
-name: "Your Name"
+name: "Alejandro Ramirez Herrera"
 title: "Senior Software Engineer"
 years: 10
-location: "Remote • Open to relocation"
-summary: >
-  I build scalable, user-centric web applications. I thrive in product-focused
-  teams where craftsmanship, velocity, and thoughtful DX meet.
+location: "Austin, TX"
+summary: ""
 
 links:
-  github: "https://github.com/yourname"
-  linkedin: "https://www.linkedin.com/in/yourname"
-  email: "hello@yourdomain.com"
+  github: ""
+  linkedin: "https://www.linkedin.com/in/aluramh/"
+  email: "aluramh@gmail.com"
 
 experience:
   - company: "Acme Corp"
