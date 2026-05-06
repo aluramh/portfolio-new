@@ -4,58 +4,94 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
+  /* Cream / warm-light backdrop */
+  --background: oklch(0.974 0.011 89);
+  --foreground: oklch(0.18 0.01 60);
+
+  --card: oklch(0.99 0.005 89);
+  --card-foreground: oklch(0.18 0.01 60);
+  --popover: oklch(0.99 0.005 89);
+  --popover-foreground: oklch(0.18 0.01 60);
+
   --primary: oklch(0.205 0 0);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
+  --secondary: oklch(0.92 0.01 89);
   --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
+  --muted: oklch(0.92 0.01 89);
+  --muted-foreground: oklch(0.5 0.02 60);
+  --accent: oklch(0.92 0.01 89);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: oklch(0.86 0.012 89);
+  --input: oklch(0.86 0.012 89);
+  --ring: oklch(0.6 0.015 89);
   --radius: 0.625rem;
 
-  /* Emerald accent */
-  --emerald: oklch(0.596 0.145 163.225);
-  --emerald-foreground: oklch(1 0 0);
-  --emerald-muted: oklch(0.95 0.052 163.225);
+  /* Multi-accent palette (light mode — darker tones for contrast on cream) */
+  --emerald: oklch(0.55 0.15 163);
+  --emerald-foreground: oklch(0.99 0.005 89);
+  --emerald-muted: oklch(0.93 0.05 163);
+
+  --amber: oklch(0.50 0.13 65);
+  --amber-foreground: oklch(0.99 0.005 89);
+  --amber-muted: oklch(0.95 0.06 85);
+
+  --blue: oklch(0.50 0.20 260);
+  --blue-foreground: oklch(0.99 0.005 89);
+  --blue-muted: oklch(0.93 0.06 260);
+
+  --pink: oklch(0.50 0.20 0);
+  --pink-foreground: oklch(0.99 0.005 89);
+  --pink-muted: oklch(0.94 0.06 0);
+
+  /* Dot-grid color (light mode) */
+  --grid-dot: rgba(0, 0, 0, 0.05);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
+  /* Charcoal backdrop — explicitly NOT near-black */
+  --background: oklch(0.225 0.005 264);
   --foreground: oklch(0.985 0 0);
-  --card: oklch(0.18 0 0);
+
+  --card: oklch(0.26 0.008 264);
   --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
+  --popover: oklch(0.225 0.005 264);
   --popover-foreground: oklch(0.985 0 0);
+
   --primary: oklch(0.985 0 0);
   --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
+  --secondary: oklch(0.30 0.008 264);
   --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
+  --muted: oklch(0.30 0.008 264);
   --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
+  --accent: oklch(0.30 0.008 264);
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
+  --border: oklch(0.32 0.008 264);
+  --input: oklch(0.32 0.008 264);
+  --ring: oklch(0.45 0.008 264);
 
-  /* Emerald accent - dark mode */
-  --emerald: oklch(0.596 0.145 163.225);
-  --emerald-foreground: oklch(1 0 0);
-  --emerald-muted: oklch(0.25 0.06 163.225);
+  /* Multi-accent palette (dark mode — vibrant tones for contrast on charcoal) */
+  --emerald: oklch(0.696 0.145 163);
+  --emerald-foreground: oklch(0.99 0 0);
+  --emerald-muted: oklch(0.27 0.06 163);
+
+  --amber: oklch(0.78 0.15 75);
+  --amber-foreground: oklch(0.18 0 0);
+  --amber-muted: oklch(0.27 0.06 75);
+
+  --blue: oklch(0.66 0.18 260);
+  --blue-foreground: oklch(0.99 0 0);
+  --blue-muted: oklch(0.27 0.07 260);
+
+  --pink: oklch(0.70 0.20 0);
+  --pink-foreground: oklch(0.99 0 0);
+  --pink-muted: oklch(0.27 0.07 0);
+
+  /* Dot-grid color (dark mode) */
+  --grid-dot: rgba(255, 255, 255, 0.07);
 }
 
 @theme inline {
@@ -82,9 +118,22 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
   --color-emerald: var(--emerald);
   --color-emerald-foreground: var(--emerald-foreground);
   --color-emerald-muted: var(--emerald-muted);
+  --color-amber: var(--amber);
+  --color-amber-foreground: var(--amber-foreground);
+  --color-amber-muted: var(--amber-muted);
+  --color-blue: var(--blue);
+  --color-blue-foreground: var(--blue-foreground);
+  --color-blue-muted: var(--blue-muted);
+  --color-pink: var(--pink);
+  --color-pink-foreground: var(--pink-foreground);
+  --color-pink-muted: var(--pink-muted);
+
+  --font-display: var(--font-display);
+  --font-eyebrow: var(--font-eyebrow);
 }
 
 @layer base {
@@ -96,40 +145,27 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image: radial-gradient(circle at 1px 1px, var(--grid-dot) 1px, transparent 0);
+    background-size: 20px 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 }
 
-/* Scroll-triggered fade-in animation */
+/* Scroll-triggered fade-in (existing) */
 @keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-.animate-fade-in-up {
-  animation: fade-in-up 0.6s ease-out forwards;
-}
+.animate-fade-in-up { animation: fade-in-up 0.6s ease-out forwards; }
+.animate-on-scroll { opacity: 0; }
+.animate-on-scroll.is-visible { animation: fade-in-up 0.6s ease-out forwards; }
 
-.animate-on-scroll {
-  opacity: 0;
-}
-
-.animate-on-scroll.is-visible {
-  animation: fade-in-up 0.6s ease-out forwards;
-}
-
-/* Hero stagger animation */
+/* Hero stagger (existing) */
 .hero-stagger > * {
   opacity: 0;
   animation: fade-in-up 0.6s ease-out forwards;
 }
-
 .hero-stagger > *:nth-child(1) { animation-delay: 0ms; }
 .hero-stagger > *:nth-child(2) { animation-delay: 100ms; }
 .hero-stagger > *:nth-child(3) { animation-delay: 200ms; }
@@ -137,7 +173,51 @@
 .hero-stagger > *:nth-child(5) { animation-delay: 400ms; }
 .hero-stagger > *:nth-child(6) { animation-delay: 500ms; }
 
-/* Alternating section backgrounds */
+/* Sheen sweep across the hero italic accent */
+@keyframes sheen-sweep {
+  0%, 80%   { background-position: 100% 0; }
+  90%       { background-position: -100% 0; }
+  100%      { background-position: -100% 0; }
+}
+.text-sheen {
+  background: linear-gradient(
+    90deg,
+    var(--emerald) 0%,
+    var(--emerald) 30%,
+    var(--foreground) 50%,
+    var(--emerald) 70%,
+    var(--emerald) 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: sheen-sweep 6s ease-in-out infinite;
+}
+
+/* Pixel portrait wave */
+@keyframes portrait-wave {
+  0%, 80%, 100% { transform: rotate(0); }
+  85%           { transform: rotate(-20deg); }
+  90%           { transform: rotate(20deg); }
+  95%           { transform: rotate(0); }
+}
+.portrait-arm {
+  transform-origin: top center;
+  animation: portrait-wave 8s ease-in-out infinite;
+}
+
+/* Reduced motion: pause sheen + wave; keep fades short and snappy */
+@media (prefers-reduced-motion: reduce) {
+  .text-sheen { animation: none; -webkit-text-fill-color: var(--emerald); color: var(--emerald); }
+  .portrait-arm { animation: none; }
+  .animate-fade-in-up,
+  .animate-on-scroll.is-visible,
+  .hero-stagger > * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}
+
+/* Alternating section bg (existing) */
 section:nth-child(even) {
   @apply bg-muted/30;
 }
