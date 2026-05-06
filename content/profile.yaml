@@ -51,9 +51,10 @@ experience:
       - Sentry
       - Datadog
 
-  - company: "Jonajo Consulting"
-    role: "Software Consultant — Ocean Freight Exchange"
-    period: "July 2016 – November 2021"
+  - company: "Ocean Freight Exchange"
+    via: "Jonajo Consulting"
+    role: "Software Consultant"
+    period: "July 2016 – June 2018"
     location: "Remote"
     logo:
     highlights:
@@ -65,9 +66,10 @@ experience:
       - Chargebee
       - Real-Time
 
-  - company: "Jonajo Consulting"
-    role: "Software Consultant — Register"
-    period: "July 2016 – November 2021"
+  - company: "Register"
+    via: "Jonajo Consulting"
+    role: "Software Consultant"
+    period: "June 2018 – February 2020"
     location: "Remote"
     logo:
     highlights:
@@ -79,9 +81,10 @@ experience:
       - Swift
       - JWT
 
-  - company: "Jonajo Consulting"
-    role: "Software Consultant — LiveObjects"
-    period: "July 2016 – November 2021"
+  - company: "LiveObjects"
+    via: "Jonajo Consulting"
+    role: "Software Consultant"
+    period: "February 2020 – December 2020"
     location: "Remote"
     logo:
     highlights:
@@ -95,9 +98,10 @@ experience:
       - Kubernetes
       - OAuth2
 
-  - company: "Jonajo Consulting"
-    role: "Software Consultant — Ciitizen"
-    period: "July 2016 – November 2021"
+  - company: "Ciitizen"
+    via: "Jonajo Consulting"
+    role: "Software Consultant"
+    period: "December 2020 – November 2021"
     location: "Remote"
     logo:
     highlights:
@@ -161,3 +165,44 @@ skills:
       - Frontend Performance
       - Technical Architecture
       - Agile/Scrum
+
+selected_work:
+  - title: "Enterprise change management at scale"
+    company: "Atlassian"
+    description: "Deployment freeze scheduling, experiment management, and cross-product change awareness."
+    stat: "500K+"
+    stat_value: 500000
+    stat_label: "seats across 55+ organizations"
+    tags: [TypeScript, React, Statsig]
+    accent: emerald
+
+  - title: "Test Summary Report agent"
+    company: "NatWest · via Atlassian Rovo"
+    description: "Rovo AI agent that auto-populates governance-critical TSRs by querying Jira via JQL."
+    stat: "hours → minutes"
+    stat_label: "TSR production time"
+    tags: [Rovo, AI/LLM, Jira, JQL]
+    accent: amber
+
+  - title: "Real-time vessel tracking platform"
+    company: "Ocean Freight Exchange"
+    description: "Full-stack vessel tracking + subscription billing; work contributed to the company's Series A."
+    stat: "$3.3M"
+    stat_value: 3300000
+    stat_label: "Series A · 72K+ vessels"
+    tags: [Full-Stack, Real-Time, Chargebee]
+    accent: pink
+
+education:
+  - school: "Southern Methodist University"
+    short_name: "SMU"
+    location: "Dallas, TX"
+    degree: "M.S. Computer Science"
+    year: "May 2016"
+
+  - school: "Instituto Tecnológico de Monterrey"
+    short_name: "ITESM"
+    location: "Monterrey, MX"
+    degree: "B.S. Digital Systems and Robotics Engineering"
+    year: "June 2016"
+    note: "Dual-degree partnership with SMU"
