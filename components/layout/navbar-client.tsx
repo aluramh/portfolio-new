@@ -25,7 +25,7 @@ export function NavbarClient({ name }: { name: string }) {
       <div className="max-w-5xl mx-auto flex items-center justify-between px-6 h-14">
         <a
           href="#"
-          className="text-sm font-semibold tracking-tight hover:text-emerald transition-colors"
+          className="font-display italic text-base tracking-tight hover:text-emerald transition-colors"
         >
           {name}
         </a>
@@ -35,7 +35,7 @@ export function NavbarClient({ name }: { name: string }) {
             asChild
             variant="ghost"
             size="sm"
-            className="text-xs font-medium gap-1.5"
+            className="font-eyebrow text-xs uppercase tracking-[0.15em] gap-1.5"
           >
             <a href="/resume.pdf" download>
               <Download className="h-3.5 w-3.5" />
