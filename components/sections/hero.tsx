@@ -9,15 +9,15 @@ export function HeroSection() {
       id="hero"
       className="min-h-screen flex items-center px-6"
     >
-      <div className="max-w-5xl mx-auto w-full flex flex-col md:flex-row items-center gap-12 md:gap-20">
+      <div className="max-w-5xl mx-auto w-full flex flex-col md:flex-row items-center gap-8 md:gap-12">
         {/* Text — left on desktop */}
         <div className="hero-stagger flex flex-col items-center md:items-start text-center md:text-left flex-1">
           <p className="font-eyebrow text-xs uppercase tracking-[0.2em] text-emerald mb-4">
             Senior · Software Engineer
           </p>
 
-          <h1 className="font-display font-extrabold tracking-tight text-5xl md:text-6xl lg:text-7xl mb-3 leading-[0.95]">
-            Alejandro{" "}
+          <h1 className="font-display font-extrabold tracking-tight text-6xl md:text-7xl lg:text-8xl mb-3 leading-[0.95]">
+            Alex{" "}
             <span className="text-sheen italic font-normal">Ramirez</span>
           </h1>
 
