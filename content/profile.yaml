@@ -51,8 +51,9 @@ experience:
       - Sentry
       - Datadog
 
-  - company: "Jonajo Consulting"
-    role: "Software Consultant — Ocean Freight Exchange"
+  - company: "Ocean Freight Exchange"
+    via: "Jonajo Consulting"
+    role: "Software Consultant"
     period: "July 2016 – November 2021"
     location: "Remote"
     logo:
@@ -65,8 +66,9 @@ experience:
       - Chargebee
       - Real-Time
 
-  - company: "Jonajo Consulting"
-    role: "Software Consultant — Register"
+  - company: "Register"
+    via: "Jonajo Consulting"
+    role: "Software Consultant"
     period: "July 2016 – November 2021"
     location: "Remote"
     logo:
@@ -79,8 +81,9 @@ experience:
       - Swift
       - JWT
 
-  - company: "Jonajo Consulting"
-    role: "Software Consultant — LiveObjects"
+  - company: "LiveObjects"
+    via: "Jonajo Consulting"
+    role: "Software Consultant"
     period: "July 2016 – November 2021"
     location: "Remote"
     logo:
@@ -95,8 +98,9 @@ experience:
       - Kubernetes
       - OAuth2
 
-  - company: "Jonajo Consulting"
-    role: "Software Consultant — Ciitizen"
+  - company: "Ciitizen"
+    via: "Jonajo Consulting"
+    role: "Software Consultant"
     period: "July 2016 – November 2021"
     location: "Remote"
     logo:

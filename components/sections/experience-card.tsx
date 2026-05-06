@@ -44,6 +44,9 @@ export function ExperienceCard({
 
         <p className="font-eyebrow text-xs uppercase tracking-[0.15em] text-muted-foreground mb-1">
           {experience.role} · {experience.location}
+          {experience.via && (
+            <span className="normal-case not-italic"> · via {experience.via}</span>
+          )}
         </p>
 
         <ul className="mt-4 space-y-2">

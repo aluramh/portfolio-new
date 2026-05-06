@@ -13,6 +13,7 @@ export interface ProfileLink {
 
 export interface Experience {
   company: string
+  via?: string
   role: string
   period: string
   location: string

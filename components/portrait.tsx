@@ -28,7 +28,7 @@ export function Portrait({ size = 120, className = "" }: PortraitProps) {
       <img
         src="/portrait/pixel_me_arm.png"
         alt=""
-        className="portrait-arm absolute inset-0 w-full h-full"
+        className="absolute inset-0 w-full h-full"
         style={{ imageRendering: "pixelated" }}
       />
     </div>
