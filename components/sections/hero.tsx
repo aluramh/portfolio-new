@@ -1,6 +1,6 @@
-import { ArrowRight, MapPin, Calendar } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
+import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { Portrait } from "@/components/portrait"
 import { profile } from "@/content/parser"
 
 export function HeroSection() {
@@ -9,27 +9,21 @@ export function HeroSection() {
       id="hero"
       className="min-h-screen flex items-center justify-center px-6"
     >
-      <div className="text-center max-w-3xl hero-stagger">
-        <Badge
-          variant="outline"
-          className="mb-6 px-4 py-1.5 text-sm border-emerald/30 bg-emerald-muted text-emerald"
-        >
-          <Calendar className="h-3 w-3 mr-1.5" />
-          {profile.years}+ years experience
-        </Badge>
+      <div className="text-center max-w-3xl hero-stagger flex flex-col items-center">
+        <Portrait size={120} className="mb-6" />
 
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">
-          {profile.name}
-        </h1>
-
-        <p className="text-xl md:text-2xl text-muted-foreground mb-3">
-          {profile.title}
+        <p className="font-eyebrow text-xs uppercase tracking-[0.2em] text-emerald mb-4">
+          Senior · Software Engineer
         </p>
 
-        <div className="flex items-center justify-center gap-1.5 text-muted-foreground mb-8">
-          <MapPin className="h-4 w-4" />
-          <span className="text-sm">{profile.location}</span>
-        </div>
+        <h1 className="font-display font-extrabold tracking-tight text-5xl md:text-7xl mb-3 leading-[0.95]">
+          Alejandro{" "}
+          <span className="text-sheen italic font-normal">Ramirez</span>
+        </h1>
+
+        <p className="font-eyebrow text-sm uppercase tracking-[0.15em] text-muted-foreground mb-8">
+          {profile.years}+ Years · Atlassian · {profile.location}
+        </p>
 
         {profile.summary && (
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
@@ -43,8 +37,8 @@ export function HeroSection() {
             size="lg"
             className="bg-emerald hover:bg-emerald/90 text-emerald-foreground rounded-full px-8"
           >
-            <a href="#experience">
-              View Experience
+            <a href="#selected-work">
+              View Work
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>
