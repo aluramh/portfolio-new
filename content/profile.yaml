@@ -161,3 +161,44 @@ skills:
       - Frontend Performance
       - Technical Architecture
       - Agile/Scrum
+
+selected_work:
+  - title: "Enterprise change management at scale"
+    company: "Atlassian"
+    description: "Deployment freeze scheduling, experiment management, and cross-product change awareness."
+    stat: "500K+"
+    stat_value: 500000
+    stat_label: "seats across 55+ organizations"
+    tags: [TypeScript, React, Statsig]
+    accent: emerald
+
+  - title: "Test Summary Report agent"
+    company: "NatWest · via Atlassian Rovo"
+    description: "Rovo AI agent that auto-populates governance-critical TSRs by querying Jira via JQL."
+    stat: "hours → minutes"
+    stat_label: "TSR production time"
+    tags: [Rovo, AI/LLM, Jira, JQL]
+    accent: amber
+
+  - title: "Real-time vessel tracking platform"
+    company: "Ocean Freight Exchange"
+    description: "Full-stack vessel tracking + subscription billing; work contributed to the company's Series A."
+    stat: "$3.3M"
+    stat_value: 3300000
+    stat_label: "Series A · 72K+ vessels"
+    tags: [Full-Stack, Real-Time, Chargebee]
+    accent: pink
+
+education:
+  - school: "Southern Methodist University"
+    short_name: "SMU"
+    location: "Dallas, TX"
+    degree: "M.S. Computer Science"
+    year: "May 2016"
+
+  - school: "Instituto Tecnológico de Monterrey"
+    short_name: "ITESM"
+    location: "Monterrey, MX"
+    degree: "B.S. Digital Systems and Robotics Engineering"
+    year: "June 2016"
+    note: "Dual-degree partnership with SMU"
